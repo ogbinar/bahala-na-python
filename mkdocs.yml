@@ -24,10 +24,6 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-  extra_css:
-    - overrides/assets/stylesheets/custom.css
-  extra_javascript:
-    - overrides/assets/javascripts/extrajs.js
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -50,6 +46,11 @@ theme:
   favicon: images/favicon.ico
   logo: images/poring-icon.svg
   custom_dir: docs/overrides
+
+extra_css:
+  - overrides/assets/stylesheets/custom.css
+extra_javascript:
+  - overrides/assets/javascripts/extrajs.js
 
 plugins:
   - search
