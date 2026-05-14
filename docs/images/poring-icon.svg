@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Small Poring icon for logo/favicon -->
+  <circle cx="16" cy="16" r="14" fill="#ffb6c1" stroke="#ff6b9d" stroke-width="1.5"/>
+  <!-- Eyes -->
+  <circle cx="11" cy="14" r="3" fill="white"/>
+  <circle cx="21" cy="14" r="3" fill="white"/>
+  <circle cx="12" cy="14.5" r="1.5" fill="#1a1a2e"/>
+  <circle cx="22" cy="14.5" r="1.5" fill="#1a1a2e"/>
+  <!-- Mouth -->
+  <path d="M 12 19 Q 16 22 20 19" fill="none" stroke="#ff6b9d" stroke-width="1" stroke-linecap="round"/>
+  <!-- Horns -->
+  <path d="M 8 6 Q 6 2 10 1" fill="#ffd700" stroke="#ff8c00" stroke-width="0.5"/>
+  <path d="M 24 6 Q 26 2 22 1" fill="#ffd700" stroke="#ff8c00" stroke-width="0.5"/>
+</svg>

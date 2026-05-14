@@ -1,0 +1,157 @@
+name: CI and Deploy
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    name: Build and Validate
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pygments
+
+      - name: Validate Python syntax in code blocks
+        run: |
+          python -c "
+          import re, sys, py_compile, tempfile, os
+
+          errors = []
+          md_files = []
+          for root, dirs, files in os.walk('docs'):
+              for f in files:
+                  if f.endswith('.md'):
+                      md_files.append(os.path.join(root, f))
+
+          for filepath in md_files:
+              with open(filepath, 'r') as fh:
+                  content = fh.read()
+
+              blocks = re.findall(r'\`\`\`python\s*.*?\n(.*?)\`\`\`', content, re.DOTALL)
+              for i, block in enumerate(blocks):
+                  if 'YOUR_TOKEN' in block or '...' in block or 'pass' in block:
+                      continue
+                  try:
+                      with tempfile.NamedTemporaryFile(suffix='.py', delete=True) as tmp:
+                          tmp.write(block.encode())
+                          tmp.flush()
+                          py_compile.compile(tmp.name, doraise=True)
+                  except SyntaxError as e:
+                      errors.append(f'{filepath}: Python block #{i+1}: {e}')
+
+          if errors:
+              for e in errors:
+                  print(f'ERROR: {e}', file=sys.stderr)
+              sys.exit(1)
+          else:
+              print('All Python code blocks have valid syntax.')
+          "
+
+      - name: Check markdown links
+        run: |
+          python -c "
+          import re, os, sys
+
+          errors = []
+          md_files = []
+          base = 'docs'
+
+          for root, dirs, files in os.walk(base):
+              for f in files:
+                  if f.endswith('.md'):
+                      md_files.append(os.path.join(root, f))
+
+          existing = set()
+          for f in md_files:
+              existing.add(f)
+
+          for filepath in md_files:
+              with open(filepath, 'r') as fh:
+                  content = fh.read()
+
+              links = re.findall(r'\]\(([^)#\s][^)]*\.md(?:#[^\)]*)?)\)', content)
+              dirpath = os.path.dirname(filepath)
+
+              for link in links:
+                  link_path = link.split('#')[0]
+                  if link_path.startswith('http'):
+                      continue
+                  resolved = os.path.normpath(os.path.join(dirpath, link_path))
+                  if resolved not in existing:
+                      errors.append(f'{filepath}: broken link: {link}')
+
+          if errors:
+              for e in errors:
+                  print(f'ERROR: {e}', file=sys.stderr)
+              sys.exit(1)
+          else:
+              print('All internal markdown links are valid.')
+          "
+
+      - name: Build MkDocs site
+        run: mkdocs build --strict
+
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: book-site
+          path: site/
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build book
+        run: mkdocs build --strict
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bahala-na-python"
+version = "0.1.0"
+description = "A Filipino's Guide to Python: The 'Bahala Na' Approach to Learning Code"
+readme = "README.md"
+license = "CC-BY-4.0"
+requires-python = ">=3.9"
+dependencies = [
+    "mkdocs>=1.5.0",
+    "mkdocs-material>=9.5.0",
+    "mkdocs-minify-plugin>=0.7.0",
+    "mkdocs-rss-plugin>=1.10.0",
+    "mkdocs-redirects>=1.2.0",
+    "mkdocs-glightbox>=0.4.0",
+    "pymdown-extensions>=10.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "markdownlint-cli2>=0.8.0",
+    "pygments>=2.17.0",
+]
+pdf = [
+    "mkdocs-with-pdf>=0.9.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["docs"]

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Poring-inspired mascot for Bahala Na Python -->
+  <!-- Body -->
+  <ellipse cx="100" cy="110" rx="70" ry="65" fill="#ffb6c1" stroke="#ff6b9d" stroke-width="3"/>
+  <ellipse cx="100" cy="110" rx="70" ry="65" fill="url(#bodyGrad)"/>
+
+  <!-- Inner body shading -->
+  <ellipse cx="90" cy="100" rx="50" ry="45" fill="#ffc0cb" opacity="0.5"/>
+
+  <!-- Eyes -->
+  <ellipse cx="75" cy="95" rx="12" ry="15" fill="white"/>
+  <ellipse cx="125" cy="95" rx="12" ry="15" fill="white"/>
+  <circle cx="78" cy="98" r="7" fill="#1a1a2e"/>
+  <circle cx="128" cy="98" r="7" fill="#1a1a2e"/>
+  <circle cx="80" cy="95" r="3" fill="white"/>
+  <circle cx="130" cy="95" r="3" fill="white"/>
+
+  <!-- Blush -->
+  <ellipse cx="60" cy="110" rx="10" ry="6" fill="#ff6b6b" opacity="0.4"/>
+  <ellipse cx="140" cy="110" rx="10" ry="6" fill="#ff6b6b" opacity="0.4"/>
+
+  <!-- Mouth -->
+  <path d="M 85 120 Q 100 135 115 120" fill="none" stroke="#ff6b9d" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Horns -->
+  <path d="M 65 55 Q 55 30 70 25 Q 75 40 75 55" fill="#ffd700" stroke="#ff8c00" stroke-width="2"/>
+  <path d="M 135 55 Q 145 30 130 25 Q 125 40 125 55" fill="#ffd700" stroke="#ff8c00" stroke-width="2"/>
+
+  <!-- Python logo on belly -->
+  <g transform="translate(85, 130) scale(0.35)">
+    <path d="M50 30 C40 30 35 35 35 45 L35 60 C35 70 40 75 50 75 L60 75 C65 75 70 72 72 68 L72 55 C72 50 70 48 68 48 L55 48 C50 48 48 50 48 55 L48 60 C48 65 50 68 55 68 L65 68 C68 68 70 66 70 62 L70 45 C70 35 65 30 55 30 Z" fill="#3b82f6"/>
+    <path d="M110 30 C120 30 125 35 125 45 L125 60 C125 70 120 75 110 75 L100 75 C95 75 90 72 88 68 L88 55 C88 50 90 48 92 48 L105 48 C110 48 112 50 112 55 L112 60 C112 65 110 68 105 68 L95 68 C92 68 90 66 90 62 L90 45 C90 35 95 30 105 30 Z" fill="#ffd700"/>
+    <circle cx="45" cy="38" r="4" fill="white"/>
+    <circle cx="115" cy="38" r="4" fill="white"/>
+  </g>
+
+  <!-- Gradients -->
+  <defs>
+    <radialGradient id="bodyGrad" cx="40%" cy="35%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ff6b9d" stop-opacity="0.1"/>
+    </radialGradient>
+  </defs>
+</svg>

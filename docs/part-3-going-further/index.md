@@ -1,0 +1,43 @@
+# Part 3: Going Further
+
+> You're past the basics. Now you're building tools that connect to communities, visualize data, understand language, and work with AI. This is where Python becomes truly powerful.
+
+---
+
+## What You'll Learn
+
+| Chapter | Topic | Project |
+|---------|-------|---------|
+| 15 | Async & Discord Bots | Filipino Meme Bot |
+| 16 | Data Visualization | Barangay Dashboard |
+| 17 | NLP & Text Processing | AI Barkada Chatbot |
+| 18 | AI-Assisted Coding | Vibecoding with AI |
+| 19 | Open Source | Your First Contribution |
+| 20 | Boss Fight 3 | Barangay Dashboard Complete |
+
+## How This Part Works
+
+Part 3 introduces **advanced concepts** that professional developers use every day:
+
+- **Async programming** for handling multiple tasks simultaneously
+- **Data visualization** with charts and graphs
+- **Natural language processing** for understanding Tagalog
+- **AI-assisted development** for coding faster
+- **Open-source contribution** for collaborating with others
+
+## XP Rewards
+
+| Chapter | XP |
+|---------|-----|
+| Ch 15: Discord Bots | 100 XP + 25 XP per exercise |
+| Ch 16: Data Viz | 100 XP + 25 XP per exercise |
+| Ch 17: NLP | 100 XP + 25 XP per exercise |
+| Ch 18: AI Coding | 100 XP + 25 XP per exercise |
+| Ch 19: Open Source | 100 XP + 25 XP per exercise |
+| Ch 20: Boss Fight | 150 XP (100 + 50 bonus) |
+
+*Let's go further.*
+
+---
+
+*Next: [Chapter 15: Discord Bots](chapter-15-discord-bots.md) -- Building bots for your barkada.*

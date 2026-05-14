@@ -1,0 +1,139 @@
+site_name: "A Filipino's Guide to Python"
+site_description: Learn Python the Filipino way -- through culture, community, and code.
+site_url: https://ogbinar.github.io/bahala-na-python/
+repo_url: https://github.com/ogbinar/bahala-na-python
+repo_name: ogbinar/bahala-na-python
+# repo_actions_ignored: true
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  extra_css:
+    - overrides/assets/stylesheets/custom.css
+  extra_javascript:
+    - overrides/assets/javascripts/extrajs.js
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  font:
+    text: Inter
+    code: JetBrains Mono
+  favicon: images/favicon.ico
+  logo: images/poring-icon.svg
+  custom_dir: docs/overrides
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+  - rss:
+      categories:
+        - rss
+  - macros
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      permalink_title: Permanent link
+      toc_depth: 3
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets:
+      base_path: .
+      check_paths: false
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.keys
+  - footnotes
+
+nav:
+  - Home: index.md
+  - "Preface": preface.md
+  - "Index": index-alphabetical.md
+  - "Getting Started":
+      - getting-started/index.md
+      - getting-started/install-python.md
+      - getting-started/first-program.md
+  - "Part Zero: Welcome":
+      - part-0-welcome/index.md
+      - part-0-welcome/chapter-01-hello-world.md
+      - part-0-welcome/chapter-02-bahala-na.md
+  - "Part 1: Fundamentals":
+      - part-1-fundamentals/index.md
+      - part-1-fundamentals/chapter-03-variables.md
+      - part-1-fundamentals/chapter-04-conditionals.md
+      - part-1-fundamentals/chapter-05-loops.md
+      - part-1-fundamentals/chapter-06-functions.md
+      - part-1-fundamentals/chapter-07-files.md
+      - part-1-fundamentals/chapter-08-boss-fight-1.md
+  - "Part 2: Building Things":
+      - part-2-building-things/index.md
+      - part-2-building-things/chapter-09-classes.md
+      - part-2-building-things/chapter-10-strings.md
+      - part-2-building-things/chapter-11-apis.md
+      - part-2-building-things/chapter-12-scraping.md
+      - part-2-building-things/chapter-13-errors.md
+      - part-2-building-things/chapter-14-boss-fight-2.md
+  - "Part 3: Going Further":
+      - part-3-going-further/index.md
+      - part-3-going-further/chapter-15-discord-bots.md
+      - part-3-going-further/chapter-16-dataviz.md
+      - part-3-going-further/chapter-17-nlp.md
+      - part-3-going-further/chapter-18-ai-coding.md
+      - part-3-going-further/chapter-19-open-source.md
+      - part-3-going-further/chapter-20-boss-fight-3.md
+  - "Part 4: Capstone":
+      - part-4-capstone/index.md
+      - part-4-capstone/chapter-21-mobile.md
+      - part-4-capstone/chapter-22-bayanihan.md
+      - part-4-capstone/chapter-23-capstone-a.md
+      - part-4-capstone/chapter-24-capstone-b.md
+      - part-4-capstone/chapter-25-final-boss.md
+      - part-4-capstone/chapter-26-whats-next.md
+  - "Appendix":
+      - appendix/answers.md
+      - appendix/troubleshooting.md
+      - appendix/reference.md
+      - appendix/glossary.md
