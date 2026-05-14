@@ -6,3 +6,4 @@ mkdocs-macros-plugin>=1.0.0
 mkdocs-redirects>=1.2.0
 mkdocs-glightbox>=0.4.0
 pymdown-extensions>=10.0
+mkdocs-with-pdf>=0.9.0
