@@ -60,16 +60,9 @@ plugins:
         - rss
   - macros
   - with-pdf:
-      author: "A Filipino's Guide to Python"
       cover_title: "A Filipino's Guide to Python"
       cover_subtitle: "The 'Bahala Na' Approach"
-      custom_html_before: |
-        <link rel="stylesheet" href="overrides/assets/stylesheets/custom.css" />
-      ordered_headers: true
-      toc_depth: 3
-      toc_title: "Table of Contents"
-      exclude_search_pages: true
-      verbose: true
+      output_path: pdf/book.pdf
 
 markdown_extensions:
   - toc:
