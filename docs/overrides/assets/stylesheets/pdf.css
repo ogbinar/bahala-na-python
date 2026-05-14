@@ -1,0 +1,90 @@
+/* PDF-specific cleanup for mkdocs-with-pdf */
+
+@media print {
+  body {
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  h1 {
+    page-break-before: always;
+  }
+
+  h1:first-of-type {
+    page-break-before: avoid;
+  }
+
+  h2,
+  h3,
+  h4 {
+    page-break-after: avoid;
+  }
+
+  p,
+  li {
+    orphans: 3;
+    widows: 3;
+  }
+
+  ul,
+  ol {
+    margin-left: 1.2rem;
+    padding-left: 1.2rem;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    page-break-inside: avoid;
+    font-size: 9.5pt;
+  }
+
+  th,
+  td {
+    border: 1px solid #999;
+    padding: 4px 6px;
+    vertical-align: top;
+  }
+
+  th {
+    font-weight: bold;
+    background: #f2f2f2;
+  }
+
+  pre,
+  code {
+    font-family: "JetBrains Mono", "Courier New", monospace;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+    page-break-inside: avoid;
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    background: #f8f8f8;
+  }
+
+  img {
+    max-width: 100%;
+    page-break-inside: avoid;
+  }
+
+  .md-typeset .admonition,
+  .md-typeset details {
+    page-break-inside: avoid;
+  }
+
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer,
+  .md-source,
+  .md-content__button {
+    display: none !important;
+  }
+}

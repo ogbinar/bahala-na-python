@@ -54,6 +54,7 @@ extra:
 
 extra_css:
   - overrides/assets/stylesheets/custom.css
+  - overrides/assets/stylesheets/pdf.css
 extra_javascript:
   - overrides/assets/javascripts/extrajs.js
 
@@ -66,9 +67,12 @@ plugins:
         - rss
   - macros
   - with-pdf:
+      author: "Myk Ogbinar"
+      copyright: "Copyright © 2026 Myk Ogbinar"
       cover_title: "A Filipino's Guide to Python"
-      cover_subtitle: "The 'Bahala Na' Approach"
+      cover_subtitle: "The Bahala Na Approach to Learning Code"
       output_path: pdf/book.pdf
+      enabled_if_env: ENABLE_PDF_EXPORT
 
 markdown_extensions:
   - toc:
