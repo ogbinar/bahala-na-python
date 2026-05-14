@@ -51,10 +51,7 @@ jobs:
       - name: Check Markdown files
         uses: DavidAnson/markdownlint-cli2-action@v23
         with:
-          globs: |
-            docs/**/*.md
-            *.md
-          config: .markdownlint.json
+          globs: "**/*.md"
         continue-on-error: true
 
       - name: Install required Python packages
