@@ -240,6 +240,15 @@
   animation: fadeIn 0.3s ease;
 }
 
+/* DEP affiliation note styling */
+.md-typeset .admonition.note {
+  border-color: var(--md-primary-fg-color);
+}
+
+.md-typeset .admonition.note > .admonition-title {
+  background-color: rgba(255, 112, 67, 0.12);
+}
+
 /* Print styles */
 @media print {
   #xp-tracker,

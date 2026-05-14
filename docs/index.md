@@ -2,6 +2,11 @@
 
 > **Before we start** -- this book is free and open-source. You don't need to pay for anything. You don't need a CS degree. You just need curiosity and the willingness to try.
 
+!!! note "Part of the Data Engineering Pilipinas learning ecosystem"
+    This book is connected to the broader mission of [Data Engineering Pilipinas](https://dataengineering.ph/): helping Filipino learners grow through open resources, community support, and practical projects in data, analytics, AI, and software.
+
+    Continue your learning journey through the [DEP website](https://dataengineering.ph/) and [DEP Discord](https://discord.com/invite/buDgydz7J9).
+
 [Download PDF](pdf/book.pdf){ .md-button .md-button--primary } [View on GitHub](https://github.com/ogbinar/bahala-na-python){ .md-button }
 
 ---
@@ -82,18 +87,19 @@ The answer: **Bahala na. Let's try it.**
 
 ---
 
-## Join the Community 🤝
+## Join the Data Engineering Pilipinas Community 🤝
 
-Learning alone is hard. Learning with your barkada is better.
+Learning alone is hard. Learning with a barkada is better.
 
-??? example "Bahala Na Python Discord Server"
-    Join our Discord community to:
-    - Get help when you're stuck
-    - Share your projects with other learners
-    - Participate in weekly Boss Fight challenges
-    - Connect with Filipino developers
-    - Celebrate your wins together!
+Bahala Na Python is part of the broader Data Engineering Pilipinas learning ecosystem: a Filipino community for data engineers, data analysts, data scientists, developers, AI/ML engineers, and learners who want to grow with open-source tools and shared resources.
 
-    **[🚀 Join the Bahala Na Python Discord Server](https://discord.gg/bahala-na-python)**
+Join DEP to:
+- Ask questions when you get stuck
+- Share your Python projects
+- Join community learning activities
+- Meet Filipino learners and builders
+- Continue your journey into data, analytics, AI, and software
 
-    > *"Hindi mo kailangan mag-isa. Bayanihan ang tunay na lakas."*
+[Join the DEP Discord](https://discord.com/invite/buDgydz7J9){ .md-button .md-button--primary }
+
+> *"Hindi mo kailangan mag-isa. Bayanihan ang tunay na lakas."*

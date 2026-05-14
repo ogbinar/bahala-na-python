@@ -50,7 +50,17 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ogbinar
+      link: https://github.com/ogbinar/bahala-na-python
+      name: Bahala Na Python on GitHub
+    - icon: fontawesome/solid/globe
+      link: https://dataengineering.ph/
+      name: Data Engineering Pilipinas
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/buDgydz7J9
+      name: Join DEP Discord
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/groups/dataengineeringpilipinas
+      name: DEP Facebook Community
 
 extra_css:
   - overrides/assets/stylesheets/custom.css
@@ -151,3 +161,6 @@ nav:
       - appendix/troubleshooting.md
       - appendix/reference.md
       - appendix/glossary.md
+  - "DEP Community": https://dataengineering.ph/
+  - "DEP Resources": https://dataengineering.ph/resources.html
+  - "Join Discord": https://discord.com/invite/buDgydz7J9
