@@ -47,6 +47,11 @@ theme:
   logo: images/poring-icon.svg
   custom_dir: docs/overrides
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ogbinar
+
 extra_css:
   - overrides/assets/stylesheets/custom.css
 extra_javascript:

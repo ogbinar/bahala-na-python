@@ -2,6 +2,8 @@
 
 > **Before we start** -- this book is free and open-source. You don't need to pay for anything. You don't need a CS degree. You just need curiosity and the willingness to try.
 
+[Download PDF](pdf/book.pdf){ .md-button .md-button--primary } [View on GitHub](https://github.com/ogbinar/bahala-na-python){ .md-button }
+
 ---
 
 ## Kumusta, Kabayan! 👋
