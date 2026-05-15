@@ -175,9 +175,18 @@ The answer: **Bahala na. Let's try it.**
 
 ## Your Linear Learning Path
 
-```
-Ch 1-2 → Ch 3-7 → Ch 8 → Ch 9-13 → Ch 14 → Ch 15-19 → Ch 20 → Ch 21-24 → Ch 25 → Ch 26
-```
+<div class="learning-path">
+  <span>Ch 1–2</span><span class="arrow">→</span>
+  <span>Ch 3–7</span><span class="arrow">→</span>
+  <span>Ch 8</span><span class="arrow">→</span>
+  <span>Ch 9–13</span><span class="arrow">→</span>
+  <span>Ch 14</span><span class="arrow">→</span>
+  <span>Ch 15–19</span><span class="arrow">→</span>
+  <span>Ch 20</span><span class="arrow">→</span>
+  <span>Ch 21–24</span><span class="arrow">→</span>
+  <span>Ch 25</span><span class="arrow">→</span>
+  <span>Ch 26</span>
+</div>
 
 Read in order for the best experience. Each chapter builds on the last.
 
