@@ -140,7 +140,7 @@ inventory = ["laundry soap", "cigarettes", "candy", "instant noodles"]
 
 for item in inventory:
     if item == "candy":
-        print(f"Found candy! {inventory[item]} in stock.")
+        print(f"Found candy! We have {item} in stock.")
         break  # Stop searching
     print(f"Checking {item}...")
 
@@ -237,7 +237,7 @@ Output:
     **Hint:** Use a list of subjects and loop through them.
 
 ??? success "You did it! Level Up!"
-    +150 XP. You mastered loops. Ang galing!
+    +100 XP. You mastered loops. Ang galing!
 
 ## Side Quests
 

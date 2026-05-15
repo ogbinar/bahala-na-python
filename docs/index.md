@@ -114,6 +114,8 @@ The answer: **Bahala na. Let's try it.**
 | 🌐 Barangay Management System | Ch 23-24 | Classes, full application architecture |
 | 🏆 Final Boss Project | Ch 25 | All concepts combined |
 
+And many more side projects along the way: jeepney fare calculator, merienda reminder timer, budget tracker, recipe organizer, allowance manager, debugging challenges, AI chatbot, GCash tracker, and more.
+
 ---
 
 ## Table of Contents — Your Journey Map
@@ -164,12 +166,12 @@ The answer: **Bahala na. Let's try it.**
 |----|-------|-----|
 | 21 | [Mobile Python](part-4-capstone/chapter-21-mobile.md) | 100 |
 | 22 | [Bayanihan & Open Source](part-4-capstone/chapter-22-bayanihan.md) | 100 |
-| 23 | [Capstone A: Barangay System Part 1](part-4-capstone/chapter-23-capstone-a.md) | 100 |
-| 24 | [Capstone B: Barangay System Part 2](part-4-capstone/chapter-24-capstone-b.md) | 100 |
+| 23 | [Capstone A: Barangay System Part 1](part-4-capstone/chapter-23-capstone-a.md) | 200 |
+| 24 | [Capstone B: Barangay System Part 2](part-4-capstone/chapter-24-capstone-b.md) | 200 |
 | 25 | [Final Boss: Ultimate Project](part-4-capstone/chapter-25-final-boss.md) | 1000 |
 | 26 | [What's Next](part-4-capstone/chapter-26-whats-next.md) | 100 |
 
-**Total XP to complete: 3,750 XP** — You'll reach **Legend** level! 🏆
+**Total XP to complete: 3,950 XP** — You'll reach **Legend** level! 🏆
 
 ---
 
@@ -193,35 +195,17 @@ Read in order for the best experience. Each chapter builds on the last.
 ??? example "🎮 Skill Tree — Visual Map"
 
     ```
-                ┌─────────────┐
-                │  Legend     │  10,000 XP
-                │  (Ch 25)    │
-                └──────┬──────┘
-       ┌───────────────┼───────────────┐
-      ┌─┴─────┐   ┌─────┴─────┐   ┌─────┴─────┐
-      │ Master │   │ Master    │   │ Master    │
-      │ (Ch 23)│   │ (Ch 20)   │   │ (Ch 22)   │
-      └───┬────┘   └─────┬─────┘   └─────┬─────┘
-          │              │               │
-      ┌───┴─────┐   ┌─────┴─────┐   ┌─────┴─────┐
-      │ Devel   │   │ Devel     │   │ Devel     │
-      │ (Ch 14) │   │ (Ch 17-19)│   │ (Ch 21)   │
-      └───┬─────┘   └───────────┘   └───────────┘
-          │
-      ┌───┴─────┐
-      │ Karera  │
-      │ (Ch 8)  │
-      └───┬─────┘
-          │
-      ┌───┴─────┐
-      │ Albano  │
-      │ (Ch 3-7)│
-      └───┬─────┘
-          │
-      ┌───┴─────┐
-      │ Tambay  │
-      │ (Ch 1-2)│  0 XP — You are here!
-      └─────────┘
+    Legend (Ch 25)
+        |
+    Master (Ch 23-24)
+        |
+    Devel (Ch 20)
+        |
+    Karera (Ch 14)
+        |
+    Albano (Ch 8)
+        |
+    Tambay (Ch 1-7)
     ```
 
 ---

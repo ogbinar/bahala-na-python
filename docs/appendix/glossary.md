@@ -108,8 +108,6 @@
 
 **pip** -- Python's package installer. Used to install libraries: `pip install requests`.
 
-**Variable** -- A labeled container for data. Like a box with a name tag.
-
 ## R
 
 **Repository (Repo)** -- A project's folder in Git/GitHub. Contains all the files and the full history of changes.

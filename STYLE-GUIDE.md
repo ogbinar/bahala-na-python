@@ -109,6 +109,9 @@ Material for MkDocs supports native callout blocks. Use them consistently:
 
 ??? success "Level Up!"
     You just completed your first program! Congratulations!
+
+??? tip "⏸️ Pause and Predict"
+    Active learning prompt: ask the reader to predict or reason about code before revealing the answer. Builds real understanding, not just reading comprehension.
 ```
 
 ## Chapter Structure

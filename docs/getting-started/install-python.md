@@ -120,4 +120,4 @@ Kaya ko 'to!
 
 ---
 
-*Next: [Your First Program](first-program.md) -- Let's make it more interesting.*
+*Next: [Your First Program](first-program.md) -- Verify everything works.*

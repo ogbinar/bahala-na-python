@@ -11,7 +11,7 @@
     **Tier:** Final Boss | **Concepts Combined:** ALL (Everything from Chapters 1-24)
     **XP Reward:** 1000 XP | **Badge:** "Legend"
 
-> **Story Hook:** You've completed 25 chapters. You've built a sari-sari store system, a Discord bot, a barangay management system, and everything in between. Your barkada says: "Kaya mo na magturo." Your Lola says: "Gawa ka na ng system para sa lahat." You sit down at your comshop -- that same comshop from Chapter 1 -- and open a blank Python file. The cursor blinks. No starter code. No step-by-step instructions. No hints. Just you, your diskarte, and everything you've learned.
+> **Story Hook:** You've completed 25 chapters. You've built a sari-sari store system, a Discord bot, a barangay management system, and everything in between. Your barkada says: "Kaya mo na magturo." Your Lola says: "Gawa ka na ng system para sa lahat." You sit down at your comshop -- that same comshop from Chapter 1 -- and open a blank Python file. The cursor blinks. No step-by-step instructions. No hand-holding. Just you, your diskarte, and everything you've learned. (Well, there are some resources below if you need them — that's not cheating, that's diskarte.)
 
 ---
 
@@ -22,9 +22,9 @@ This is it. The Final Boss.
 ??? warning "Final Boss Fight"
     **Build a project of your own choosing that solves a real problem in your community.**
 
-    No starter code. No step-by-step instructions. No hints (well, a few). Just you and Python.
+    No hand-holding. But remember: looking up documentation isn't cheating — it's diskarte.
 
-    **XP Reward:** 100 XP | **Title:** Legend
+    **XP Reward:** 1000 XP | **Title:** Legend
 
 ??? info "Bahala Na Philosophy"
     Remember: "Bahala na" doesn't mean "give up." It means "do your best, try it, see what happens, fix it later." That's exactly what you're about to do.
@@ -37,13 +37,13 @@ This is it. The Final Boss.
 
 ## What Makes a Good Final Boss Project
 
-| Good Project | Too Ambitious | Too Simple |
-|-------------|---------------|------------|
-| A GCash expense tracker for your family | A full banking system for your barangay | A calculator |
-| A jeepney fare calculator with routes | An app that replaces GCash | A to-do list |
-| A community announcement bot for Discord | A social media platform | A number guessing game |
-| A recipe organizer for your Lola's cooking | A full e-commerce website | "Hello, World!" |
-| A barangay fee collector (like Chapter 23-24) | An AI that replaces doctors | A password generator |
+| Good Project | Too Ambitious | Maybe Too Small |
+|-------------|---------------|-----------------|
+| A GCash expense tracker for your family | A full banking system for your barangay | Just a calculator -- try adding history or unit conversion |
+| A jeepney fare calculator with routes | An app that replaces GCash | Basic to-do -- try adding categories or priority levels |
+| A community announcement bot for Discord | A social media platform | Guessing game -- try adding difficulty levels or scoring |
+| A recipe organizer for your Lola's cooking | A full e-commerce website | "Hello, World!" -- try adding multiple programs |
+| A barangay fee collector (like Chapter 23-24) | An AI that replaces doctors | A password generator -- try adding strength checking |
 
 ## Your Project Checklist
 
@@ -222,6 +222,9 @@ You've learned everything you need. Here's a quick reference:
 | Data Viz | 16 | Show charts |
 | NLP | 17 | Process language |
 | AI Coding | 18 | Use AI as a tool |
+| Mobile Python | 21 | Code on your phone |
+| Open Source | 22 | Collaborate with others |
+| Full Apps | 23-24 | Build complete systems |
 
 ## What If You Get Stuck?
 

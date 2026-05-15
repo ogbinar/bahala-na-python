@@ -34,4 +34,4 @@ These work on any device with a browser. But for the full experience, we recomme
 
 ---
 
-*Next: [Installing Python](install-python.md)*
+*Next: [Installing Python](install-python.md) -- Let's get Python on your computer.*

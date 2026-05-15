@@ -487,6 +487,10 @@ if __name__ == "__main__":
     app.run(debug=True, port=5000)
 ```
 
+??? warning "Security Note"
+
+    This is a learning example, not production code. In a real app, you'd use proper template files instead of `render_template_string`, input validation beyond basic checks, CSRF protection, a proper database instead of JSON files, and HTTPS.
+
 ## Running the Complete System
 
 ```bash

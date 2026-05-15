@@ -405,6 +405,300 @@ print(f"Total: ₱{apply_discounts(items):.2f}")
 4. No error handling for non-numeric values
 5. The `calculate_discount` function doesn't handle negative discounts
 
+## Chapter 11: APIs
+
+### Mini-Project: GCash Transaction Tracker
+
+```python
+# gcash_tracker.py
+# Sample solution for GCash Transaction Tracker
+
+transactions = {
+    "2024-01-15": [
+        {"type": "sent", "amount": 200, "to": "Tita", "note": "pasaload"},
+        {"type": "received", "amount": 500, "from": "Mom", "note": "allowance"},
+    ]
+}
+
+
+def add_transaction(date, tx_type, amount, note="", to="", fr=""):
+    """Add a new GCash transaction."""
+    if date not in transactions:
+        transactions[date] = []
+
+    tx = {"type": tx_type, "amount": amount, "note": note}
+    if tx_type == "sent":
+        tx["to"] = to
+    elif tx_type == "received":
+        tx["from"] = fr
+
+    transactions[date].append(tx)
+    print(f"Added: {tx_type} ₱{amount:.2f} -- {note}")
+
+
+def daily_balance(date):
+    """Calculate net balance for a specific date."""
+    if date not in transactions:
+        return 0
+
+    total = 0
+    for tx in transactions[date]:
+        if tx["type"] == "sent":
+            total -= tx["amount"]
+        else:
+            total += tx["amount"]
+    return total
+
+
+def category_summary():
+    """Show transaction summary by category (note field)."""
+    categories = {}
+    for date, tx_list in transactions.items():
+        for tx in tx_list:
+            cat = tx.get("note", "uncategorized")
+            if cat not in categories:
+                categories[cat] = {"sent": 0, "received": 0}
+            if tx["type"] == "sent":
+                categories[cat]["sent"] += tx["amount"]
+            else:
+                categories[cat]["received"] += tx["amount"]
+
+    print("\n=== GCash Summary by Category ===")
+    for cat, amounts in categories.items():
+        net = amounts["received"] - amounts["sent"]
+        print(f"  {cat}: Sent ₱{amounts['sent']:.2f} | Received ₱{amounts['received']:.2f} | Net: ₱{net:.2f}")
+
+
+# Demo
+add_transaction("2024-01-16", "sent", 150, "merienda", to="Barkada")
+add_transaction("2024-01-16", "received", 300, "load top-up", fr="Tito")
+print(f"\nDaily balance (2024-01-15): ₱{daily_balance('2024-01-15'):.2f}")
+print(f"Daily balance (2024-01-16): ₱{daily_balance('2024-01-16'):.2f}")
+category_summary()
+```
+
+### Mini-Project: Palengke Price Comparator
+
+```python
+# price_compare.py
+# Sample solution: Compare prices across different markets
+
+import random
+
+
+def fetch_prices(source, item):
+    """
+    Simulate fetching prices from a source.
+    In real code, replace with actual API call or web scraping.
+    """
+    # Simulated price ranges for demonstration
+    price_ranges = {
+        "palengke": (item * 0.8, item * 1.0),
+        "supermarket": (item * 0.95, item * 1.15),
+        "online": (item * 1.0, item * 1.3),
+    }
+    low, high = price_ranges[source]
+    return round(random.uniform(low, high), 2)
+
+
+def compare_prices(item, base_price):
+    """Compare prices for an item across multiple markets."""
+    sources = ["palengke", "supermarket", "online"]
+    results = {}
+
+    for source in sources:
+        price = fetch_prices(source, base_price)
+        savings = base_price - price
+        results[source] = {"price": price, "savings": savings}
+
+    # Find the best price
+    best_source = min(results, key=lambda s: results[s]["price"])
+
+    print(f"\n=== Price Comparison: {item} (Base: ₱{base_price:.2f}) ===")
+    for source, data in results.items():
+        flag = " <-- BEST" if source == best_source else ""
+        savings_str = f"Save ₱{data['savings']:.2f}" if data["savings"] > 0 else f"Overpay ₱{abs(data['savings']):.2f}"
+        print(f"  {source.capitalize()}: ₱{data['price']:.2f} ({savings_str}){flag}")
+
+    return best_source
+
+
+def alert_price(item, threshold, base_price):
+    """Alert when a price drops below threshold."""
+    best_source = compare_prices(item, base_price)
+    best_price = next(d for s, d in {
+        s: {"price": fetch_prices(s, base_price), "savings": base_price - fetch_prices(s, base_price)}
+        for s in ["palengke", "supermarket", "online"]
+    }.items() if s == best_source)["price"]
+
+    if best_price < threshold:
+        print(f"\n🔔 ALERT: {item} is below ₱{threshold:.2f} at {best_source.capitalize()}!")
+    else:
+        print(f"\nNo alert: best price ₱{best_price:.2f} is above ₱{threshold:.2f} threshold.")
+
+
+# Demo
+compare_prices("Gala bananas (1kg)", 80)
+compare_prices("Laundry soap", 120)
+alert_price("Instant noodles (pack of 5)", 50, 65)
+```
+
+## Chapter 12: Web Scraping
+
+### Mini-Project: Facebook Marketplace Alert Bot
+
+```python
+# marketplace_alert.py
+# Sample solution: Monitor Facebook Marketplace for specific items
+
+import json
+import os
+import random
+from datetime import datetime
+
+
+LISTINGS_FILE = "seen_listings.json"
+ALERT_THRESHOLD = 5000  # Only alert if price is below this
+
+
+def load_seen_listings():
+    """Load previously seen listings from file."""
+    if os.path.exists(LISTINGS_FILE):
+        with open(LISTINGS_FILE, "r") as f:
+            return json.load(f)
+    return {"listings": [], "alerts": []}
+
+
+def save_listings(data):
+    """Save listings data to file."""
+    with open(LISTINGS_FILE, "w") as f:
+        json.dump(data, f, indent=4)
+
+
+def scrape_listings(search_term, max_results=10):
+    """
+    Simulate scraping listings.
+    In real code, use requests + BeautifulSoup to parse Facebook Marketplace.
+    """
+    # Simulated scraped data
+    sample_listings = [
+        {"title": f"{search_term} - Like New", "price": random.randint(3000, 15000), "location": "Manila"},
+        {"title": f"{search_term} - Used, Good Condition", "price": random.randint(2000, 8000), "location": "Quezon City"},
+        {"title": f"{search_term} - Brand New Sealed", "price": random.randint(8000, 20000), "location": "Makati"},
+    ]
+    return sample_listings[:max_results]
+
+
+def check_alerts(listings, seen_ids):
+    """Check for new listings below threshold and send alerts."""
+    alerts = []
+    for listing in listings:
+        # Use title + price as a simple unique identifier
+        listing_id = f"{listing['title']}_{listing['price']}"
+        if listing_id not in seen_ids and listing["price"] <= ALERT_THRESHOLD:
+            alerts.append(listing)
+            print(f"🔔 ALERT: '{listing['title']}' -- ₱{listing['price']} in {listing['location']}")
+    return alerts
+
+
+# Demo
+data = load_seen_listings()
+seen_ids = {l["id"] for l in data["listings"]}
+
+print("=== Checking Facebook Marketplace ===")
+listings = scrape_listings("iPhone 12")
+alerts = check_alerts(listings, seen_ids)
+
+# Save all listings
+for i, listing in enumerate(listings):
+    listing_id = f"{listing['title']}_{listing['price']}"
+    listing["id"] = listing_id
+    data["listings"].append(listing)
+
+data["alerts"].extend([
+    {"title": a["title"], "price": a["price"], "time": datetime.now().isoformat()}
+    for a in alerts
+])
+
+save_listings(data)
+print(f"\nTotal listings tracked: {len(data['listings'])}")
+print(f"Alerts sent: {len(alerts)}")
+```
+
+### Mini-Project: Load Sharing Tracker
+
+```python
+# load_tracker.py
+# Sample solution: Track shared load among barkada members
+
+class LoadTracker:
+    def __init__(self):
+        self.members = {}  # name -> {"paid": amount, "used": amount}
+        self.history = []  # list of transactions
+
+    def add_member(self, name):
+        """Add a barkada member."""
+        if name not in self.members:
+            self.members[name] = {"paid": 0, "used": 0}
+            print(f"Added: {name}")
+
+    def record_payment(self, name, amount):
+        """Record who paid for shared load."""
+        if name in self.members:
+            self.members[name]["paid"] += amount
+            self.history.append({"action": "pay", "member": name, "amount": amount})
+            print(f"{name} paid ₱{amount:.2f} for load")
+
+    def record_usage(self, name, amount):
+        """Record how much load a member used."""
+        if name in self.members:
+            self.members[name]["used"] += amount
+            self.history.append({"action": "use", "member": name, "amount": amount})
+
+    def who_owes_whom(self):
+        """Calculate who owes whom."""
+        balances = {}
+        for name, data in self.members.items():
+            balances[name] = data["paid"] - data["used"]
+
+        debtors = {n: b for n, b in balances.items() if b < 0}
+        creditors = {n: b for n, b in balances.items() if b > 0}
+
+        print("\n=== Load Balance ===")
+        for name, balance in balances.items():
+            status = f"OWES ₱{abs(balance):.2f}" if balance < 0 else f"CREDIT ₱{balance:.2f}"
+            print(f"  {name}: {status}")
+
+        return debtors, creditors
+
+    def summary_report(self):
+        """Generate a full summary report."""
+        print("\n=== Load Sharing Summary ===")
+        total_paid = sum(d["paid"] for d in self.members.values())
+        total_used = sum(d["used"] for d in self.members.values())
+        print(f"Total paid: ₱{total_paid:.2f}")
+        print(f"Total used: ₱{total_used:.2f}")
+        print(f"Discrepancy: ₱{total_paid - total_used:.2f}")
+        self.who_owes_whom()
+
+
+# Demo
+tracker = LoadTracker()
+tracker.add_member("Juan")
+tracker.add_member("Maria")
+tracker.add_member("Pedro")
+
+tracker.record_payment("Juan", 200)
+tracker.record_payment("Maria", 200)
+tracker.record_payment("Pedro", 100)
+
+tracker.record_usage("Juan", 150)
+tracker.record_usage("Maria", 180)
+tracker.record_usage("Pedro", 170)
+
+tracker.summary_report()
+```
+
 ## Boss Fights: Part 2 (Chapters 14-16)
 
 ### Boss Fight: Error Handling Patterns (Chapter 14)
@@ -444,9 +738,367 @@ print(safe_divide("10", 2))   # Error message, None
 - Use `pd.DataFrame()` for data aggregation
 - Save with `plt.savefig()` instead of `plt.show()` for non-interactive use
 
+## Chapter 16: Data Visualization
+
+### Mini-Project: Typhoon Impact Visualizer
+
+```python
+# typhoon_viz.py
+# Sample solution: Visualize typhoon data
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+
+def load_typhoon_data():
+    """
+    Load typhoon track data.
+    In real code, fetch from PAGASA API or NOAA HURDAT2.
+    For this example, we use sample data.
+    """
+    data = {
+        "typhoon": ["Amang", "Betty", "Chedeng", "Dindo", "Enteng"],
+        "year": [2019, 2019, 2021, 2022, 2023],
+        "max_wind_kph": [95, 130, 85, 110, 140],
+        "affected_provinces": [5, 12, 3, 8, 15],
+        "estimated_damage_m": [0.5, 2.3, 0.3, 1.2, 3.1],
+    }
+    return pd.DataFrame(data)
+
+
+def plot_wind_speed(df):
+    """Plot max wind speed per typhoon."""
+    plt.figure(figsize=(10, 5))
+    bars = plt.bar(df["typhoon"], df["max_wind_kph"], color=["#e74c3c", "#e67e22", "#f39c12", "#2ecc71", "#3498db"])
+
+    plt.title("Max Wind Speed by Typhoon (km/h)")
+    plt.xlabel("Typhoon Name")
+    plt.ylabel("Wind Speed (km/h)")
+    plt.axhline(y=120, color="red", linestyle="--", label="Typhoon (120+ kph)")
+    plt.legend()
+
+    # Add value labels on bars
+    for bar, speed in zip(bars, df["max_wind_kph"]):
+        plt.text(bar.get_x() + bar.get_width() / 2, bar.get_height() + 5,
+                 f"{speed} kph", ha="center", fontsize=9)
+
+    plt.tight_layout()
+    plt.savefig("typhoon_wind_speed.png", dpi=150)
+    plt.show()
+
+
+def plot_provinces_affected(df):
+    """Plot provinces affected per typhoon."""
+    plt.figure(figsize=(10, 5))
+    plt.bar(df["typhoon"], df["affected_provinces"], color="#9b59b6")
+    plt.title("Provinces Affected by Typhoon")
+    plt.xlabel("Typhoon Name")
+    plt.ylabel("Number of Provinces")
+    plt.tight_layout()
+    plt.savefig("typhoon_provinces.png", dpi=150)
+    plt.show()
+
+
+# Demo
+df = load_typhoon_data()
+plot_wind_speed(df)
+plot_provinces_affected(df)
+print(f"Loaded {len(df)} typhoons")
+print(df.to_string(index=False))
+```
+
+### Mini-Project: Personal Budget Dashboard
+
+```python
+# budget_dashboard.py
+# Sample solution: Visualize spending habits
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+
+def load_expense_data():
+    """Load expense data from a dict (or CSV/JSON in real code)."""
+    data = {
+        "month": ["Jan", "Feb", "Mar", "Apr", "May"],
+        "kain": [3000, 3200, 2800, 3500, 3100],
+        "pamasahe": [800, 850, 800, 900, 850],
+        "load": [500, 500, 600, 500, 500],
+        "entertainment": [1000, 800, 1200, 900, 1100],
+        "savings": [2000, 1500, 2500, 1800, 2200],
+    }
+    return pd.DataFrame(data)
+
+
+def pie_chart_spending(df, month="Jan"):
+    """Create a pie chart of spending by category for a specific month."""
+    idx = df[df["month"] == month].index[0]
+    categories = ["kain", "pamasahe", "load", "entertainment"]
+    labels = ["Kain", "Pamasahe", "Load", "Entertainment"]
+    values = [df.loc[idx, cat] for cat in categories]
+    colors = ["#e74c3c", "#3498db", "#f39c12", "#9b59b6"]
+
+    plt.figure(figsize=(8, 6))
+    plt.pie(values, labels=labels, colors=colors, autopct="%1.1f%%")
+    plt.title(f"Spending Breakdown - {month}")
+    plt.tight_layout()
+    plt.savefig(f"budget_pie_{month}.png", dpi=150)
+    plt.show()
+
+
+def bar_chart_monthly(df):
+    """Create a bar chart of monthly totals."""
+    df["total"] = df[["kain", "pamasahe", "load", "entertainment"]].sum(axis=1)
+    df["savings"] = df["savings"]
+
+    x = df["month"]
+    plt.figure(figsize=(10, 5))
+    plt.bar(x, df["total"], label="Spending", color="#e74c3c")
+    plt.bar(x, df["savings"], label="Savings", color="#2ecc71", bottom=df["total"])
+    plt.ylabel("Amount (₱)")
+    plt.title("Monthly Spending vs Savings")
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig("budget_monthly.png", dpi=150)
+    plt.show()
+
+
+def line_chart_trends(df):
+    """Create a line chart of spending trends over time."""
+    categories = ["kain", "pamasahe", "load", "entertainment"]
+    colors = ["#e74c3c", "#3498db", "#f39c12", "#9b59b6"]
+
+    plt.figure(figsize=(10, 5))
+    for cat, color in zip(categories, colors):
+        plt.plot(df["month"], df[cat], marker="o", label=cat.capitalize(), color=color)
+
+    plt.ylabel("Amount (₱)")
+    plt.title("Spending Trends")
+    plt.legend()
+    plt.grid(True, alpha=0.3)
+    plt.tight_layout()
+    plt.savefig("budget_trends.png", dpi=150)
+    plt.show()
+
+
+# Demo
+df = load_expense_data()
+pie_chart_spending(df, "Jan")
+bar_chart_monthly(df)
+line_chart_trends(df)
+print(f"Monthly data loaded: {len(df)} months")
+```
+
 ## Boss Fights: Part 3 (Chapters 17-20)
 
-### Boss Fight: AI Barkada Chatbot (Chapter 17)
+### Mini-Project: Tagalog Slang Dictionary
+
+```python
+# slang_dict.py
+# Sample solution: Filipino internet slang dictionary
+
+slang = {
+    "lit": "maganda, exciting",
+    "grabe": "wow, amazing",
+    "charot": "joke lang",
+    "pre": "friend, bro",
+    "naimbis": "jealous",
+    "kamote": "confused, out of touch",
+    "tsismis": "gossip",
+    "lambing": "affectionate behavior",
+    "walaw": "feeling sorry for someone",
+    "bes": "best friend, bro",
+    "gen": "generated (by AI)",
+    "sks": "seryos? (serious?)",
+    "omg": "oh my god (used in Tagalog context too)",
+    "crush": "crush (same as English)",
+    "ghosting": "dating taong biglang hindi na sumasagot",
+    "soft launch": "ipakita ang relationship nang dahan-dahan sa social media",
+    "red flag": "tanda na may problema sa isang tao",
+    "gaslighting": "manipulate someone into questioning their sanity",
+    "sobrang": "extremely, very (used for emphasis)",
+    "bingit": "excellent, awesome (originally Cebuano)",
+    "ulil": "acting crazy, ridiculous",
+    "tita/tito culture": "gossiping, judgmental behavior (usually from older women)",
+    "chika": "gossip, casual chat",
+    "padrino": "someone with connections who can help",
+    "wingman": "tulong sa pag-approach ng crush",
+}
+
+
+def search_slang(query):
+    """Search slang terms by keyword in definition."""
+    results = []
+    query_lower = query.lower()
+    for term, definition in slang.items():
+        if query_lower in definition.lower() or query_lower in term.lower():
+            results.append((term, definition))
+    return results
+
+
+def show_definition(term):
+    """Show definition for a specific slang term."""
+    term_lower = term.lower()
+    if term_lower in slang:
+        print(f'"{term}" = {slang[term_lower]}')
+    else:
+        # Fuzzy match
+        matches = [t for t in slang.keys() if term_lower in t]
+        if matches:
+            print(f'Did you mean: {", ".join(matches)}?')
+        else:
+            print(f'"{term}" not found in dictionary.')
+
+
+def show_all():
+    """Display all slang terms sorted alphabetically."""
+    print("\n=== Tagalog/Internet Slang Dictionary ===")
+    for term in sorted(slang.keys()):
+        print(f"  {term}: {slang[term]}")
+
+
+def suggest_similar(term):
+    """Suggest similar terms based on shared keywords."""
+    if term.lower() not in slang:
+        return []
+
+    target_def = slang[term.lower()]
+    similar = []
+    for other_term, other_def in slang.items():
+        if other_term == term.lower():
+            continue
+        # Check for shared words in definitions
+        target_words = set(target_def.lower().split())
+        other_words = set(other_def.lower().split())
+        shared = target_words & other_words
+        if shared:
+            similar.append((other_term, other_def, shared))
+
+    similar.sort(key=lambda x: len(x[2]), reverse=True)
+    return similar[:5]
+
+
+# Demo
+show_all()
+print(f"\n--- Search: 'friend' ---")
+for term, defn in search_slang("friend"):
+    print(f"  {term}: {defn}")
+
+print(f"\n--- Definition: 'pre' ---")
+show_definition("pre")
+
+print(f"\n--- Similar to 'ghosting' ---")
+for term, defn, shared in suggest_similar("ghosting"):
+    print(f"  {term}: {defn} (shared: {', '.join(shared)})")
+```
+
+### Mini-Project: Barkada Chat Analyzer
+
+```python
+# chat_analyzer.py
+# Sample solution: Analyze barkada chat patterns
+
+import re
+from collections import Counter, defaultdict
+
+
+class ChatAnalyzer:
+    def __init__(self):
+        self.messages = []
+        self.member_counts = Counter()
+        self.hourly_activity = Counter()
+        self.tagalog_words = Counter()
+
+    def add_message(self, member, message, hour=None):
+        """Add a chat message for analysis."""
+        self.messages.append({"member": member, "message": message, "hour": hour})
+        self.member_counts[member] += 1
+
+        # Track hourly activity
+        if hour is not None:
+            self.hourly_activity[hour] += 1
+
+        # Count common Tagalog words
+        msg_lower = message.lower()
+        tagalog_keywords = ["kaya", "hindi", "sige", "nako", "grabe", "charot", "pre", "bes", "lodi", "diko"]
+        for word in tagalog_keywords:
+            if re.search(r'\b' + word + r'\b', msg_lower):
+                self.tagalog_words[word] += 1
+
+    def most_active_member(self):
+        """Find the most chatty member."""
+        return self.member_counts.most_common(1)[0] if self.member_counts else ("nobody", 0)
+
+    def peak_hours(self, top_n=5):
+        """Find the hours with most activity."""
+        return self.hourly_activity.most_common(top_n)
+
+    def word_frequency(self, top_n=10):
+        """Show most frequent words in all messages."""
+        all_words = []
+        for msg in self.messages:
+            words = re.findall(r'\b\w+\b', msg["message"].lower())
+            all_words.extend(words)
+        return Counter(all_words).most_common(top_n)
+
+    def tagalog_ratio(self):
+        """Estimate the ratio of Tagalog/Taglish messages."""
+        tagalog_markers = ["ang", "ng", "sa", "ko", "mo", "kami", "silá", "diko", "hindi", "sige"]
+        tagalog_count = 0
+        for msg in self.messages:
+            msg_lower = msg["message"].lower()
+            if any(marker in msg_lower for marker in tagalog_markers):
+                tagalog_count += 1
+        total = len(self.messages)
+        ratio = (tagalog_count / total * 100) if total > 0 else 0
+        return ratio
+
+    def summary(self):
+        """Print a full analysis summary."""
+        most_active = self.most_active_member()
+        peak = self.peak_hours(3)
+        ratio = self.tagalog_ratio()
+
+        print("\n=== Barkada Chat Analysis ===")
+        print(f"Total messages: {len(self.messages)}")
+        print(f"Members: {len(self.member_counts)}")
+        print(f"Most active: {most_active[0]} ({most_active[1]} messages)")
+        print(f"\nPeak chat hours:")
+        for hour, count in peak:
+            print(f"  {hour:02d}:00 -- {count} messages")
+        print(f"\nTagalog/Taglish ratio: {ratio:.0f}%")
+        print(f"\nTop Tagalog words used:")
+        for word, count in self.tagalog_words.most_common(5):
+            print(f"  {word}: {count}")
+        print(f"\nTop words overall:")
+        for word, count in self.word_frequency(5):
+            print(f"  {word}: {count}")
+
+
+# Demo
+analyzer = ChatAnalyzer()
+
+# Simulated chat data
+chat_data = [
+    ("Juan", "Kumusta pre! Kaya mo 'yan!", 14),
+    ("Maria", "Sige na! Charot 😂", 14),
+    ("Pedro", "Grabe naman, nag-aral ba kayo?", 15),
+    ("Juan", "Oo naman! Hindi kami nagpapabaya", 15),
+    ("Maria", "Bes, may homework pa ako", 20),
+    ("Pedro", "Charot! Diko rin gusto mag-study", 20),
+    ("Juan", "Nako, exam bukas eh", 21),
+    ("Maria", "Sige na, kaya natin 'to!", 21),
+    ("Pedro", "Loddddd! Kaya natin! 💪", 21),
+    ("Juan", "Kumusta na review ninyo?", 09),
+]
+
+for member, message, hour in chat_data:
+    analyzer.add_message(member, message, hour)
+
+analyzer.summary()
+```
+
+## Boss Fights: Part 3 (Chapters 17-20)
 
 **Approach:** Build pattern-response matching with regex. Key points:
 - Use `re.search()` for pattern matching

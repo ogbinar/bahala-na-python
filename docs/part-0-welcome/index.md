@@ -42,4 +42,15 @@ That's this book. **Bahala na.**
 
 ---
 
+## XP Rewards
+
+| Chapter | XP |
+|---------|-----|
+| Ch 1: Hello, World! | 100 XP |
+| Ch 2: Bahala Na | 100 XP |
+
+*Total: 200 XP to reach Part 1*
+
+---
+
 *Let's begin. [Chapter 1: Hello, World!](chapter-01-hello-world.md)*

@@ -57,7 +57,7 @@ Each chapter adds a new tool to your toolkit. By the end, you'll have built some
 | Ch 5: Loops | 100 XP + 25 XP per exercise |
 | Ch 6: Functions | 100 XP + 25 XP per exercise |
 | Ch 7: Files | 100 XP + 25 XP per exercise |
-| Ch 8: Boss Fight | 150 XP (100 + 50 bonus) |
+| Ch 8: Boss Fight | 500 XP (Boss Fight) |
 
 **Ready to build? Let's go.**
 

@@ -51,7 +51,7 @@ tracker.track_remittance(500)
 | Ch 11: APIs | 100 XP + 25 XP per exercise |
 | Ch 12: Scraping | 100 XP + 25 XP per exercise |
 | Ch 13: Errors | 100 XP + 25 XP per exercise |
-| Ch 14: Boss Fight | 150 XP (100 + 50 bonus) |
+| Ch 14: Boss Fight | 500 XP (Boss Fight) |
 
 *Let's build.*
 

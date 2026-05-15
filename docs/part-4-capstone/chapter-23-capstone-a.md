@@ -116,6 +116,7 @@ class Resident:
             "occupation": self.occupation,
             "registration_date": self.registration_date.isoformat(),
             "is_senior": self.is_senior(),
+            # Nested dict comprehension: outer loops over fee categories (k,v), inner converts Enum keys/values to strings
             "fees": {k: {ft.value: st.value for ft, st in v.items()} for k, v in self.fees.items()},
         }
 

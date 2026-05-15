@@ -47,12 +47,12 @@ The book ends, but your journey doesn't. Here's what to do next: keep learning, 
 |---------|-----|
 | Ch 21: Mobile | 100 XP + 25 XP per exercise |
 | Ch 22: Bayanihan | 100 XP + 25 XP per exercise |
-| Ch 23: Capstone A | 100 XP + 50 XP for project |
-| Ch 24: Capstone B | 100 XP + 50 XP for project |
-| Ch 25: Final Boss | 500 XP (the biggest reward!) |
-| Ch 26: What's Next | 50 XP (graduation) |
+| Ch 23: Capstone A | 200 XP (Capstone) |
+| Ch 24: Capstone B | 200 XP (Capstone) |
+| Ch 25: Final Boss | 1000 XP (Final Boss) |
+| Ch 26: What's Next | 100 XP |
 
-**Total book XP: 2,200+ XP to reach Legend status.**
+**Total book XP: 3,950 XP to reach Legend status.**
 
 ## The Full Journey
 
@@ -62,7 +62,7 @@ Let's look at how far you've come:
 Part 0: Welcome           -- You opened Python for the first time
 Part 1: Fundamentals      -- You learned the building blocks
 Part 2: Building Things   -- You connected to the world
-Part 3: Going Further     -- You explored advanced tools
+Part 3: Level Up          -- You explored advanced tools
 Part 4: Capstone          -- You built something real
 ```
 

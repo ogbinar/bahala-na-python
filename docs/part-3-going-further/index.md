@@ -1,4 +1,4 @@
-# Part 3: Going Further
+# Part 3: Level Up
 
 > You're past the basics. Now you're building tools that connect to communities, visualize data, understand language, and work with AI. This is where Python becomes truly powerful.
 
@@ -34,7 +34,7 @@ Part 3 introduces **advanced concepts** that professional developers use every d
 | Ch 17: NLP | 100 XP + 25 XP per exercise |
 | Ch 18: AI Coding | 100 XP + 25 XP per exercise |
 | Ch 19: Open Source | 100 XP + 25 XP per exercise |
-| Ch 20: Boss Fight | 150 XP (100 + 50 bonus) |
+| Ch 20: Boss Fight | 500 XP (Boss Fight) |
 
 *Let's go further.*
 
