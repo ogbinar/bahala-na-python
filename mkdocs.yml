@@ -10,9 +10,28 @@ theme:
   name: material
   language: en
   palette:
-    scheme: default
-    primary: deep orange
-    accent: amber
+    - scheme: default
+      primary: deep orange
+      accent: amber
+      media: "(prefers-color-scheme: light)"
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+      media: "(prefers-color-scheme: dark)"
+    - scheme: default
+      primary: deep orange
+      accent: amber
+      toggle:
+        class: material-theme-toggle
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: amber
+      toggle:
+        class: material-theme-toggle
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.instant.progress
