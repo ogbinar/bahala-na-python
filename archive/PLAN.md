@@ -63,6 +63,27 @@ The RESEARCH-MASTER.md Part IX outline specified 26 chapters. The actual impleme
 | MkDocs Build | Verified: 40 HTML files, all nav sections rendered |
 | `docs/overrides/` | Created (empty, for future theme customization) |
 
+## Recent Updates: AI as Creative Partner Integration
+
+### Philosophy Integration (3 Strategic Points)
+
+| Location | Change | Purpose |
+|----------|--------|---------|
+| Ch 1 (Hello World) | Added "Diskarte: When Stuck" tip box | Normalizes AI as one of several debugging tools, emphasizes understanding |
+| Ch 18 (AI Coding) | Reframed as "Coding with AI as a Partner" | Moved philosophy to beginning, added "The Trap" warning, changed Boss Fight to "Build Without AI" |
+| Ch 26 (What's Next) | Added "AI Will Keep Evolving" section | Closing thought on AI vs. human skills |
+
+### Chapter 18 Specific Changes
+
+- **Title**: "AI-Assisted Coding and Vibecoding" → "Coding with AI as a Partner"
+- **Added**: "Why This Chapter Exists" section (sets expectations)
+- **Added**: "The Trap" warning box (Ask AI → Copy → Move on vs. Ask AI → Understand → Learn)
+- **Replaced**: Technical code assistant example with "Your Turn: Practice with AI" exercise
+- **Changed**: Boss Fight from "AI Code Review Tool" to "Build Without AI" (prove independent skills)
+- **Updated**: Checklist to include building without AI
+
+---
+
 ## Fixes Applied
 
 ### Critical Code Bugs Fixed (8)

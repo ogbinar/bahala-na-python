@@ -52,7 +52,7 @@ The book ends, but your journey doesn't. Here's what to do next: keep learning, 
 | Ch 25: Final Boss | 1000 XP (Final Boss) |
 | Ch 26: What's Next | 100 XP |
 
-**Total book XP: 3,950 XP to reach Legend status.**
+**Total book XP: 4,900 XP to reach Legend status.**
 
 ## The Full Journey
 

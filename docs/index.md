@@ -13,7 +13,7 @@ Learn Python the Filipino way -- through culture, community, and code.
 
     Continue your learning journey through the [DEP website](https://dataengineering.ph/) and [DEP Barkada](https://discord.com/invite/buDgydz7J9).
 
-[![Read Online](https://img.shields.io/badge/Read_Online-Click-blue?style=for-the-badge)](https://ogbinar.github.io/bahala-na-python)[![Download PDF](https://img.shields.io/badge/Download_PDF-Click-red?style=for-the-badge)](pdf/book.pdf)[![View GitHub](https://img.shields.io/badge/View_GitHub-Click-gray?style=for-the-badge&logo=github)][![Join the Barkada](https://img.shields.io/badge/Join_the_Barkada-Click-purple?style=for-the-badge&logo=discord)](https://discord.com/invite/buDgydz7J9)
+[![Read Online](https://img.shields.io/badge/Read_Online-Click-blue?style=for-the-badge)](https://ogbinar.github.io/bahala-na-python)[![View GitHub](https://img.shields.io/badge/View_GitHub-Click-gray?style=for-the-badge&logo=github)][![Join the Barkada](https://img.shields.io/badge/Join_the_Barkada-Click-purple?style=for-the-badge&logo=discord)](https://discord.com/invite/buDgydz7J9)
 
 ---
 
@@ -156,7 +156,7 @@ And many more side projects along the way: jeepney fare calculator, merienda rem
 | 15 | [Discord Bots & Async Python](part-3-going-further/chapter-15-discord-bots.md) | 100 |
 | 16 | [Data Viz & Barangay Dashboard](part-3-going-further/chapter-16-dataviz.md) | 100 |
 | 17 | [NLP & AI Barkada Chatbot](part-3-going-further/chapter-17-nlp.md) | 100 |
-| 18 | [AI-Assisted Coding & Vibecoding](part-3-going-further/chapter-18-ai-coding.md) | 100 |
+| 18 | [Coding with AI as a Partner](part-3-going-further/chapter-18-ai-coding.md) | 100 |
 | 19 | [Open Source & First Contribution](part-3-going-further/chapter-19-open-source.md) | 100 |
 | 20 | [Boss Fight 3: Barangay Dashboard](part-3-going-further/chapter-20-boss-fight-3.md) | 500 |
 
@@ -171,7 +171,7 @@ And many more side projects along the way: jeepney fare calculator, merienda rem
 | 25 | [Final Boss: Ultimate Project](part-4-capstone/chapter-25-final-boss.md) | 1000 |
 | 26 | [What's Next](part-4-capstone/chapter-26-whats-next.md) | 100 |
 
-**Total XP to complete: 3,950 XP** — You'll reach **Legend** level! 🏆
+**Total XP to complete: 4,900 XP** — You'll reach **Legend** level! 🏆
 
 ---
 

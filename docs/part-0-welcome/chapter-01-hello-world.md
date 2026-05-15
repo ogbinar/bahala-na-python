@@ -131,6 +131,16 @@ SyntaxError: Missing parentheses in call to 'print'.
 ??? tip "Diskarte"
     When you see an error, read it from **bottom to top**. The last line tells you what went wrong. The lines above tell you where. It's like reading a receipt -- the total is at the bottom, but the details are above it.
 
+??? tip "Diskarte: When Stuck"
+    Errors are normal. When you're stuck:
+    
+    - Read the error carefully
+    - Google it
+    - Or ask AI: "Explain this error like I'm a beginner"
+    
+    But here's the rule: **understand the answer before you use it**.
+    AI is a friend who helps you learn, not a magic button that fixes things.
+
 ## The Sari-Sari Store Connection
 
 Every great learning journey starts with something familiar. For us Filipinos, that's the **sari-sari store**.

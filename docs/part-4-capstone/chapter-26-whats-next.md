@@ -145,6 +145,22 @@ That's not just a Python skill. That's a life skill.
 
 ---
 
+## AI Will Keep Evolving
+
+By the time you read this, AI tools will be smarter. Maybe they'll write better code, debug faster, even suggest entire architectures.
+
+But here's what won't change:
+
+- **Your critical thinking** — AI can suggest, but you decide
+- **Your understanding** — AI can generate, but you must comprehend
+- **Your creativity** — AI can assist, but you imagine
+
+The best developers of the next decade won't be the ones who avoid AI. They'll be the ones who use it **without letting it use them**.
+
+You've built this foundation. Now go build something with it — with or without AI.
+
+---
+
 ## A Note for the Future
 
 If you're reading this in 5 years, look back at the code you wrote today. You'll cringe. That's good -- it means you've grown.

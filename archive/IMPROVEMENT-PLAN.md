@@ -1,8 +1,13 @@
-# Gamification De-escalation & Experience Improvement Plan
+# Experience Improvement Plan
 
 **Status:** Draft — ready for implementation
 **Date:** 2026-05-15
-**Source:** Full audit of current gamification UI, IMPROVEMENT-PLAN.md, PDF-IMPROVEMENT-PLAN.md
+**Source:** Full audit of current gamification UI, AI integration updates, PDF-IMPROVEMENT-PLAN.md
+
+**Recent Updates (2026-05-15):**
+- AI as Creative Partner philosophy integrated into Chapters 1, 18, and 26
+- Chapter 18 reframed to emphasize AI as partner, not replacement
+- Boss Fight in Ch 18 changed to "Build Without AI" to reinforce independent skills
 
 **Guiding principle:** Remove the floating XP tracker HUD and related persistent UI overlays. Preserve the philosophical use of XP, Boss Fights, Side Quests, and Level Up as pedagogical framing throughout the content. Improve readability, PDF parity, professionalism, and long-term maintainability.
 
