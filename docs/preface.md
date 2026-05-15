@@ -32,7 +32,7 @@ Track your progress using the XP tracker in the bottom-right corner. Earn XP by 
 
 ### Join the Community
 
-Learning alone is hard. Join our [Discord server](https://discord.gg/bahala-na-python) to get help, share projects, and celebrate wins with your barkada.
+Learning alone is hard. Join our [DEP Barkada on Discord](https://discord.com/invite/buDgydz7J9) to get help, share projects, and celebrate wins with your barkada.
 
 ## Acknowledgments
 
