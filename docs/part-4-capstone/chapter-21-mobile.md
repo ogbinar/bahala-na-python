@@ -1,5 +1,12 @@
 # Chapter 21: Mobile Python
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐⭐ Advanced |
+    | **Time** | 45 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** Your Lola doesn't have a laptop. She has a ₱5,000 Infinix phone with 32GB of storage and a cracked screen. She uses WhatsApp to talk to her sisters in another barangay and GCash to receive money from her children abroad. She's never heard of Python. But she tracks her sari-sari store inventory in a notebook, just like before. You think: "What if she could use her phone to track everything? What if Python could run on that phone?"
 
 ---
@@ -394,6 +401,30 @@ check_and_alert("inventory.json", "09171234567")
 - [Termux documentation](https://termux.dev/)
 - [Kivy documentation](https://kivy.org/doc/stable/)
 - [Google Colab guide](https://colab.research.google.com/notebooks/intro.ipynb)
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Your mobile inventory app shows you can build for real-world constraints. Document: "Designed for low-end Android phones with limited data. Offline-first architecture, compact CLI output for narrow screens, JSON persistence." Include screenshots on a phone display.
+
+    **LinkedIn**: Post: "Built a Python inventory app that runs on a ₱5,000 Android phone -- no laptop needed. Uses Termux for the terminal, offline-first JSON storage, and compact output for narrow screens. Because not every Filipino developer has a 16GB MacBook. #Python #Mobile #InclusiveTech". This shows empathy for users.
+
+    **Interview Talking Point**: "I've built Python applications for mobile devices using Termux and Pydroid 3, with offline-first data storage and UI optimized for narrow screens. I understand that designing for constraints -- limited data, small screens, low-end hardware -- makes better products for more people."
+
+??? example "🧠 Reflection — Mobile Python"
+
+    - **What did you learn?** Python can run on Android phones via Termux and Pydroid 3, and Kivy lets you build real mobile apps with offline-first design.
+    - **How can you apply this?** Build tools for your Lola's sari-sari store that work on her old Infinix phone, even without internet.
+    - **What's next?** How could you combine your mobile app with a web dashboard so store owners can check inventory from anywhere?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] Run Python on an Android phone using Termux or Pydroid 3
+    - [ ] Design compact CLI output that fits narrow phone screens
+    - [ ] Build a simple mobile app with Kivy
+    - [ ] Implement offline-first data storage with local JSON files
+    - [ ] Export data to CSV for sharing with other tools
 
 ---
 

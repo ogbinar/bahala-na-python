@@ -1,5 +1,12 @@
 # Chapter 25: Final Boss -- The Ultimate Filipino Python Project
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐⭐⭐ Final Boss |
+    | **Time** | 120 min |
+    | **XP** | +1000 XP |
+
 ??? warning "⚔️ FINAL BOSS FIGHT"
     **Tier:** Final Boss | **Concepts Combined:** ALL (Everything from Chapters 1-24)
     **XP Reward:** 1000 XP | **Badge:** "Legend"
@@ -263,6 +270,30 @@ Because you've made it this far. Twenty-five chapters. Hundreds of hours of lear
 - [Real Python Tutorials](https://realpython.com/) -- Deep dives into specific topics
 - [Python Discord](https://pythondiscord.com/) -- Ask questions, get help
 - [r/learnpython](https://reddit.com/r/learnpython) -- Community support
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Your Final Boss project is THE centerpiece of your portfolio. Write a README that tells the story: what problem you solved, who it serves, what Python concepts you used, and screenshots of it running. This is what recruiters and hiring managers will look at first.
+
+    **LinkedIn**: Post a comprehensive write-up: "I just completed the Final Boss -- a Python project of my own choosing that solves [describe your problem]. No starter code, no hand-holding. Just 25 chapters of learning, diskarte, and bahala na. Here's what I built and why it matters. #Python #Capstone #FilipinoDeveloper". Link to your GitHub repo.
+
+    **Interview Talking Point**: "I independently designed and built a Python application from scratch to solve [your problem]. It combines [list concepts: classes, file I/O, APIs, etc.], handles errors gracefully, and serves real users. The most important lesson: the real challenge isn't the code -- it's not quitting when things get hard. Kaya mo 'yan."
+
+??? example "🧠 Reflection — Final Boss: The Ultimate Filipino Python Project"
+
+    - **What did you learn?** The real test of learning isn't following instructions — it's building something of your own from scratch to solve a real problem.
+    - **How can you apply this?** Build a tool for something you care about: your Lola's sari-sari store, your barkada's study group, or your barangay's disaster preparedness.
+    - **What's next?** What problem in your community have you been meaning to solve that Python is the right tool for?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] Define a real problem you want to solve in your community
+    - [ ] Plan your data model and interface before writing code
+    - [ ] Build a working version using at least 3 Python concepts from the book
+    - [ ] Add error handling so your program doesn't crash on bad input
+    - [ ] Share your project with someone else and incorporate their feedback
 
 ---
 

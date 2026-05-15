@@ -1,23 +1,30 @@
-/* PDF-specific cleanup for mkdocs-with-pdf */
+/* PDF-specific styles for mkdocs-with-pdf */
+/* Bahala Na Python - Filipino warm palette + readability */
 
 @media print {
+  /* === Base typography === */
   body {
-    font-size: 11pt;
-    line-height: 1.45;
+    font-size: 10.5pt;
+    line-height: 1.55;
+    color: #1a1a1a;
   }
 
+  /* === Page breaks === */
   h1 {
     page-break-before: always;
+    break-before: page;
   }
 
   h1:first-of-type {
     page-break-before: avoid;
+    break-before: auto;
   }
 
   h2,
   h3,
   h4 {
     page-break-after: avoid;
+    break-after: avoid;
   }
 
   p,
@@ -26,65 +33,290 @@
     widows: 3;
   }
 
+  /* === P7.1: Warm palette for PDF === */
+  h1 {
+    color: #d84315;
+    border-bottom: 2px solid #ff6b35;
+    padding-bottom: 0.3em;
+    margin-top: 1.2em;
+    font-size: 1.7em;
+  }
+
+  h2 {
+    color: #e65100;
+    margin-top: 1em;
+    font-size: 1.4em;
+  }
+
+  h3 {
+    color: #bf360c;
+    font-size: 1.15em;
+  }
+
+  a {
+    color: #d84315;
+    text-decoration: underline;
+  }
+
+  /* === P1.1: Code block readability === */
+  pre {
+    font-family: "JetBrains Mono", "Courier New", monospace;
+    font-size: 8.5pt;
+    line-height: 1.4;
+    white-space: pre-wrap;
+    word-break: break-word;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border: 1px solid #e0e0e0;
+    border-left: 4px solid #ff6b35;
+    padding: 0.6rem 0.8rem;
+    background: #fafafa;
+    border-radius: 0;
+    margin: 0.8em 0;
+  }
+
+  code {
+    font-family: "JetBrains Mono", "Courier New", monospace;
+    font-size: 0.9em;
+  }
+
+  /* Inline code */
+  p code,
+  li code,
+  td code {
+    background: #fff3e0;
+    color: #d84315;
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+    font-size: 0.88em;
+    border: 1px solid #ffe0b2;
+  }
+
+  /* === P1.2: Bullet list readability === */
   ul,
   ol {
-    margin-left: 1.2rem;
-    padding-left: 1.2rem;
+    margin-left: 0;
+    padding-left: 1.5em;
+    margin-bottom: 0.6em;
+  }
+
+  ul ul,
+  ol ol,
+  ul ol,
+  ol ul {
+    margin-left: 0;
+    padding-left: 1.5em;
   }
 
   li {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.3em;
+    padding-left: 0.2em;
   }
 
+  li::marker {
+    color: #ff6b35;
+    font-weight: bold;
+  }
+
+  /* === P1.3: Table styling === */
   table {
     width: 100%;
     border-collapse: collapse;
     page-break-inside: avoid;
-    font-size: 9.5pt;
+    break-inside: avoid;
+    font-size: 9pt;
+    margin: 0.8em 0;
   }
 
   th,
   td {
-    border: 1px solid #999;
-    padding: 4px 6px;
+    border: 1px solid #ddd;
+    padding: 5px 8px;
     vertical-align: top;
   }
 
   th {
-    font-weight: bold;
-    background: #f2f2f2;
+    font-weight: 700;
+    background: #fff3e0;
+    color: #d84315;
+    border-bottom: 2px solid #ff6b35;
   }
 
-  pre,
-  code {
-    font-family: "JetBrains Mono", "Courier New", monospace;
+  tr:nth-child(even) {
+    background: #fafafa;
   }
 
-  pre {
-    white-space: pre-wrap;
-    word-break: break-word;
-    page-break-inside: avoid;
-    border: 1px solid #ddd;
-    padding: 0.75rem;
-    background: #f8f8f8;
-  }
-
-  img {
-    max-width: 100%;
-    page-break-inside: avoid;
-  }
-
+  /* === P1.5: Admonition visual hierarchy === */
   .md-typeset .admonition,
   .md-typeset details {
     page-break-inside: avoid;
+    break-inside: avoid;
+    font-size: 0.95em;
+    border-radius: 0;
+    margin: 0.8em 0;
   }
 
+  .md-typeset .admonition-title,
+  .md-typeset summary {
+    font-weight: 700;
+    font-size: 0.95em;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  /* Boss Fight admonition */
+  .md-typeset .admonition.boss-fight,
+  .md-typeset details.boss-fight {
+    border: 2px solid #d84315;
+    border-left: 5px solid #d84315;
+    background: #fff3e0;
+  }
+
+  .md-typeset .boss-fight > .admonition-title,
+  .md-typeset .boss-fight > summary {
+    background: #d84315;
+    color: #fff;
+  }
+
+  /* Level Up admonition */
+  .md-typeset .admonition.level-up,
+  .md-typeset details.level-up {
+    border: 2px solid #f9a825;
+    border-left: 5px solid #f9a825;
+    background: #fffde7;
+  }
+
+  .md-typeset .level-up > .admonition-title,
+  .md-typeset .level-up > summary {
+    background: #f9a825;
+    color: #1a1a1a;
+  }
+
+  /* Diskarte admonition */
+  .md-typeset .admonition.diskarte,
+  .md-typeset details.diskarte {
+    border: 2px solid #2e7d32;
+    border-left: 5px solid #2e7d32;
+    background: #e8f5e9;
+  }
+
+  .md-typeset .diskarte > .admonition-title,
+  .md-typeset .diskarte > summary {
+    background: #2e7d32;
+    color: #fff;
+  }
+
+  /* Portfolio Tip admonition */
+  .md-typeset .admonition.portfolio-tip,
+  .md-typeset details.portfolio-tip {
+    border: 2px solid #1565c0;
+    border-left: 5px solid #1565c0;
+    background: #e3f2fd;
+  }
+
+  .md-typeset .portfolio-tip > .admonition-title,
+  .md-typeset .portfolio-tip > summary {
+    background: #1565c0;
+    color: #fff;
+  }
+
+  /* Side Quest admonition */
+  .md-typeset .admonition.side-quest,
+  .md-typeset details.side-quest {
+    border: 2px solid #7b1fa2;
+    border-left: 5px solid #7b1fa2;
+    background: #f3e5f5;
+  }
+
+  .md-typeset .side-quest > .admonition-title,
+  .md-typeset .side-quest > summary {
+    background: #7b1fa2;
+    color: #fff;
+  }
+
+  /* Badge admonition */
+  .md-typeset .admonition.badge,
+  .md-typeset details.badge {
+    border: 3px double #f9a825;
+    background: #fffde7;
+  }
+
+  .md-typeset .badge > .admonition-title,
+  .md-typeset .badge > summary {
+    background: #f9a825;
+    color: #1a1a1a;
+    font-weight: 800;
+  }
+
+  /* === P7.2: XP Cards styling === */
+  .md-typeset .admonition.xp-card,
+  .md-typeset details.xp-card {
+    border: 2px solid #ff6b35;
+    border-left: 5px solid #ff6b35;
+    background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  }
+
+  .md-typeset .xp-card > .admonition-title,
+  .md-typeset .xp-card > summary {
+    background: #ff6b35;
+    color: #fff;
+  }
+
+  /* === Blockquote (Story Hooks) === */
+  .md-typeset blockquote {
+    border-left: 4px solid #ff6b35;
+    background: #fff8f0;
+    margin: 0.8em 0;
+    padding: 0.5em 1em;
+    font-style: italic;
+  }
+
+  /* === P1.6: Breathing room === */
+  p {
+    margin-bottom: 0.6em;
+  }
+
+  h1 + p,
+  h2 + p,
+  h3 + p {
+    margin-top: 0.4em;
+  }
+
+  /* === Images === */
+  img {
+    max-width: 100%;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* === P6.2: Skill tree / roadmap visual === */
+  .md-typeset pre code.highlight {
+    white-space: pre;
+    font-size: 7.5pt;
+    line-height: 1.2;
+  }
+
+  /* TOC table styling in PDF */
+  .md-typeset table {
+    page-break-inside: auto;
+  }
+
+  .md-typeset tr {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* === Hide web-only chrome === */
   .md-header,
   .md-tabs,
   .md-sidebar,
   .md-footer,
   .md-source,
-  .md-content__button {
+  .md-content__button,
+  .md-top,
+  #xp-tracker,
+  .md-search,
+  .md-icon__set {
     display: none !important;
   }
 }

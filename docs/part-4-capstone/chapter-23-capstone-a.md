@@ -1,5 +1,12 @@
 # Chapter 23: Capstone A -- Barangay Management System (Part 1)
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐⭐ Advanced |
+    | **Time** | 60 min |
+    | **XP** | +200 XP |
+
 > **Story Hook:** Your barangay captain approaches you after a community clean-up. "Naku, ang hirap namin mag-track ng mga resident fees," he says. "Nawawala ang records, napapalitan ng mga tao, at kapag kailangan ng certificate,ahan namin." He hands you a worn notebook full of handwritten entries. You open it: names, addresses, monthly fees, payments -- some marked "PAID," others with question marks. "Kaya mo ba 'to?" he asks. You think about everything you've learned: classes, files, APIs, error handling. "Bahala na," you say. And you start building.
 
 ---
@@ -484,6 +491,22 @@ In Chapter 24, you'll add:
 - [Python's `json` module](https://docs.python.org/3/library/json.html)
 - [Python's `enum` module](https://docs.python.org/3/library/enum.html)
 - [DILG Barangay Management Guidelines](https://dilg.gov.ph/)
+
+---
+
+??? example "🧠 Reflection — Capstone A: Barangay Management System (Part 1)"
+
+    - **What did you learn?** Building a complete application requires combining classes, data persistence, enums, and a user interface into one coherent system.
+    - **How can you apply this?** Offer to digitize your barangay's handwritten records — the same problem the barangay captain faced in the story hook.
+    - **What's next?** How could you scale this system to handle multiple barangays competing for the same municipal resources?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] Define `Resident` and `FeeManager` classes with proper data models
+    - [ ] Use enums (`PaymentStatus`, `FeeType`) for type-safe fee tracking
+    - [ ] Implement JSON-based data persistence that survives between sessions
+    - [ ] Build a command-line interface with a menu-driven workflow
+    - [ ] Handle edge cases like search queries and missing residents
 
 ---
 

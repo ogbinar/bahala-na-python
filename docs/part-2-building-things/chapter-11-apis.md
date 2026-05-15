@@ -1,5 +1,12 @@
 # Chapter 11: APIs and the OFW Remittance Tracker
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Intermediate |
+    | **Time** | 40 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** Your Tita works in Dubai. Every month, she sends money home through a remittance center. But the rate changes -- sometimes ₱54 per dollar, sometimes ₱52, sometimes ₱56. Your Lola always asks: "Ano ang rate ngayon? Magkaiba ba sa last month?" You think: "Kailangan ko ng app na i-track 'to." So you build one, connecting to live exchange rate data.
 
 ---
@@ -50,6 +57,22 @@ print(f"1 USD = {data['rates']['PHP']} PHP")
 
 ??? tip "Diskarte"
     `response.json()` converts the API's JSON response into a Python dictionary. Then you access the data just like any other dict: `data["rates"]["PHP"]`.
+
+??? note "🐌 Slow Internet?"
+
+    APIs need internet, but you can still practice the concepts offline:
+
+    - **Mock JSON files**: Create a file called `mock_response.json` with sample data that mimics an API response. Then use `json.load()` to read it instead of calling `requests.get()`. This way you practice parsing and working with the data without needing a connection.
+    - **Save responses once, practice many times**: When you do have internet, save the API response to a file with `json.dump()`, then reuse that file for practice.
+
+    ```python
+    # Instead of calling the API every time:
+    with open("mock_exchange_rates.json", "r") as f:
+        data = json.load(f)  # Works offline!
+    print(f"1 USD = {data['rates']['PHP']} PHP")
+    ```
+
+    - **Pro tip**: Real-world apps do this too! They cache API responses locally so the app works even when the internet drops. You're learning a real skill, not just a shortcut.
 
 ## Understanding API Responses
 
@@ -299,3 +322,19 @@ except requests.exceptions.RequestException as e:
 ---
 
 *Next: [Chapter 12: Web Scraping](chapter-12-scraping.md) -- Pulling data from websites.*
+
+---
+
+??? example "🧠 Reflection — APIs and Live Data"
+
+    - **What did you learn?** You learned how APIs work as bridges between programs, using the `requests` library to fetch live data from the internet and parse JSON responses into usable Python objects.
+    - **How can you apply this?** You can build tools that help your family track OFW remittance rates, check live weather for farmers in the province, or monitor exchange rates before sending money home.
+    - **What's next?** How do you authenticate with APIs that require API keys, and how do you handle rate limits when making many requests?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I understand what an API is and how request/response works
+    - [ ] I can make HTTP GET requests using the `requests` library
+    - [ ] I can parse JSON responses from an API into Python dictionaries and lists
+    - [ ] I can extract specific values from nested API response data
+    - [ ] I built the OFW Remittance Tracker project

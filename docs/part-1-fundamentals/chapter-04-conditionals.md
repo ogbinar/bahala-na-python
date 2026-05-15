@@ -1,5 +1,12 @@
 # Chapter 4: Conditionals and the Jeepney Fare Calculator
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Beginner |
+    | **Time** | 30 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** You're on a jeepney heading home from school. The driver pulls over, picks up three passengers at the front, and two more at the back. The conductor starts shouting the fare: "Nine pesos inside! Seven pesos outside! Nine more pasahero na po!" You wonder: how does the conductor know exactly how much to charge? It depends on where you sit, how many people are already inside, and whether it's peak hour. That's a conditional system -- and today you'll build one.
 
 ---
@@ -140,6 +147,24 @@ Peak hour (5km, 2 passengers): ₱18
 ??? tip "Diskarte"
     Notice how we used `if/elif/else` inside a function. This is how real-world programs make decisions. The jeepney conductor does the same thing in their head -- but with code, it's precise and consistent.
 
+??? tip "⏸️ Pause and Predict"
+
+    **Predict what this code will output:**
+
+    ```python
+    score = 75
+    if score >= 90:
+        print("Excellent!")
+    elif score >= 75:
+        print("Passed!")
+    elif score >= 50:
+        print("Needs improvement.")
+    else:
+        print("Failed.")
+    ```
+
+    Think about it before scrolling down!
+
 ## Input Validation: Kung Anong Ilagay ng User
 
 What if the user types a negative distance? Or enters text instead of a number? Smart programs handle bad input gracefully:
@@ -231,6 +256,20 @@ else:
 
 - [Python's official tutorial on control flow](https://docs.python.org/3/tutorial/controlflow.html)
 - [Real Python: if/else statements](https://realpython.com/python-conditional-statements/)
+
+??? example "🧠 Reflection — Conditionals"
+
+    - **What did you learn?** `if/elif/else` statements let your program make decisions based on conditions, and you can combine conditions with `and`, `or`, and `not`.
+    - **How can you apply this?** Just like a jeepney conductor decides fares based on distance, passengers, and time of day, you can write programs that adapt to real-world conditions — like giving senior discounts, checking if you have enough allowance, or routing tricycle vs. jeepney trips.
+    - **What's next?** What happens when you need to apply the same decision-making logic to dozens or hundreds of items?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I can write `if/elif/else` statements to handle multiple conditions
+    - [ ] I can use comparison operators (`==`, `!=`, `<`, `>`, `<=`, `>=`)
+    - [ ] I can combine conditions with `and`, `or`, and `not`
+    - [ ] I can validate user input to prevent crashes from bad data
+    - [ ] I can nest conditionals to handle complex decision trees
 
 ---
 

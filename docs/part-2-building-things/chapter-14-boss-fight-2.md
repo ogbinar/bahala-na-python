@@ -1,5 +1,12 @@
 # Chapter 14: Boss Fight 2 -- The Midpoint Boss Battle
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐⭐ Boss Fight |
+    | **Time** | 60 min |
+    | **XP** | +500 XP |
+
 ??? warning "⚔️ Regular Boss Fight"
     **Tier:** Regular Boss | **Concepts Combined:** 4 (Classes, Strings, APIs, Error Handling)
     **XP Reward:** 500 XP | **Badge:** "Diskarte King/Queen"
@@ -370,3 +377,27 @@ In Part 3, you'll go even further: Discord bots, data visualization, NLP, AI-ass
 ---
 
 *Next: [Part 3: Going Further](../part-3-going-further/index.md) -- Where things get really cool.*
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Your Personal Finance Dashboard is a strong midpoint project. Document the architecture: classes for transactions, API integration for exchange rates, JSON persistence. Include a screenshot of the formatted monthly summary output in the terminal.
+
+    **LinkedIn**: Post: "Built a Personal Finance Dashboard in Python at the midpoint of my learning journey. Combines OOP, API integration, string formatting, error handling, and file I/O. Tracks expenses, auto-categorizes transactions, and converts currencies. #Python #FinTech". Show the formatted output table as an image.
+
+    **Interview Talking Point**: "At the midpoint of my Python learning, I built a finance dashboard that combines classes, APIs, error handling, and data persistence. It auto-categorizes transactions using keyword matching and generates formatted reports. It taught me how to architect a multi-feature application from scratch."
+
+??? example "🧠 Reflection — Midpoint Boss Battle"
+
+    - **What did you learn?** You combined classes, strings, APIs, error handling, and file I/O into a comprehensive Personal Finance Dashboard, proving you can architect and build a real application.
+    - **How can you apply this?** The dashboard patterns you built here scale to real financial tools: budget apps for your family, remittance calculators for OFWs, or expense trackers for small businesses in your barangay.
+    - **What's next?** You've reached the midpoint -- ahead are Discord bots, data visualization, NLP, and contributing to open-source. Which path excites you most?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I designed a class-based system for managing transactions with categories
+    - [ ] I integrated an API to fetch real-time exchange rates for currency conversion
+    - [ ] I used string formatting to generate readable financial reports
+    - [ ] I implemented error handling so the program doesn't crash on bad input or failed API calls
+    - [ ] I saved and loaded financial data to persist between program sessions

@@ -1,5 +1,12 @@
 # Chapter 8: Boss Fight 1 -- The Complete Sari-Sari Store System
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐⭐ Boss Fight |
+    | **Time** | 60 min |
+    | **XP** | +500 XP |
+
 ??? warning "⚔️ Elite Boss Fight"
     **Tier:** Elite Boss | **Concepts Combined:** 5 (Variables, Lists/Dicts, Conditionals, Loops, Functions, File I/O)
     **XP Reward:** 500 XP | **Badge:** "Sari-Sari Store Owner"
@@ -392,3 +399,27 @@ In Part 2, you'll level up with **classes, APIs, web scraping, and error handlin
 ---
 
 *Next: [Part 2: Building Things](../part-2-building-things/index.md) -- Where things get real.*
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Your sari-sari store system is a STAR project. Write a README that explains: the problem (Lola's notebook), the solution (Python + JSON), and a screenshot of the menu. Add an `assets/` folder with a demo screenshot. This is the kind of project that gets interviews.
+
+    **LinkedIn**: Post a detailed write-up: "I built a complete inventory management system for my Lola's sari-sari store using Python. It tracks stock, processes sales, calculates profit, and persists data to JSON. Real problem, real solution. #Python #SariSariStore". Include a short demo video if you can.
+
+    **Interview Talking Point**: "I built a CRUD application from scratch -- a sari-sari store system with inventory management, sales tracking, and data persistence. It used classes, dictionaries, file I/O, and error handling. It taught me that the best projects solve problems for real people, not just tutorial exercises."
+
+??? example "🧠 Reflection — Sari-Sari Store System Boss Fight"
+
+    - **What did you learn?** You combined variables, lists, dictionaries, conditionals, loops, functions, and file I/O to build a complete, working application from scratch.
+    - **How can you apply this?** The same patterns used in your sari-sari store system apply to real small-business tools: inventory tracking for a palengke vendor, grade calculators for students, or attendance systems for community organizations.
+    - **What's next?** Now that you can build a full program, how would you organize larger projects with hundreds of lines of code?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I can add, update, and remove items from a dictionary-based inventory
+    - [ ] I built a sales system that tracks revenue and updates stock levels
+    - [ ] I implemented low-stock warnings using conditionals
+    - [ ] I saved and loaded inventory data to/from a JSON file between sessions
+    - [ ] I generated a sales report summarizing total revenue and items sold

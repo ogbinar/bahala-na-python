@@ -1,5 +1,12 @@
 # Chapter 1: Hello, World!
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐ Easy |
+    | **Time** | 15 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** You're sitting at a comshop. The monitor is a CRT from 2008, the keyboard has sticky keys, and the "P10/HOUR" sign is flickering above you. On the screen, someone has left Python open -- the cursor blinking at a `>>>` prompt. You've never coded before. Your fingers hover over the keyboard. What do you type?
 
 ---
@@ -36,6 +43,14 @@ Kumusta, World!
 ```
 
 That `>>>` is Python saying: *"I'm ready. Try me."*
+
+??? note "📱 Phone-Only? No Problem!"
+
+    You don't need a fancy laptop to learn Python! Here are some alternatives:
+
+    - **Replit in your mobile browser** — Go to replit.com, create a free account, and code Python right in your phone's browser. No installation needed, works on any smartphone.
+    - **Pydroid 3 (Android)** — Free Python IDE for Android phones. Download from Play Store, write and run Python scripts directly on your device.
+    - **Pro tip**: If you're at a comshop or using your phone's mobile data, Replit is lighter than most options. Many Filipino learners code on their phones during commute — split your screen with this book open on one side and Replit on the other!
 
 ## Your First Line of Code
 
@@ -149,6 +164,27 @@ In the chapters ahead, you'll build a sari-sari store inventory system from scra
 In the next chapter, we'll install Python on your computer and write your first real Python file. Until then, play around with the interpreter. Type random things. Break things. Fix them.
 
 **That's the Bahala Na way.**
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Create a repo called `hello-python` with your first scripts. Include a screenshot of your terminal showing the output -- it's proof you took the first step, and every great project starts with `print("Hello, World!")`.
+
+    **LinkedIn**: Post: "Day 1 of learning Python. Started with `print('Kumusta, World!')`. No fancy laptop, just curiosity and a comshop mindset. Bahala na!" Attach a photo of your setup -- even a phone is enough.
+
+    **Interview Talking Point**: "I didn't wait for the perfect setup to start learning. I began with the Python interpreter and a willingness to make mistakes. That diskarte -- finding a way with what you have -- is how I approach every project."
+
+??? example "🧠 Reflection — Hello, World!"
+
+    - **What did you learn?** Python is a programming language that reads like English, and you can interact with it instantly using the interpreter and `print()`.
+    - **How can you apply this?** Just like how you first learned to type at a comshop, every skill starts with a single step. Now you can use Python to automate small tasks — like calculating your sari-sari store change or sending formatted messages.
+    - **What's next?** How far can you push `print()` before you need something more powerful?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I can explain what Python is and what it's used for
+    - [ ] I can open the Python interpreter and type code at the `>>>` prompt
+    - [ ] I can use `print()` to display text and numbers
+    - [ ] I can read and fix common errors like missing quotes and missing parentheses
 
 ---
 

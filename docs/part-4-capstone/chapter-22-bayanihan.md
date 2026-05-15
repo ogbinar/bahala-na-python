@@ -1,5 +1,12 @@
 # Chapter 22: Bayanihan & Open Source
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Intermediate |
+    | **Time** | 25 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** You've built your sari-sari store system. Your Lola uses it every day. Your tito asks if you can build something similar for his hardware store. Your barkada wants their own versions. You realize: "I'm not the only one who needs this. What if we built it together?" That's the spirit of bayanihan. That's open source.
 
 ---
@@ -273,6 +280,30 @@ Open source isn't just about code. It's about a mindset:
 - [First Contributions tutorial](https://github.com/firstcontributions/first-contributions)
 - [Open Source Guide](https://opensource.guide/)
 - [choosealicense.com](https://choosealicense.com/)
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Create your own open-source project and set it up properly: LICENSE file, CONTRIBUTING.md, README with installation and usage instructions. A well-structured repo is a signal that you know professional development practices.
+
+    **LinkedIn**: Post: "Learned that open source is bayanihan for developers. Neighbors lifting a bahay kubo together = developers building software together. Created my first open-source project with proper licensing, documentation, and contribution guidelines. #OpenSource #Bayanihan #Python". Link to your repo.
+
+    **Interview Talking Point**: "I understand the open-source ecosystem: how to find projects to contribute to, write good pull requests, license code appropriately, and maintain documentation. I've created my own open-source project with proper structure. Open source taught me collaboration, communication, and community -- skills that matter in any team."
+
+??? example "🧠 Reflection — Bayanihan & Open Source"
+
+    - **What did you learn?** Open source embodies the Filipino spirit of bayanihan — neighbors building something together for the common good.
+    - **How can you apply this?** Share your sari-sari store system with other tinderos in your area, or contribute to Philippine-focused open-source projects.
+    - **What's next?** How could you organize a local hackathon where your community builds open-source tools for barangay problems?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] Understand how open source connects to Filipino values of bayanihan
+    - [ ] Make a meaningful contribution to an existing open-source project
+    - [ ] Write a good PR description that explains what, why, and how
+    - [ ] License your own projects so others can use and improve them
+    - [ ] Create a README that welcomes new contributors
 
 ---
 

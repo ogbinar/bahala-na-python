@@ -1,5 +1,12 @@
 # Chapter 7: Files and the Filipino Recipe Organizer
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Beginner |
+    | **Time** | 30 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** Your Lola has been cooking adobo for 40 years. No measurements, no recipes -- just "sapat na asin" (enough salt) and "hanggang luto na" (cook until done). You ask her for her secret adobo recipe, and she points to a small notebook on the kitchen shelf. The pages are stained with soy sauce and cooking oil. You take a photo, but then you think: "Why not digitize Lola's recipes? Let's make a searchable recipe database."
 
 ---
@@ -37,6 +44,14 @@ with open("inventory.txt", "r") as file:
 
 ??? tip "Diskarte"
     Always use `with` when working with files. It's Python's way of saying "I'll close this file for you when you're done." No need to remember `file.close()`.
+
+??? note "📱 Phone-Only? No Problem!"
+
+    Working with files on a phone can be tricky, but you can still practice:
+
+    - **Cloud storage**: Use Google Drive or Dropbox to create and edit your `.txt` and `.csv` example files. Many cloud apps let you create text documents from your phone, then download them to practice with.
+    - **Pydroid 3 file manager (Android)** — Free on Play Store. It has a built-in file manager where you can create, edit, and organize your practice files directly on your phone.
+    - **Pro tip**: Start with tiny files — just a few lines — so they're easy to manage on a small screen. Once you understand the concepts, scaling up to bigger files is just more of the same!
 
 ## File Modes
 
@@ -343,3 +358,19 @@ if __name__ == "__main__":
 ---
 
 *Next: [Chapter 8: Boss Fight 1](chapter-08-boss-fight-1.md) -- Combining everything you've learned.*
+
+---
+
+??? example "🧠 Reflection — Files and Data Persistence"
+
+    - **What did you learn?** You learned how to read from and write to files using `with` statements, and how to store structured data in CSV and JSON formats so your programs remember information between runs.
+    - **How can you apply this?** You can digitize Lola's recipe notebook, keep a running log of your sari-sari store inventory, or save your daily budget tracker so the data doesn't disappear when you close your program.
+    - **What's next?** How would you handle a file that's too big to fit in memory, or a file that multiple people are editing at the same time?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I can open and read from a text file using a `with` statement
+    - [ ] I can write data to a file without accidentally overwriting important content
+    - [ ] I understand the difference between CSV and JSON formats and when to use each
+    - [ ] I can load a JSON file into a Python dictionary and save a dictionary back to JSON
+    - [ ] I built the Lola Recipe Organizer project

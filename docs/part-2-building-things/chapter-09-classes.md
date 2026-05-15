@@ -1,5 +1,12 @@
 # Chapter 9: Classes and the Allowance Manager
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Intermediate |
+    | **Time** | 35 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** You receive ₱500 every Monday as allowance. By Wednesday, you've already spent ₱380 on "small things" -- ₱15 for pamasahe three times, ₱50 for merienda, ₱80 for photocopy, ₱30 for load. You check your wallet: ₱120 left for four more days. You think: "I need a system. Not just a notebook -- something that tracks everything automatically and tells me when I'm overspending." So you create a class.
 
 ---
@@ -19,6 +26,12 @@ A **class** is a blueprint for creating objects. Think of it like a cookie cutte
 
 - The **class** is the cutter (the blueprint)
 - The **objects** are the cookies (the actual things)
+
+??? tip "⏸️ Pause and Predict"
+
+    **Before looking at the code: if a class is like a blueprint, what do you think `self` represents in the actual building?**
+
+    Take 30 seconds to think about your answer before reading on. This is how you build real understanding!
 
 ```python
 # Class definition
@@ -291,3 +304,19 @@ class GraduateStudent(Student):
 ---
 
 *Next: [Chapter 10: Strings](chapter-10-strings.md) -- Working with text.*
+
+---
+
+??? example "🧠 Reflection — Classes and Objects"
+
+    - **What did you learn?** You learned how classes serve as blueprints for creating objects, using `__init__` to set up data and `self` to connect methods with their object's attributes.
+    - **How can you apply this?** You can model real-world things as classes: a `Student` for tracking grades, an `OFW` for managing remittance records, or a `TricycleDriver` for computing daily earnings.
+    - **What's next?** How do classes communicate with each other, and when should you use inheritance to share behavior between related classes?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I understand the difference between a class (blueprint) and an object (instance)
+    - [ ] I can define a class with an `__init__` method and instance attributes
+    - [ ] I know how `self` connects methods to an object's data
+    - [ ] I can write instance methods that operate on an object's attributes
+    - [ ] I built the Allowance Manager project using classes

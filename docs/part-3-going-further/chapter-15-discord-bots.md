@@ -1,5 +1,12 @@
 # Chapter 15: Discord Bots and Async Python
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐⭐ Advanced |
+    | **Time** | 45 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** Your barkada's Discord server has 200 members. Every day, someone asks "Ano yung homework?" at 2 AM. Someone else posts a meme at 3 AM. The group chat is chaos. You think: "I should build a bot. A Filipino Discord bot." So you write one that responds in Taglish, shares daily memes, and reminds everyone about deadlines.
 
 ---
@@ -331,6 +338,30 @@ To run your bot 24/7:
 
 - [discord.py documentation](https://discordpy.readthedocs.io/)
 - [Real Python: Async programming](https://realpython.com/async-io-python/)
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: For your Discord bot repo, include a `demo.gif` showing the bot responding to commands. Add a SETUP.md with step-by-step instructions for creating a Discord application and getting a token. Note: "Never commit your bot token -- use environment variables."
+
+    **LinkedIn**: Post: "Built a Discord bot in Python with async programming that responds in Taglish, manages study reminders, and runs 24/7. Deployed on a free hosting platform. My barkada's Discord server now has its own Filipino study assistant. #Python #DiscordBot". This is a highly visible project.
+
+    **Interview Talking Point**: "I understand async programming -- using `async def`, `await`, and `asyncio.gather()` to handle multiple concurrent tasks. I built and deployed a Discord bot that processes events, manages state, and runs continuously. It's practical experience with event-driven architecture."
+
+??? example "🧠 Reflection — Discord Bots and Async Python"
+
+    - **What did you learn?** Discord bots use async programming to handle multiple events simultaneously, letting you build interactive tools for your community.
+    - **How can you apply this?** Build a bot for your barkada's Discord server to automate study reminders, share motis, or manage group activities.
+    - **What's next?** How could you connect your Discord bot to a database so it remembers conversations across restarts?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] Understand how Discord bots interact with the Discord API
+    - [ ] Write an async function using `async def` and `await`
+    - [ ] Build a bot that responds to messages and slash commands
+    - [ ] Deploy a bot to run 24/7 on a free hosting platform
+    - [ ] Create at least one Taglish command for your barkada
 
 ---
 

@@ -1,5 +1,12 @@
 # Chapter 26: What's Next
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐ Easy |
+    | **Time** | 15 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** You just merged your first open-source PR. Your code is in someone else's project. Strangers are reading your code, leaving comments, maybe even fixing your typos. You feel something you haven't felt before: belonging. You're not just learning to code. You're part of something bigger. The book ends here, but your journey is just getting started.
 
 ---
@@ -175,6 +182,32 @@ The appendices contain:
 ## Join the Data Engineering Pilipinas Community 🤝
 
 You've finished the book. But the journey doesn't end here. Join the DEP Discord to keep learning, building, and growing with your barkada:
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Your entire GitHub profile IS your portfolio now. Pin your best 3-6 projects, write a profile README with your story (comshop to programmer), and add a "Currently learning" section. Employers in the Philippines increasingly look at GitHub before resumes.
+
+    **LinkedIn**: Post a journey update: "Finished the Bahala Na Python book -- from `print('Hello, World!')` to building full applications. Built a sari-sari store system, Discord bot, barangay dashboard, and more. The journey doesn't end here. Next: [your next goal]. #Python #FilipinoDeveloper #Journey". Tag communities like PyCon PH and Data Engineering Pilipinas.
+
+    **Interview Talking Point**: "I'm a self-taught Python developer who learned through building real projects for my community. I've gone from zero programming experience to building applications with classes, APIs, async programming, data visualization, and NLP. My diskarte -- finding ways with limited resources -- drives everything I build."
+
+??? example "🧠 Reflection — What's Next: Your Journey Continues"
+
+    - **What did you learn?** Learning Python is not a destination — it's a lifelong journey of curiosity, persistence, and community.
+    - **How can you apply this?** Join Filipino developer communities, teach what you've learned to your barkada, and keep building tools that serve your community.
+    - **What's next?** What's the next skill or framework you want to learn, and how will you build something with it this month?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] Identify your next learning path (web dev, data science, AI, or community)
+    - [ ] Join at least one Filipino developer community (Discord, Facebook, PyCon PH)
+    - [ ] Pin your best projects on GitHub with good READMEs
+    - [ ] Commit to the 30-day challenge: plan, build, and ship one project
+    - [ ] Help another beginner learn Python — teaching is the best way to learn
+
+---
 
 ??? example "Data Engineering Pilipinas Discord"
     **What you'll find:**

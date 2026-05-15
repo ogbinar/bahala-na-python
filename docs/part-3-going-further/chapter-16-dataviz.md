@@ -1,5 +1,12 @@
 # Chapter 16: Data Visualization and the Barangay Dashboard
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐⭐ Advanced |
+    | **Time** | 40 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** Your barangay captain wants to know how many families received aid during the last typhoon. The data is in a spreadsheet -- 500 rows, 20 columns. She asks you to "make something visual" so she can present it at the next meeting. You think: "I can do that with Python." So you build a dashboard that turns raw data into beautiful charts.
 
 ---
@@ -26,6 +33,15 @@ Numbers on a spreadsheet are hard to understand. A chart tells a story at a glan
 ```bash
 pip install matplotlib pandas numpy
 ```
+
+??? note "💻 Low-Spec Laptop?"
+
+    Data visualization can be heavy on older machines:
+
+    - **Smaller datasets**: Start with datasets under 1,000 rows. The concepts are the same whether you're charting 10 rows or 1 million — smaller data just runs faster.
+    - **Close other browser tabs**: Each tab eats RAM. Close what you don't need before running matplotlib or pandas. Your charts will render much smoother.
+    - **Lower resolution for practice**: Use `plt.savefig("chart.png", dpi=100)` instead of the default higher DPI. The chart looks fine on screen and uses less memory to generate.
+    - **Pro tip**: If matplotlib windows are slow to pop up, use `%matplotlib inline` in Jupyter or just save directly to files with `plt.savefig()` and skip the interactive window entirely.
 
 ## Your First Chart: Bar Chart
 
@@ -311,6 +327,22 @@ dashboard.create_summary_report()
 
 - [matplotlib documentation](https://matplotlib.org/stable/users/explain/index.html)
 - [pandas documentation](https://pandas.pydata.org/docs/)
+
+---
+
+??? example "🧠 Reflection — Data Visualization and the Barangay Dashboard"
+
+    - **What did you learn?** matplotlib and pandas turn raw numbers into visual stories that anyone can understand at a glance.
+    - **How can you apply this?** Help your barangay create visual reports for meetings, or track your family's finances with charts instead of spreadsheets.
+    - **What's next?** How could you make your charts interactive so barangay officials can click and explore the data themselves?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] Create a bar chart, line chart, and pie chart with matplotlib
+    - [ ] Use pandas to load and analyze data from a DataFrame
+    - [ ] Build a multi-chart dashboard combining different visualizations
+    - [ ] Save charts as image files for sharing and reporting
+    - [ ] Interpret what a chart is telling you about real-world data
 
 ---
 

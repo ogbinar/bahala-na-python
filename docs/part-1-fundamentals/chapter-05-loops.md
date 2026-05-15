@@ -1,5 +1,12 @@
 # Chapter 5: Loops and the Merienda Reminder
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Beginner |
+    | **Time** | 30 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** You're studying for exams. Your phone keeps buzzing -- notifications from your barkada, reminders about deadlines, ads for "50% off at Jollibee." You want to focus, but every notification pulls your attention away. So you write a program: a timer that tells you when to study and when to take a break. "Pomodoro" is what the cool kids call it. You call it "merienda mode."
 
 ---
@@ -70,6 +77,12 @@ Study session #5
 
 ??? tip "Diskarte"
     `range(5)` gives you 0, 1, 2, 3, 4 -- that's 5 numbers, but it starts at 0. If you want to count from 1, use `range(1, 6)` or add 1 inside the loop.
+
+??? tip "⏸️ Pause and Predict"
+
+    **Pause: Can you think of a situation where a `for` loop would be better than a `while` loop? What about the opposite?**
+
+    Take 30 seconds to think about your answer before reading on. This is how you build real understanding!
 
 ### `range()` with Steps
 
@@ -237,6 +250,28 @@ Output:
 
 - [Python's official tutorial on control flow](https://docs.python.org/3/tutorial/controlflow.html)
 - [Real Python: for loops](https://realpython.com/python-for-loop/)
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Add your merienda timer script to a repo called `merienda-timer`. Include a GIF or screenshot of the countdown in action. Mention: "Built to help Filipino students stay focused with Pomodoro-style breaks -- because merienda time is sacred."
+
+    **LinkedIn**: Post: "Built a Pomodoro-style study timer in Python with Filipino merienda breaks. Because productivity culture should include time for banana cue. #Python #Productivity". Tag friends who need a study tool.
+
+    **Interview Talking Point**: "I understand loops deeply -- `for` loops for known iterations, `while` loops for conditions, and `break`/`continue` for flow control. I've used them to build practical tools like automated timers and batch processors that save repetitive manual work."
+
+??? example "🧠 Reflection — Loops"
+
+    - **What did you learn?** `for` and `while` loops let you repeat actions automatically, with `break` and `continue` to control the flow and `range()` to generate number sequences.
+    - **How can you apply this?** Whether you're processing 50 items in your sari-sari store inventory or running a study timer through multiple subjects, loops save you from writing the same code over and over — just like how a street vendor sells the same merienda to a line of customers without getting tired.
+    - **What's next?** What if you want to package a whole loop (or any block of logic) into something you can reuse anywhere?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I can use `for` loops to iterate over lists and other collections
+    - [ ] I can use `while` loops to repeat until a condition is met
+    - [ ] I can use `range()` to generate number sequences
+    - [ ] I can use `break` to exit a loop and `continue` to skip iterations
+    - [ ] I can write nested loops for tasks like multiplication tables
 
 ---
 

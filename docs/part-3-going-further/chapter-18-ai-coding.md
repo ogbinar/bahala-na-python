@@ -1,5 +1,12 @@
 # Chapter 18: AI-Assisted Coding and Vibecoding
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Intermediate |
+    | **Time** | 25 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** You're stuck on a bug for 3 hours. You've tried everything: print debugging, rubber duck debugging, even a nap. The error message makes no sense. You think about asking in the Python Discord, but it's 2 AM. Then you remember: you have AI. You paste the code, describe the problem, and within seconds, the AI suggests a fix. It works. You think: "This is either amazing or terrifying. Probably both."
 
 ---
@@ -24,6 +31,15 @@ AI tools like GitHub Copilot, ChatGPT, and Claude are **partners**, not replacem
 | Brainstorming approaches | Avoiding learning fundamentals |
 | Code review and suggestions | Cheating on assignments |
 | Learning new concepts | Replacing critical thinking |
+
+??? note "💻 Low-Spec Laptop?"
+
+    You don't need a powerful machine to be a great coder:
+
+    - **Offline editors**: Lightweight editors like VS Code (with minimal extensions) or Sublime Text run well on older laptops. They provide syntax highlighting and auto-completion without the overhead of heavy IDEs.
+    - **Keep extensions minimal**: Each VS Code extension uses memory. Stick to essentials like Python, Pylance, and one linter. You can always add more later.
+    - **Use the terminal**: Learn to run Python from the command line (`python script.py`). It uses almost no resources compared to running a full IDE.
+    - **Pro tip**: The best coders aren't the ones with the fastest machines — they're the ones who understand their tools deeply. A simple editor + strong fundamentals beats a fancy setup every time.
 
 ## Prompt Engineering for Python
 
@@ -255,6 +271,30 @@ if suggestions:
 
 - [Andrej Karpathy on Vibecoding](https://twitter.com/karpathy/status/1748414944097391413)
 - [Real Python: Prompt engineering](https://realpython.com/prompt-engineering/)
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Include your code assistant tool with a note: "I use AI as a partner, not a crutch. Every AI-generated line of code is audited, tested, and understood before I use it." This shows you're a responsible developer, not just a prompt typist.
+
+    **LinkedIn**: Post: "Learned to code WITH AI, not INSTEAD of learning. Built a code analysis tool that checks for common Python errors, enforces PEP 8, and suggests improvements. The vibecoding workflow: describe, generate, read, test, modify. #Python #AICoding". This is a hot topic that shows you're current.
+
+    **Interview Talking Point**: "I use AI as a creative partner -- for understanding error messages, brainstorming approaches, and code review. But I always audit AI-generated code for bugs, test it thoroughly, and understand every line. I know the difference between using AI to learn and using AI to replace thinking."
+
+??? example "🧠 Reflection — AI-Assisted Coding and Vibecoding"
+
+    - **What did you learn?** AI is a creative partner that accelerates coding when you write good prompts and always audit the generated code.
+    - **How can you apply this?** Use AI to debug your programs at 2 AM when no one in your barkada is online, or to explain error messages in Tagalog.
+    - **What's next?** How do you balance using AI for help while still building your own problem-solving skills?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] Write effective prompts that include context, errors, and code samples
+    - [ ] Follow the vibecoding workflow: describe, generate, read, test, modify
+    - [ ] Audit AI-generated code for bugs and edge cases
+    - [ ] Know when to use AI and when to think through a problem yourself
+    - [ ] Build a simple code analysis tool with pattern matching
 
 ---
 

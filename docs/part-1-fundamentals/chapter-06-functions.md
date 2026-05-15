@@ -1,5 +1,12 @@
 # Chapter 6: Functions and the Budget Tracker
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Beginner |
+    | **Time** | 35 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** Every week, your parents send you allowance. Every week, you spend it on three things: pamasahe (transport), kain (food), and photocopy (school supplies). By Wednesday, you're already broke. You think: "Kailangan ko ng system. Parang budget tracker sa GCash, pero para sa akin." So you write one -- with functions.
 
 ---
@@ -71,6 +78,20 @@ print_budget(2, 500, 380)
 
 ??? tip "Diskarte"
     If you find yourself copying and pasting code, you probably need a function. Functions make code readable, reusable, and easier to fix.
+
+??? note "📱 Phone-Only? No Problem!"
+
+    Coding functions on a phone screen feels cramped, but it's totally doable:
+
+    - **Split-screen approach** — Open this book on one half of your screen and Replit or Pydroid 3 on the other. Most phones support split-screen multitasking.
+    - **Voice typing for boilerplate** — Use your phone's voice-to-text to type out function skeletons like `def my_function():` — it's faster than tapping a tiny keyboard.
+    - **Pro tip**: Practice writing functions during your commute. Functions are short enough to code on a small screen. Save the longer projects for when you have a bigger screen!
+
+??? tip "⏸️ Pause and Predict"
+
+    **Predict: what happens when you call a function that expects 2 arguments but you only pass 1?**
+
+    Take 30 seconds to think about your answer before reading on. This is how you build real understanding!
 
 ## Parameters and Return Values
 
@@ -293,6 +314,20 @@ remaining = spend(500, 100)
 
 - [Python's official tutorial on functions](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)
 - [Real Python: functions](https://realpython.com/defining-your-own-python-function/)
+
+??? example "🧠 Reflection — Functions"
+
+    - **What did you learn?** Functions are reusable blocks of code that take inputs (parameters), do work, and return outputs, keeping your code clean and organized.
+    - **How can you apply this?** Think of a function like a trusted taga-load — you give them instructions (parameters), they handle the delivery, and you get your package (return value). Whether you're tracking your weekly allowance or building a bigger project, functions let you write code once and reuse it everywhere.
+    - **What's next?** Functions keep your code organized, but what happens when you close the program — how do you save your data for next time?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I can define and call functions using `def`
+    - [ ] I can pass parameters to functions and return values
+    - [ ] I can use default arguments to set fallback values
+    - [ ] I understand the difference between local and global variable scope
+    - [ ] I can break a problem into multiple functions for cleaner code
 
 ---
 

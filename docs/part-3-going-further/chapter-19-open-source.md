@@ -1,5 +1,12 @@
 # Chapter 19: Open Source and Your First Contribution
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Intermediate |
+    | **Time** | 30 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** You've been using open-source software for months. Python itself is open source. The libraries you import (requests, pandas, matplotlib) are all open source. You've never contributed to one. Today, that changes. You make your first pull request. Your hands are sweating. You click "Submit." And then: the most beautiful thing in programming. A review comment: "Great first contribution! Could you add a test?" You smile. You belong here now.
 
 ---
@@ -52,6 +59,24 @@ Look for projects with `good-first-issue` or `help-wanted` labels:
 1. Go to the project's GitHub page
 2. Click the "Fork" button (top right)
 3. Clone your fork: `git clone <your-fork-url>`
+
+??? note "🐌 Slow Internet?"
+
+    Cloning large repositories can take a long time on slow connections:
+
+    - **Download during off-peak hours**: Clone repos at night or early morning when your internet is less congested. Many Philippine ISPs have more bandwidth available during these hours.
+    - **Shallow clones**: Use `git clone --depth 1 <url>` to download only the most recent commit instead of the full history. This can reduce download size by 90% for large projects.
+    - **Sparse checkouts**: For very large repos, you can download only the specific folders you need:
+
+    ```bash
+    git clone --filter=blob:none --sparse <url>
+    cd project-name
+    git sparse-checkout set path/to/folder/you/need
+    ```
+
+    - **Pro tip**: Start with small projects for your first contributions. Look for repos under 10 MB — documentation fixes and typo corrections don't require downloading massive codebases.
+
+### Step 3: Create a Branch
 
 ### Step 3: Create a Branch
 
@@ -178,6 +203,30 @@ Typos in code examples can confuse beginners. This correction ensures the code r
 - [first-contributions tutorial](https://github.com/first-contributions/first-contributions)
 - [GitHub's guide to pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 - [Open Source Guide](https://opensource.guide/)
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Your first open-source contribution is a badge of honor. Pin the PR on your GitHub profile. Add to your personal README: "Open source contributor. Fork → branch → commit → push → PR. I believe in bayanihan for developers."
+
+    **LinkedIn**: Post a screenshot of your merged PR with the caption: "My first open-source contribution is merged! From reading other people's code to submitting a pull request -- this is what bayanihan looks like in the developer world. #OpenSource #Python". Link to the PR.
+
+    **Interview Talking Point**: "I've contributed to open-source projects following the full GitHub workflow: forking, branching, making changes, and submitting pull requests. I understand code of conduct, write clear PR descriptions, and respond to review feedback. Open source taught me how to collaborate with developers I've never met."
+
+??? example "🧠 Reflection — Open Source and Your First Contribution"
+
+    - **What did you learn?** Open source is a collaborative model where anyone can fork, modify, and contribute to projects through pull requests.
+    - **How can you apply this?** Contribute to Philippine-focused open-source projects like the PSGC API or help translate coding tutorials into Filipino languages.
+    - **What's next?** How could you start your own open-source project that solves a problem in your community?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] Understand the fork → branch → commit → push → PR workflow
+    - [ ] Find a project with a `good-first-issue` label
+    - [ ] Make your first pull request to an open-source project
+    - [ ] Write a PR description explaining what, why, and how you tested
+    - [ ] Follow a project's code of conduct and CONTRIBUTING guidelines
 
 ---
 

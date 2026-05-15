@@ -1,5 +1,12 @@
 # Chapter 12: Web Scraping and the Shopee Price Tracker
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Intermediate |
+    | **Time** | 35 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** It's 11.11 sale season. You're on Shopee, comparing prices for the same item across 50 sellers. Some claim "50% off!" but their "original price" is inflated. You wonder: "How much has the price changed over the past month? Is this really a deal?" So you write a script that tracks prices automatically. No more guessing.
 
 ---
@@ -23,6 +30,26 @@
 
 ??? warning "Boss Fight Warning"
     Always check a website's terms of service before scraping. Some sites prohibit it. Never scrape personal data. Be respectful: add delays between requests, don't overload servers.
+
+??? note "🐌 Slow Internet?"
+
+    Web scraping normally needs live internet, but here's how to practice offline:
+
+    - **Save HTML pages locally**: When you have internet, use your browser to visit a page, then "Save Page As" (Ctrl+S / Cmd+S) to save the full HTML to your computer. Then practice scraping on the saved file instead of hitting the live site.
+    - **Practice with saved files**: Point your BeautifulSoup code at the saved HTML file:
+
+    ```python
+    from bs4 import BeautifulSoup
+
+    # Load a saved HTML file instead of fetching from the web
+    with open("shopee_product.html", "r") as f:
+        soup = BeautifulSoup(f.read(), "html.parser")
+
+    title = soup.find("title")
+    print(title.text)  # Works completely offline!
+    ```
+
+    - **Pro tip**: This is actually better for learning! You can reload the same page over and over without worrying about rate limits or the website changing. Many professional scrapers test on saved HTML snapshots before running against live sites.
 
 ## Installing BeautifulSoup
 
@@ -301,3 +328,19 @@ Many modern websites load content via JavaScript, which means the HTML you get f
 ---
 
 *Next: [Chapter 13: Errors & Debugging](chapter-13-errors.md) -- Handling problems gracefully.*
+
+---
+
+??? example "🧠 Reflection — Web Scraping"
+
+    - **What did you learn?** You learned how to programmatically extract data from websites using BeautifulSoup to parse HTML and pull out specific information like prices, product names, and descriptions.
+    - **How can you apply this?** You can track Shopee or Lazada prices for your family's online shopping, monitor palengke prices posted online, or collect data for school research projects without manual copy-pasting.
+    - **What's next?** What happens when a website changes its layout, and how do you build scrapers that can adapt to those changes?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I understand what web scraping is and when it's appropriate to use
+    - [ ] I can install and use BeautifulSoup to parse HTML content
+    - [ ] I can locate and extract specific data elements from a webpage using CSS selectors or tags
+    - [ ] I know the ethical considerations of web scraping: checking terms of service, adding delays, and avoiding personal data
+    - [ ] I built the Shopee Price Tracker project

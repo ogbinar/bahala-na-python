@@ -1,5 +1,12 @@
 # Chapter 3: Variables, Data Types, and the Sari-Sari Store
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Beginner |
+    | **Time** | 30 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** It's 6 AM. Your Lola opens her sari-sari store for the day. She walks through the rows of shelves, checking what needs restocking. "Tatlong laundry soap, sampung biskwit, lima na lang sigarilye," she mutters. She keeps track of everything in a small notebook -- items on the left, quantities on the right, prices in a column. It works, but sometimes she miscounts. You think: "Lola, let me help you with this."
 
 ---
@@ -27,6 +34,12 @@ Think of it like the labels Lola puts on her shelves. "Laundry soap" is the labe
 
 ??? tip "Diskarte"
     Variable names should be descriptive. `quantity` is better than `q`. `item_price` is better than `x`. Good variable names are like good shelf labels -- they tell you what's inside without opening the container.
+
+??? tip "⏸️ Pause and Predict"
+
+    **Before reading the code below, predict: what do you think happens when you assign a string to a variable that previously held a number?**
+
+    Take 30 seconds to think about your answer before reading on. This is how you build real understanding!
 
 ## Data Types: Kung Ano ang Iyong Tinatago
 
@@ -269,6 +282,20 @@ for item, qty in inventory.items():
 
 - [Python's official tutorial on data structures](https://docs.python.org/3/tutorial/datastructures.html)
 - [Real Python: Dictionaries](https://realpython.com/python-dicts/)
+
+??? example "🧠 Reflection — Variables and Data Types"
+
+    - **What did you learn?** Variables store data, and Python has different types — strings, integers, floats, lists, and dictionaries — each suited for different kinds of information.
+    - **How can you apply this?** Think of your lola's sari-sari store notebook: variables are the labeled shelves, lists are the rows of products, and dictionaries are the item-to-price lookup. You can use the same structures to organize any collection of data in your daily life.
+    - **What's next?** Once you can store data, the next question is: how do you make decisions based on it?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I can create variables and assign values of different data types
+    - [ ] I can tell the difference between a string `"10"` and an integer `10`
+    - [ ] I can use lists to store and access collections of items
+    - [ ] I can use dictionaries to store and retrieve key-value pairs
+    - [ ] I can use `input()` to get user input and convert it to the right type
 
 ---
 

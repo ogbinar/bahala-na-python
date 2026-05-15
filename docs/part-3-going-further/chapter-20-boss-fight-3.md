@@ -1,5 +1,12 @@
 # Chapter 20: Boss Fight 3 -- The Complete Barangay Dashboard
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐⭐ Boss Fight |
+    | **Time** | 90 min |
+    | **XP** | +500 XP |
+
 ??? warning "⚔️ Elite Boss Fight"
     **Tier:** Elite Boss | **Concepts Combined:** 5+ (Async, Data Viz, NLP, AI Coding, Open Source)
     **XP Reward:** 500 XP | **Badge:** "Barangay Captain"
@@ -632,6 +639,30 @@ Sample output:
 - [Matplotlib documentation](https://matplotlib.org/)
 - [asyncio documentation](https://docs.python.org/3/library/asyncio.html)
 - [Natural Language Processing with Python (NLTK)](https://www.nltk.org/)
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: This is your flagship Part 3 project. Document the architecture: `BarangayDashboard` class for data, `DashboardVisualizer` with matplotlib charts, `TaglishProcessor` for NLP. Include screenshots of the generated charts and a sample output. Consider releasing it as a community tool.
+
+    **LinkedIn**: Post: "Built a complete Barangay Dashboard integrating async data fetching, data visualization with matplotlib, Taglish NLP processing, and file-based persistence. It processes resident messages, generates collection charts, and tracks demographics. Real tools for real communities. #Python #DataViz #NLP". Share the charts as images.
+
+    **Interview Talking Point**: "I built a barangay management dashboard that combines async programming, matplotlib data visualization, and Tagalog NLP processing. It loads data from JSON, generates bar/pie/gauge charts, processes Taglish messages for intent and sentiment, and runs async data refreshes. It's the kind of full-stack project that shows I can handle multiple concepts at once."
+
+??? example "🧠 Reflection — Boss Fight 3: Complete Barangay Dashboard"
+
+    - **What did you learn?** Combining async programming, data visualization, NLP, and open-source practices creates a powerful real-world tool.
+    - **How can you apply this?** Present your dashboard to your barangay officials to help them make data-driven decisions about aid distribution and fee collection.
+    - **What's next?** How could you turn this dashboard into a web app that any barangay in the Philippines could use?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] Integrate async data fetching with `asyncio.gather()`
+    - [ ] Generate multiple chart types (bar, pie, gauge) from dashboard data
+    - [ ] Process Taglish messages for intent classification and sentiment
+    - [ ] Build a complete system that loads data, generates reports, and processes messages
+    - [ ] Structure your code with reusable classes for future extensions
 
 ---
 

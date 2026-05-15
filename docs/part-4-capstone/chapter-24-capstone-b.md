@@ -1,5 +1,12 @@
 # Chapter 24: Capstone B -- Barangay Management System (Part 2)
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐⭐ Advanced |
+    | **Time** | 60 min |
+    | **XP** | +200 XP |
+
 > **Story Hook:** The barangay captain is impressed with the basic system. "Galing!" he says. "Pero kailangan namin ng certificates -- barangay clearance, indigency, residence certification. And the residents keep asking when their fees are due. And the municipal office wants a report every month." You nod. "I know. I'm building it."
 
 ---
@@ -520,6 +527,22 @@ python web_app.py
 - [Flask documentation](https://flask.palletsprojects.com/)
 - [Python exception handling](https://docs.python.org/3/tutorial/errors.html)
 - [DILG Barangay Guidelines](https://dilg.gov.ph/)
+
+---
+
+??? example "🧠 Reflection — Capstone B: Barangay Management System (Part 2)"
+
+    - **What did you learn?** Adding certificates, advanced reporting, custom exceptions, and a web interface transforms a CLI tool into a production-ready application.
+    - **How can you apply this?** Help your barangay issue clearances and indigency certificates digitally, reducing the paperwork that slows down residents.
+    - **What's next?** How could you add role-based access so only authorized officials can view sensitive resident data?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] Generate text-based certificates (clearance, indigency, residency)
+    - [ ] Build monthly and yearly reports with visual bar charts
+    - [ ] Implement custom exceptions for proper error handling
+    - [ ] Create a Flask web interface for browser-based access
+    - [ ] Combine all features into a complete, working barangay system
 
 ---
 

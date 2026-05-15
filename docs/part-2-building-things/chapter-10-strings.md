@@ -1,5 +1,12 @@
 # Chapter 10: Strings and the Tagalog Typing Game
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Intermediate |
+    | **Time** | 25 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** You're at a comshop, and the person next to you is furiously typing in Tagalog. You look at their screen: "Ang lalaking nag-iisip nang mabuti ay walang kapantay na lakas." Your eyes glaze over. "How do they type SO fast?" you wonder. You try -- your fingers stumble over the keyboard, especially the words with special characters. "Ano 'yung ñ?" you ask the operator. "Sir, wala pong ñ sa keyboard namin," they reply. You think: "I should build a typing game. In Tagalog."
 
 ---
@@ -54,6 +61,12 @@ items = ["laundry soap", "cigarettes", "candy"]
 result = ", ".join(items)
 print(result)  # laundry soap, cigarettes, candy
 ```
+
+??? tip "⏸️ Pause and Predict"
+
+    **Predict: what's the difference between `'Hello ' + name` and `f'Hello {name}'`? Which would you prefer and why?**
+
+    Take 30 seconds to think about your answer before reading on. This is how you build real understanding!
 
 ## String Formatting
 
@@ -260,3 +273,27 @@ if __name__ == "__main__":
 ---
 
 *Next: [Chapter 11: APIs](chapter-11-apis.md) -- Connecting to the internet.*
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Your Tagalog typing game is a fun, shareable project. Include instructions for running it, screenshots of the difficulty levels, and a note: "Built to help Filipino learners practice typing in Tagalog -- because most typing games only support English."
+
+    **LinkedIn**: Post: "Created a Tagalog typing game in Python with 3 difficulty levels. Most typing tools only support English, but Filipino students need practice in their own language too. Open source and free. #Python #FilipinoEd". This shows you build for underserved communities.
+
+    **Interview Talking Point**: "I built a typing game that handles Unicode text and Tagalog words, with performance tracking (WPM, accuracy). It uses string methods like `strip()`, `split()`, `lower()`, and f-string formatting extensively. The project showed me how to handle edge cases like special characters and whitespace."
+
+??? example "🧠 Reflection — Strings and Text Processing"
+
+    - **What did you learn?** You mastered string methods like `split`, `join`, `strip`, and `replace`, along with f-strings for formatting and slicing for extracting substrings.
+    - **How can you apply this?** String skills are essential for cleaning up messy data from surveys, formatting messages for a text-based game in Tagalog, or processing names and addresses in community databases.
+    - **What's next?** How do regular expressions (regex) take pattern matching in strings to the next level?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I can use common string methods: `upper()`, `lower()`, `strip()`, `split()`, `join()`, `replace()`
+    - [ ] I can format strings cleanly using f-strings with expressions and formatting options
+    - [ ] I understand string slicing with start, stop, and step indices
+    - [ ] I can work with Unicode characters and handle text from different languages
+    - [ ] I built the Tagalog Typing Game project

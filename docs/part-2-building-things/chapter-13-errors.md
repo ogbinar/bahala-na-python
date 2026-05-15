@@ -1,5 +1,12 @@
 # Chapter 13: Errors, Debugging, and the Boss Fight
 
+??? example "📋 Chapter Info"
+    | | |
+    |---|---|
+    | **Difficulty** | ⭐⭐ Intermediate |
+    | **Time** | 30 min |
+    | **XP** | +100 XP |
+
 > **Story Hook:** You've been coding for weeks. Your programs work -- sometimes. Then you hit a wall. A program that worked yesterday crashes with a cryptic error message. You stare at the screen. "What does this even mean?" Your first instinct is to panic. But then you remember: errors are data. Every error is a clue. And you're a detective now.
 
 ---
@@ -80,6 +87,22 @@ ZeroDivisionError: division by zero     ← WHAT went wrong (most important!)
 1. **Bottom line**: What error? (ZeroDivisionError)
 2. **Line above**: Where? (File, line number, function)
 3. **Top lines**: How did we get here? (Call stack)
+
+??? tip "⏸️ Pause and Predict"
+
+    **Think about the last error you got. What information did it give you? Could you have predicted what went wrong before running the code?**
+
+    Take 30 seconds to think about your answer before reading on. This is how you build real understanding!
+
+??? note "🐌 Slow Internet?"
+
+    Error handling is especially important when your internet connection is unreliable:
+
+    - **Graceful fallbacks**: Programs with good error handling keep working when the internet drops. Instead of crashing, they show a cached result or a friendly message. This is the difference between an app that frustrates users and one they can rely on.
+    - **Timeout handling**: Always set timeouts on network requests so your program doesn't hang forever waiting for a response that may never come.
+    - **Retry logic**: Learn to build programs that automatically retry a failed request a few times before giving up. Many Filipino developers build this into their apps because they know how spotty connections can be.
+
+    The `try/except` patterns in this chapter are your toolkit for building resilient programs that work in the real world — not just in perfect lab conditions.
 
 ## `try/except`: Catching Errors
 
@@ -335,3 +358,27 @@ if __name__ == "__main__":
 ---
 
 *Next: [Chapter 14: Boss Fight 2](chapter-14-boss-fight-2.md) -- The midpoint boss battle.*
+
+---
+
+??? example "Portfolio Tip"
+
+    **GitHub README**: Add your error-resilient budget calculator to your portfolio with a README that highlights: "Built with defensive programming -- every user input is validated, every division is protected. Filipino students deserve tools that don't crash."
+
+    **LinkedIn**: Post: "Learned to stop panicking at error messages. Python errors are data, not failures. Built a budget calculator with full error handling -- try/except, input validation, graceful fallbacks. Subok ulit lang. #Python #Debugging". This shows maturity as a developer.
+
+    **Interview Talking Point**: "I read tracebacks from bottom to top, use try/except for graceful error handling, and apply systematic debugging strategies like print debugging and binary search. I don't fear errors -- I treat them as clues that tell me exactly where to look."
+
+??? example "🧠 Reflection — Error Handling and Debugging"
+
+    - **What did you learn?** You learned to read and interpret Python error messages, use `try/except` blocks to handle errors gracefully, and apply systematic debugging strategies to find and fix bugs.
+    - **How can you apply this?** Instead of panicking when a program crashes, you now treat errors as clues -- a mindset shift that helps whether you're fixing a school project, debugging a store system for Lola, or troubleshooting code at work.
+    - **What's next?** How do you write automated tests to catch bugs before they reach users, and what debugging tools do professional developers use?
+
+??? checkbox "✅ Chapter Checklist"
+
+    - [ ] I can read a Python traceback and identify where the error occurred
+    - [ ] I understand the difference between syntax errors, runtime errors, and logical errors
+    - [ ] I can use `try/except` blocks to catch and handle specific exception types
+    - [ ] I know debugging strategies: reading error messages, using `print()`, and stepping through code
+    - [ ] I practiced turning a crashing program into one that handles errors gracefully
