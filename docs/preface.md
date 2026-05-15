@@ -36,7 +36,7 @@ Learning alone is hard. Join our [Discord server](https://discord.gg/bahala-na-p
 
 ## Acknowledgments
 
-This book exists because of the Filipino developer community -- the teachers on YouTube who make free tutorials, the Discord members who answer beginner questions at 2 AM, the open-source contributors who build tools we all use for free.
+This book exists because of the Filipino tech community -- the teachers on YouTube who make free tutorials, the Discord members who answer beginner questions at 2 AM, the open-source contributors who build tools we all use for free.
 
 Special thanks to:
 
@@ -46,15 +46,17 @@ Special thanks to:
 - The OFWs who send money home so we can afford internet and laptops
 - The bayanihan spirit that makes Filipino communities the most supportive in the world
 
-## About the Smart Kuya
+## About Myk
 
-I'm not a professor. I'm not a tech bro. I'm the big sibling who's been through this -- the confusion, the frustration, the "hindi ako para dito" moments. And I made it out the other side.
+Myk isn't the best Python teacher out there. He's not a tech bro. He's more like the kuya who's been through the confusion, frustration, and the "baka hindi talaga para sakin 'to" moments — made all the mistakes and somehow made it through.
 
-I learned Python in a comshop, drinking instant coffee, with a P30 night rate. My first program was a calculator for my Lola's sari-sari store. My second was a budget tracker for my allowance. My third was a Discord bot for my barkada.
+He learned Python on a low-end PC, drinking instant Coke Zero, surviving on tinapay and Pancit Canton Chilimansi. His first program was a calculator for his cousin's take-home assignment. The second renamed an MP3 collection automatically, for his OCD. The third was a mouse wriggler for work so chat apps wouldn't mark him idle.
 
-That's what this book is. Not a textbook. A story. Your story.
+That's what this book is.
 
-**Bahala na. Let's try it.**
+Not a formal textbook. Not gatekeeping. Just one Filipino sharing his love for tinkering with technology — sometimes for fun, sometimes to make life a little easier.
+
+**Bahala na. Let's try it!**
 
 ---
 

@@ -110,7 +110,7 @@ You're not alone. There's a growing community of Filipino developers:
 
 - **PyCon PH** -- Annual Python conference in the Philippines
 - **PyLadies Philippines** -- Supporting women in tech
-- **Data Engineering Pilipinas** -- The broader community this book is part of. Data professionals, analysts, developers, and learners. Visit [dataengineering.ph](https://dataengineering.ph/) or [join the DEP Discord](https://discord.com/invite/buDgydz7J9).
+- **Data Engineering Pilipinas** -- The broader community this book is part of. Data professionals, analysts, developers, and learners. Visit [dataengineering.ph](https://dataengineering.ph/) or [join the DEP Barkada](https://discord.com/invite/buDgydz7J9).
 - **Filipino Developers (Facebook)** -- 50,000+ members
 - **Python Philippines (Facebook)** -- 10,000+ members
 - **Various Discord servers** -- Taglish coding communities
@@ -181,7 +181,7 @@ The appendices contain:
 
 ## Join the Data Engineering Pilipinas Community 🤝
 
-You've finished the book. But the journey doesn't end here. Join the DEP Discord to keep learning, building, and growing with your barkada:
+You've finished the book. But the journey doesn't end here. Join the DEP Barkada to keep learning, building, and growing with your barkada:
 
 ---
 
@@ -222,6 +222,6 @@ You've finished the book. But the journey doesn't end here. Join the DEP Discord
     - `#voice-coding` -- Live pair programming sessions
     - `#celebrations` -- Celebrate wins, big and small!
 
-    **[🚀 Join the DEP Discord](https://discord.com/invite/buDgydz7J9)**
+    **[🚀 Join the DEP Barkada](https://discord.com/invite/buDgydz7J9)**
 
     > *"Ang bawat linya ng code ay hakbang papunta sa kinabukasan. Hindi mo kailangan mag-isa."*

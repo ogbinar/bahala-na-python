@@ -1,13 +1,31 @@
 # Welcome to Bahala Na Python
 
-> **Before we start** -- this book is free and open-source. You don't need to pay for anything. You don't need a CS degree. You just need curiosity and the willingness to try.
+Learn Python the Filipino way -- through culture, community, and code.
+
+- ✅ Build real projects from day one
+- ✅ No CS degree required -- just curiosity
+- ✅ Works on any laptop, even a P8,000 one
+
+*Low resource friendly: works on a phone, needs minimal data, no expensive setup.*
 
 !!! note "Part of the Data Engineering Pilipinas learning ecosystem"
     This book is connected to the broader mission of [Data Engineering Pilipinas](https://dataengineering.ph/): helping Filipino learners grow through open resources, community support, and practical projects in data, analytics, AI, and software.
 
-    Continue your learning journey through the [DEP website](https://dataengineering.ph/) and [DEP Discord](https://discord.com/invite/buDgydz7J9).
+    Continue your learning journey through the [DEP website](https://dataengineering.ph/) and [DEP Barkada](https://discord.com/invite/buDgydz7J9).
 
-[Download PDF](pdf/book.pdf){ .md-button .md-button--primary } [View on GitHub](https://github.com/ogbinar/bahala-na-python){ .md-button }
+[![Read Online](https://img.shields.io/badge/Read_Online-Click-blue?style=for-the-badge)](https://ogbinar.github.io/bahala-na-python)[![Download PDF](https://img.shields.io/badge/Download_PDF-Click-red?style=for-the-badge)](pdf/book.pdf)[![View GitHub](https://img.shields.io/badge/View_GitHub-Click-gray?style=for-the-badge&logo=github)][![Join the Barkada](https://img.shields.io/badge/Join_the_Barkada-Click-purple?style=for-the-badge&logo=discord)](https://discord.com/invite/buDgydz7J9)
+
+---
+
+??? note "📖 Why This Book Exists"
+
+    I remember my first time writing Python. I was sitting at a comshop in Cubao, drinking a 10-peso instant coffee, with a laptop that took five minutes to boot up. I didn't know what a variable was. I didn't know what a loop did. I just knew I wanted to build something -- anything -- that worked.
+
+    The internet was full of tutorials that assumed I had a CS degree, a good laptop, and unlimited data. None of that was true. So I figured it out the Filipino way: *bahala na*, try it, break it, fix it, share what worked.
+
+    This book is for the version of me who was too intimidated to start. You don't need the perfect setup. You don't need to be "good at math." You just need to be willing to try.
+
+    *Kaya mo 'yan. Let's go.*
 
 ---
 
@@ -83,6 +101,21 @@ The answer: **Bahala na. Let's try it.**
 
 ---
 
+## What You'll Build
+
+| Project | Chapter | What You'll Learn |
+|---------|---------|-------------------|
+| 🏪 Sari-Sari Store System | Ch 8 | Variables, conditionals, functions, files |
+| 🎮 Tagalog Typing Game | Ch 10 | Strings, loops, user input |
+| 📊 OFW Remittance Tracker | Ch 11 | APIs, JSON, data parsing |
+| 🛒 Shopee Price Tracker | Ch 12 | Web scraping, automation |
+| 🤖 Discord Bot | Ch 15 | Async Python, bot frameworks |
+| 📈 Barangay Dashboard | Ch 20 | Data visualization, charts |
+| 🌐 Barangay Management System | Ch 23-24 | Classes, full application architecture |
+| 🏆 Final Boss Project | Ch 25 | All concepts combined |
+
+---
+
 ## Table of Contents — Your Journey Map
 
 ### Part 0: Welcome
@@ -114,7 +147,7 @@ The answer: **Bahala na. Let's try it.**
 | 13 | [Errors, Debugging & Boss Fight](part-2-building-things/chapter-13-errors.md) | 100 |
 | 14 | [Boss Fight 2: Midpoint Battle](part-2-building-things/chapter-14-boss-fight-2.md) | 500 |
 
-### Part 3: Going Further
+### Part 3: Level Up
 
 | Ch | Title | XP |
 |----|-------|-----|
@@ -140,39 +173,47 @@ The answer: **Bahala na. Let's try it.**
 
 ---
 
-## Skill Tree — Your Learning Path
+## Your Linear Learning Path
 
 ```
-                    ┌─────────────┐
-                    │  Legend     │  10,000 XP
-                    │  (Ch 25)    │
-                    └──────┬──────┘
-           ┌───────────────┼───────────────┐
-     ┌─────┴─────┐   ┌─────┴─────┐   ┌─────┴─────┐
-     │ Master     │   │ Master    │   │ Master    │
-     │ (Ch 23-24) │   │ (Ch 20)   │   │ (Ch 22)   │
-     └─────┬─────┘   └─────┬─────┘   └─────┬─────┘
-           │               │               │
-     ┌─────┴─────┐   ┌─────┴─────┐   ┌─────┴─────┐
-     │ Devel      │   │ Devel     │   │ Devel     │
-     │ (Ch 14)    │   │ (Ch 17-19)│   │ (Ch 21)   │
-     └─────┬─────┘   └───────────┘   └───────────┘
-           │
-     ┌─────┴─────┐
-     │ Karera     │
-     │ (Ch 8)     │
-     └─────┬─────┘
-           │
-     ┌─────┴─────┐
-     │ Albano     │
-     │ (Ch 3-7)   │
-     └─────┬─────┘
-           │
-     ┌─────┴─────┐
-     │ Tambay     │
-     │ (Ch 1-2)   │  0 XP — You are here!
-     └───────────┘
+Ch 1-2 → Ch 3-7 → Ch 8 → Ch 9-13 → Ch 14 → Ch 15-19 → Ch 20 → Ch 21-24 → Ch 25 → Ch 26
 ```
+
+Read in order for the best experience. Each chapter builds on the last.
+
+??? example "🎮 Skill Tree — Visual Map"
+
+    ```
+                ┌─────────────┐
+                │  Legend     │  10,000 XP
+                │  (Ch 25)    │
+                └──────┬──────┘
+       ┌───────────────┼───────────────┐
+      ┌─┴─────┐   ┌─────┴─────┐   ┌─────┴─────┐
+      │ Master │   │ Master    │   │ Master    │
+      │ (Ch 23)│   │ (Ch 20)   │   │ (Ch 22)   │
+      └───┬────┘   └─────┬─────┘   └─────┬─────┘
+          │              │               │
+      ┌───┴─────┐   ┌─────┴─────┐   ┌─────┴─────┐
+      │ Devel   │   │ Devel     │   │ Devel     │
+      │ (Ch 14) │   │ (Ch 17-19)│   │ (Ch 21)   │
+      └───┬─────┘   └───────────┘   └───────────┘
+          │
+      ┌───┴─────┐
+      │ Karera  │
+      │ (Ch 8)  │
+      └───┬─────┘
+          │
+      ┌───┴─────┐
+      │ Albano  │
+      │ (Ch 3-7)│
+      └───┬─────┘
+          │
+      ┌───┴─────┐
+      │ Tambay  │
+      │ (Ch 1-2)│  0 XP — You are here!
+      └─────────┘
+    ```
 
 ---
 
@@ -182,9 +223,9 @@ The answer: **Bahala na. Let's try it.**
 
     | What you need | Link |
     |--------------|------|
-    | Full website (with XP tracker) | [ogbinar.github.io/bahala-na-python](https://ogbinar.github.io/bahala-na-python) |
+    | Full website | [ogbinar.github.io/bahala-na-python](https://ogbinar.github.io/bahala-na-python) |
     | Source code | [github.com/ogbinar/bahala-na-python](https://github.com/ogbinar/bahala-na-python) |
-    | DEP Discord | [discord.com/invite/buDgydz7J9](https://discord.com/invite/buDgydz7J9) |
+    | DEP Barkada | [discord.com/invite/buDgydz7J9](https://discord.com/invite/buDgydz7J9) |
     | DEP Website | [dataengineering.ph](https://dataengineering.ph) |
 
     Bookmark the website URL on your phone for easy access!
@@ -192,6 +233,20 @@ The answer: **Bahala na. Let's try it.**
 ---
 
 *Ready? Let's write your first line of Python.*
+
+---
+
+## Continue With DEP
+
+Finished the book? Here's what comes next:
+
+| Resource | What It Is |
+|----------|-----------|
+| [DEP Website](https://dataengineering.ph/) | The broader learning ecosystem |
+| [DEP Resources](https://dataengineering.ph/resources.html) | Curated tools, tutorials, and guides |
+| [DEP Barkada](https://discord.com/invite/buDgydz7J9) | Ask questions, share projects, get unstuck |
+
+The book is your onboarding. DEP is your community. Together, you grow.
 
 ---
 
@@ -208,6 +263,6 @@ Join DEP to:
 - Meet Filipino learners and builders
 - Continue your journey into data, analytics, AI, and software
 
-[Join the DEP Discord](https://discord.com/invite/buDgydz7J9){ .md-button .md-button--primary }
+[Join the DEP Barkada](https://discord.com/invite/buDgydz7J9){ .md-button .md-button--primary }
 
 > *"Hindi mo kailangan mag-isa. Bayanihan ang tunay na lakas."*
