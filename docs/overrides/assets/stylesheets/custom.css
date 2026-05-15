@@ -46,16 +46,40 @@
   margin-bottom: 1.5em;
 }
 
-/* Code blocks with CRT-inspired styling */
+/* Code blocks — light, readable, consistent for web + PDF */
+.md-typeset pre,
+.md-typeset code,
+.md-typeset .highlight,
+.md-typeset .highlight pre,
+.md-typeset .highlight code {
+  background: #f7f7f7 !important;
+  color: #111111 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.md-typeset .highlight span {
+  color: #111111 !important;
+}
+
+.md-typeset pre {
+  border: 1px solid #d6d6d6 !important;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  overflow-x: auto;
+}
+
 .md-typeset code {
-  border-radius: 4px;
   font-weight: 500;
 }
 
-.md-typeset pre > code {
-  border: 1px solid rgba(255, 107, 53, 0.2);
-  background: linear-gradient(180deg, #0d1117 0%, #161b22 100%);
-  border-radius: 8px;
+.md-typeset p code,
+.md-typeset li code,
+.md-typeset td code {
+  background: #eeeeee !important;
+  color: #111111 !important;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
 }
 
 /* Admonition styling - Boss Fight */
