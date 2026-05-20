@@ -57,4 +57,5 @@ tracker.track_remittance(500)
 
 ---
 
+*Previous: [Boss Fight 1](../part-1-fundamentals/chapter-08-boss-fight-1.md) -- First big project*
 *Next: [Chapter 9: Classes & OOP](chapter-09-classes.md) -- Modeling the real world with code.*

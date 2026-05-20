@@ -229,4 +229,5 @@ Installing Python is the same. It's just a different kind of comshop. Instead of
 
 ---
 
+*Previous: [Chapter 1: Hello, World!](chapter-01-hello-world.md) -- Your first line of Python*
 *Next: [Part 1: Fundamentals](../part-1-fundamentals/index.md) -- Let's start building real things.*

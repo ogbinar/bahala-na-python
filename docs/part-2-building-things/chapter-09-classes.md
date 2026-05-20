@@ -303,6 +303,7 @@ class GraduateStudent(Student):
 
 ---
 
+*Previous: [Boss Fight 1: Sari-Sari Store](../part-1-fundamentals/chapter-08-boss-fight-1.md) -- First big project*
 *Next: [Chapter 10: Strings](chapter-10-strings.md) -- Working with text.*
 
 ---

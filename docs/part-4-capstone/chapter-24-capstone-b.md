@@ -550,4 +550,5 @@ python web_app.py
 
 ---
 
+*Previous: [Chapter 23: Capstone A](chapter-23-capstone-a.md) -- Building the Barangay System*
 *Next: [Chapter 25: Final Boss](chapter-25-final-boss.md) -- Your ultimate challenge.*

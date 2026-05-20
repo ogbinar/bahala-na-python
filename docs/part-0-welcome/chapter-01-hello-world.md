@@ -198,4 +198,5 @@ In the next chapter, we'll install Python on your computer and write your first 
 
 ---
 
+*Previous: [Your First Program](../getting-started/first-program.md) -- Verifying your setup*
 *Next: [Chapter 2: Bahala Na, Let's Try It](chapter-02-bahala-na.md) -- Installing Python and running your first file.*

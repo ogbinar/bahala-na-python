@@ -275,4 +275,5 @@ Output:
 
 ---
 
+*Previous: [Chapter 4: Conditionals](chapter-04-conditionals.md) -- Making decisions*
 *Next: [Chapter 6: Functions](chapter-06-functions.md) -- Reusable code blocks.*

@@ -40,4 +40,5 @@ Part 3 introduces **advanced concepts** that professional developers use every d
 
 ---
 
+*Previous: [Boss Fight 2](../part-2-building-things/chapter-14-boss-fight-2.md) -- Midpoint boss battle*
 *Next: [Chapter 15: Discord Bots](chapter-15-discord-bots.md) -- Building bots for your barkada.*

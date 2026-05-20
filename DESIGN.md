@@ -327,7 +327,7 @@ XP exists as **content-embedded motivational framing only** — in chapter opene
 | Chapter structure (7-section template) | Complete |
 | Voice & tone (Smart Kuya, Taglish) | Complete |
 | Code quality (14 bugs fixed, CI validates) | Complete |
-| Appendix (4 types) | Partial — answers missing Ch 8, 10, 17, 18, 24, 26 |
+| Appendix (4 types) | Partial — answers missing Ch 8, 10, 17, 18 |
 | CI/CD (syntax, build, deploy) | Complete |
 | MkDocs build (`--strict`) | Passing, 40 HTML files |
 | Gamification content (XP, Boss Fights, etc.) | Complete as content-embedded framing |
@@ -349,7 +349,7 @@ XP exists as **content-embedded motivational framing only** — in chapter opene
 | No translation infrastructure | Low | `mkdocs-static-i18n` not set up |
 | No analytics | Low | Plausible not configured |
 | No companion video content | Medium | YouTube/TikTok planned |
-| `answers.md` missing 6 chapters | Medium | Ch 8, 10, 17, 18, 24, 26 |
+| `answers.md` missing 4 chapters | Medium | Ch 8, 10, 17, 18 |
 | Side quests missing from 6 chapters | Low | Ch 1, 2, 8, 14, 25, 26 |
 | Broken PDF download link in index.md | Medium | `pdf/book.pdf` does not exist |
 | Ch 18 title mismatch in master TOC | Medium | index.md says old title |
@@ -431,22 +431,7 @@ The following items were previously listed as pending but have since been fixed 
 | P3.2 | Pause and Predict prompts | Done — 7 chapters have prompts |
 | P5.1 | Portfolio tips expansion | Done — all 26 chapters have portfolio tips |
 | L2 | Part 0 index missing XP table | Fixed — XP table present at line 45-52 |
-
-### Critical (Unresolved)
-
-#### C1: XP Value Inconsistency — Master Total Is Wrong
-
-**Locations:** `DESIGN.md` §6, `index.md:174`
-
-The stated total of **3,950 XP** is incorrect. The actual sum from the TOC tables is:
-- Part 0: 200 XP (Ch 1 + Ch 2)
-- Part 1: 1,000 XP (Ch 3-7 @ 100 + Ch 8 @ 500)
-- Part 2: 1,000 XP (Ch 9-13 @ 100 + Ch 14 @ 500)
-- Part 3: 1,000 XP (Ch 15-19 @ 100 + Ch 20 @ 500)
-- Part 4: 1,700 XP (Ch 21 @ 100 + Ch 22 @ 100 + Ch 23 @ 200 + Ch 24 @ 200 + Ch 25 @ 1000 + Ch 26 @ 100)
-- **Actual total: 4,900 XP**
-
-**Fix:** Update `index.md:174` to `**Total XP to complete: 4,900 XP**`. Update DESIGN.md §6 XP table total to 4,900. Update Level Progression table to match.
+| C1 | XP total wrong (3,950 vs 4,900) | Fixed — corrected to 4,900 in index.md and all chapter cards |
 
 ### High Priority
 
@@ -471,7 +456,7 @@ Master TOC lists Ch 18 as "AI-Assisted Coding & Vibecoding" but the chapter titl
 | Issue | Location | Status | Fix |
 |-------|----------|--------|-----|
 | M2 | Ch 25 Resources | **Resolved** | Ch 25 now references Ch 21-24 including mobile, open source, capstone |
-| M3 | Appendix answers coverage | **Partial** | 20/26 chapters covered. Missing: Ch 8, 10, 17, 18, 24, 26 |
+| M3 | Appendix answers coverage | **Partial** | 22/26 chapters covered. Missing: Ch 8, 10, 17, 18 |
 | M4 | Projects table in index.md | **Resolved** | 8 projects + "and more" note present |
 | M5 | Ch 23 `to_dict` complexity | **Pending** | No explanatory comment on `to_dict()` method |
 | M6 | Ch 24 Flask security | **Resolved** | Warning callout present at line 490 |
@@ -577,7 +562,7 @@ Code block readability, bullet list fix, table styling, footer noise reduction, 
 | **Boss fight tiers** | 4-tier escalation with labels | 4 boss fights, unlabeled | Medium |
 | **Side quest types** | 4 categorized types | 20/26 chapters have side quests, uncategorized | Medium |
 | **Publishing** | PDF, translation, analytics | None configured | Medium |
-| **XP totals** | 3,950 XP | Actual: 4,900 XP | **Bug: numbers were wrong** |
+| **XP totals** | 4,900 XP | 4,900 XP | **Resolved** |
 | **Ch 18 title** | "Coding with AI as a Partner" | index.md still says old title | **Bug: stale reference** |
 
 ### Strengths to Preserve
@@ -727,7 +712,7 @@ Each pending fix in §10 was verified against the actual source files. Each clai
 | Category | Count | Details |
 |----------|-------|---------|
 | **Resolved since last update** | 11 | C3, C4, C2, H3, H4, H6, L1, M1, P3.2, P5.1, L2 |
-| **Still pending — Critical** | 1 | C1: XP total wrong (3,950 vs 4,900) |
+| **Still pending — Critical** | 0 | — |
 | **Still pending — High** | 2 | H5: Ch 18 title in TOC, H2: minor overlap (acceptable) |
 | **Still pending — Medium** | 5 | M3, M5, M7, M8 |
 | **Still pending — Low** | 2 | L3, L4 |
@@ -758,7 +743,7 @@ Each pending fix in §10 was verified against the actual source files. Each clai
 | Chapters with portfolio tips | 26/26 |
 | Chapters with side quests | 20/26 (missing: Ch 1, 2, 8, 14, 25, 26) |
 | Chapters with "Pause and Predict" | 7 |
-| Answers.md coverage | 20/26 chapters (missing: Ch 8, 10, 17, 18, 24, 26) |
+| Answers.md coverage | 22/26 chapters (missing: Ch 8, 10, 17, 18) |
 | MkDocs build status | `--strict` passes, 40 HTML files |
 | Images directory | 3 files (favicon, 2 poring SVGs) |
 | Exercises directory | Empty |

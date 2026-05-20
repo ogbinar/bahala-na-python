@@ -272,6 +272,7 @@ if __name__ == "__main__":
 
 ---
 
+*Previous: [Chapter 9: Classes](chapter-09-classes.md) -- Object-oriented programming*
 *Next: [Chapter 11: APIs](chapter-11-apis.md) -- Connecting to the internet.*
 
 ---

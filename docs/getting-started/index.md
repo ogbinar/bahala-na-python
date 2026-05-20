@@ -34,4 +34,5 @@ These work on any device with a browser. But for the full experience, we recomme
 
 ---
 
+*Previous: [Preface](../preface.md) -- Why this book exists | [Home](../index.md) -- Welcome*
 *Next: [Installing Python](install-python.md) -- Let's get Python on your computer.*

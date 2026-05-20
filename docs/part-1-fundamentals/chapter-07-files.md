@@ -357,6 +357,7 @@ if __name__ == "__main__":
 
 ---
 
+*Previous: [Chapter 6: Functions](chapter-06-functions.md) -- Reusable code blocks*
 *Next: [Chapter 8: Boss Fight 1](chapter-08-boss-fight-1.md) -- Combining everything you've learned.*
 
 ---

@@ -72,4 +72,5 @@ Every programmer's journey looks different. Some people spend months on Part 1. 
 
 ---
 
+*Previous: [Boss Fight 3](../part-3-going-further/chapter-20-boss-fight-3.md) -- Final boss fight*
 *Next: [Chapter 21: Mobile Python](chapter-21-mobile.md) -- Python on your phone.*

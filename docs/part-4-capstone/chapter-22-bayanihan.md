@@ -224,7 +224,10 @@ We welcome contributions! Here's how:
 ### Philippine-Focused Projects
 
 - **[PSGC API](https://github.com/OSSPhilippines/psgc-api)** -- Philippine Standard Geographic Codes API. Community-maintained geographic data.
-- **[Edukasyon.ph](https://edukasyon.ph/)** -- Open educational resources for Filipino students.
+- **[OSS Philippines](https://github.com/OSSPhilippines)** -- Umbrella org for Filipino open-source projects.
+- **[PythonPH](https://github.com/pythonph)** -- Tools, event materials, and resources from PythonPH.
+- **[Data Engineering Pilipinas](https://dataengineering.ph/)** -- Study roadmaps, datasets, and community resources. Open and collaborative.
+- **[The Puso Project](https://tpp.dataengineering.ph/)** -- People-centered projects with room for collaboration and public value.
 - **Various Discord servers** -- Filipino tech communities on Discord are informal open-source spaces.
 
 ## The Open-Source Mindset
@@ -307,4 +310,5 @@ Open source isn't just about code. It's about a mindset:
 
 ---
 
+*Previous: [Chapter 21: Mobile Python](chapter-21-mobile.md) -- Python on your phone*
 *Next: [Chapter 23: Capstone A](chapter-23-capstone-a.md) -- Building the Barangay Management System.*

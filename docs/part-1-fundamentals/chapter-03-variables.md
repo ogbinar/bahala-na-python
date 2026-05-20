@@ -299,4 +299,5 @@ for item, qty in inventory.items():
 
 ---
 
+*Previous: [Chapter 2: Bahala Na](../part-0-welcome/chapter-02-bahala-na.md) -- Learning the philosophy*
 *Next: [Chapter 4: Conditionals](chapter-04-conditionals.md) -- Making decisions with if/elif/else.*

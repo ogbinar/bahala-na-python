@@ -273,4 +273,5 @@ else:
 
 ---
 
+*Previous: [Chapter 3: Variables](chapter-03-variables.md) -- Storing information*
 *Next: [Chapter 5: Loops](chapter-05-loops.md) -- Doing things repeatedly.*

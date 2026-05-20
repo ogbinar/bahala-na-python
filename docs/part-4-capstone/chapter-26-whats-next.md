@@ -78,9 +78,9 @@ There's no single "right" path. But here are some directions you might explore:
 | [freeCodeCamp](https://freecodecamp.org/) | Free coding certifications |
 | [CS50](https://cs50.harvard.edu/) | Harvard's free CS course |
 | [The Odin Project](https://theodinproject.com/) | Full-stack web development |
-| [Python Discord](https://pythondiscord.com/) | Active Python community |
+| [Python Discord](https://pythondiscord.com/) | Active Python community, code jams, and open-source projects |
 | [r/learnpython](https://reddit.com/r/learnpython) | Reddit learning community |
-| [Kaggle](https://kaggle.com/) | Data science competitions |
+| [Kaggle Learn](https://kaggle.com/learn) | Free micro-courses on Python, data, and ML |
 
 ### Building a Portfolio
 
@@ -104,18 +104,41 @@ Week 4: Deploy and share
 
 Don't aim for perfect. Aim for **done**.
 
-## The Filipino Developer Community
+## Communities Worth Joining
 
-You're not alone. There's a growing community of Filipino developers:
+You're not alone. The best way to keep growing is by surrounding yourself with people who care about the same things you do. Here are the communities that give you the most value for your time -- the 80/20 of where Filipino Python developers actually hang out.
 
-- **PyCon PH** -- Annual Python conference in the Philippines
-- **PyLadies Philippines** -- Supporting women in tech
-- **Data Engineering Pilipinas** -- The broader community this book is part of. Data professionals, analysts, developers, and learners. Visit [dataengineering.ph](https://dataengineering.ph/) or [join the DEP Barkada](https://discord.com/invite/buDgydz7J9).
-- **Filipino Developers (Facebook)** -- 50,000+ members
-- **Python Philippines (Facebook)** -- 10,000+ members
-- **Various Discord servers** -- Taglish coding communities
+### Filipino Communities
 
-Join them. Ask questions. Share your work. Help others.
+| Community | What It Is | Where |
+|-----------|-----------|-------|
+| **[PythonPH](https://python.ph/)** | The original Python community in the Philippines. Volunteer-run since 2012. Hosts PyCon PH, monthly meetups, public trainings, and Kaizend leadership program. Slack and Facebook groups. | [python.ph](https://python.ph/) · [Meetup](https://www.meetup.com/pythonph/) · [Slack](https://python.ph/slack/) · [Facebook](https://www.facebook.com/groups/pythonph/) · [GitHub](https://github.com/pythonph) |
+| **[PythonAsia](https://pythonasia.org/)** | The flagship Python conference for Asia Pacific, now hosted in Manila (previously PyCon Philippines). Multi-day event with talks, workshops, and networking. | [pythonasia.org](https://pythonasia.org/) · [Meetup](https://www.meetup.com/pythonph/) |
+| **[Data Engineering Pilipinas](https://dataengineering.ph/)** | The community this book was born from. Data engineers, analysts, scientists, and learners. Study roadmaps, datasets, study groups, and the DEP Barkada Discord. Official PyData group and DataCamp Donates partner. | [dataengineering.ph](https://dataengineering.ph/) · [Discord](https://discord.com/invite/buDgydz7J9) · [Facebook](https://www.facebook.com/groups/dataengineeringpilipinas) · [Reddit](https://www.reddit.com/r/DataEngineeringPH/) |
+| **[The Puso Project](https://tpp.dataengineering.ph/)** | A people-centered initiative by the DEP community. Space for ideas, collaboration, and public value projects. | [tpp.dataengineering.ph](https://tpp.dataengineering.ph/) |
+| **[PyLadies Manila](https://pyladiesmanila.github.io/)** | Chapter of the global PyLadies network. Supports and mentors women in Python and tech through meetups, workshops, mentorship, and hackathons. | [pyladiesmanila.github.io](https://pyladiesmanila.github.io/) · [GitHub](https://github.com/pyladiesmanila) |
+| **[Filipino Developers](https://www.facebook.com/groups/filipinodevelopers)** | 50,000+ member Facebook group. Broad tech community covering web dev, mobile, data, and career advice. | [Facebook Group](https://www.facebook.com/groups/filipinodevelopers) |
+| **OSS Philippines** | Community for open-source software in the Philippines. Maintains projects like the PSGC API (Philippine geographic data). | [GitHub](https://github.com/OSSPhilippines) |
+
+### Global Python Communities
+
+| Community | What It Is | Why Join |
+|-----------|-----------|----------|
+| **[Python Discord](https://pythondiscord.com/)** | Large, active Python community on Discord. 100+ expert helpers available 24/7 across all timezones. Runs code jams, hackathons, and seasonal events with prizes. | Best for getting real-time help. Their [sir-lancebot](https://github.com/python-discord/sir-lancebot) project is a great first open-source contribution. |
+| **[r/learnpython](https://reddit.com/r/learnpython)** | Reddit's Python learning community. Great for asking questions, sharing projects, and reading others' journeys. | Low barrier to entry. Just ask. |
+| **[Python Software Foundation](https://www.python.org/psf/)** | The non-profit behind Python itself. Runs local user groups, diversity programs, and the PSF mentorship program. | The official home of the Python community. |
+| **[PyData](https://pydata.org/)** | Global community for Python in data science, machine learning, and analytics. Local chapters worldwide, including PyData Manila. | If you're heading toward data, this is where the practitioners gather. |
+| **[Kaggle](https://kaggle.com/)** | Data science competitions, datasets, and community notebooks. Learn by doing, collaborate on real datasets. | Hands-on practice with real data. Great portfolio builder. |
+
+### How to Get the Most Out of Communities
+
+1. **Don't lurk forever** -- Introduce yourself in `#welcome`. Say what you're working on.
+2. **Ask specific questions** -- "My code errors on line 5" beats "Python is hard."
+3. **Help when you can** -- Even a beginner can answer a question someone else asked last week.
+4. **Show your work** -- Share your projects in `#showcase`. Feedback accelerates learning.
+5. **Go to events** -- PyCon PH, PythonPH meetups, DEP study groups. Meeting people IRL changes everything.
+
+**Pick two communities. Join them. Stay for at least 3 months.** You'll be surprised how much you grow when you're not learning alone.
 
 ## Your Diskarte
 
@@ -218,7 +241,7 @@ You've finished the book. But the journey doesn't end here. Join the DEP Barkada
 ??? checkbox "✅ Chapter Checklist"
 
     - [ ] Identify your next learning path (web dev, data science, AI, or community)
-    - [ ] Join at least one Filipino developer community (Discord, Facebook, PyCon PH)
+    - [ ] Join at least two communities from the list above and stay active for 3 months
     - [ ] Pin your best projects on GitHub with good READMEs
     - [ ] Commit to the 30-day challenge: plan, build, and ship one project
     - [ ] Help another beginner learn Python — teaching is the best way to learn
@@ -241,3 +264,7 @@ You've finished the book. But the journey doesn't end here. Join the DEP Barkada
     **[🚀 Join the DEP Barkada](https://discord.com/invite/buDgydz7J9)**
 
     > *"Ang bawat linya ng code ay hakbang papunta sa kinabukasan. Hindi mo kailangan mag-isa."*
+
+---
+
+*Previous: [Chapter 25: Final Boss](chapter-25-final-boss.md) -- Your ultimate challenge*

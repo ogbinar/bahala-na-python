@@ -4,6 +4,10 @@
 
 ---
 
+**Related chapters:** [Ch 2](../part-0-welcome/chapter-02-bahala-na.md) (Installation) | [Ch 4](../part-1-fundamentals/chapter-04-conditionals.md) (Errors) | [Ch 7](../part-1-fundamentals/chapter-07-files.md) (File I/O) | [Ch 13](../part-2-building-things/chapter-13-errors.md) (Error Handling) | [Ch 15](../part-3-going-further/chapter-15-discord-bots.md) (Discord Bots) | [Ch 16](../part-3-going-further/chapter-16-dataviz.md) (Data Viz) | [Ch 21](../part-4-capstone/chapter-21-mobile.md) (Mobile Python)
+
+---
+
 ## Installation Issues
 
 ### "Python is not recognized" (Windows)
@@ -530,3 +534,8 @@ When you're stuck:
 ---
 
 *Remember: errors are data. Every error you read makes you a better programmer.*
+
+---
+
+*Previous: [Answers](answers.md) -- Practice solutions*
+*Next: [Reference](reference.md) -- Quick reference guide*

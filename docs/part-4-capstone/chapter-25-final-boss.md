@@ -7,7 +7,7 @@
     | **Time** | 120 min |
     | **XP** | +1000 XP |
 
-??? warning "⚔️ FINAL BOSS FIGHT"
+??? warning "⚔️ Tier 4 — Final Boss"
     **Tier:** Final Boss | **Concepts Combined:** ALL (Everything from Chapters 1-24)
     **XP Reward:** 1000 XP | **Badge:** "Legend"
 
@@ -19,7 +19,7 @@
 
 This is it. The Final Boss.
 
-??? warning "Final Boss Fight"
+??? warning "⚔️ Tier 4 — Final Boss"
     **Build a project of your own choosing that solves a real problem in your community.**
 
     No hand-holding. But remember: looking up documentation isn't cheating — it's diskarte.
@@ -300,4 +300,5 @@ Because you've made it this far. Twenty-five chapters. Hundreds of hours of lear
 
 ---
 
+*Previous: [Chapter 24: Capstone B](chapter-24-capstone-b.md) -- Advanced features*
 *Next: [Chapter 26: What's Next](chapter-26-whats-next.md) -- Your journey doesn't end here.*

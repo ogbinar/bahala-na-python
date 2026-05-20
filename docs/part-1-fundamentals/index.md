@@ -63,4 +63,5 @@ Each chapter adds a new tool to your toolkit. By the end, you'll have built some
 
 ---
 
+*Previous: [Chapter 2: Bahala Na](../part-0-welcome/chapter-02-bahala-na.md) -- Learning the philosophy*
 *Next: [Chapter 3: Variables & Data Types](chapter-03-variables.md) -- Starting with the sari-sari store.*

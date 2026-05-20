@@ -357,6 +357,7 @@ if __name__ == "__main__":
 
 ---
 
+*Previous: [Chapter 12: Web Scraping](chapter-12-scraping.md) -- Pulling data from websites*
 *Next: [Chapter 14: Boss Fight 2](chapter-14-boss-fight-2.md) -- The midpoint boss battle.*
 
 ---

@@ -336,4 +336,5 @@ def analyze_sentiment(text):
 
 ---
 
+*Previous: [Chapter 16: Data Visualization](chapter-16-dataviz.md) -- Making charts and graphs*
 *Next: [Chapter 18: AI-Assisted Coding](chapter-18-ai-coding.md) -- Coding with AI partners.*

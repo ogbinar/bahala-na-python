@@ -29,6 +29,15 @@ Learn Python the Filipino way -- through culture, community, and code.
 
 ---
 
+## Quick Links
+
+- 📖 [Preface](preface.md) -- Why this book exists
+- 🚀 [Getting Started](getting-started/index.md) -- Install Python and set up your environment
+- 🔤 [Alphabetical Index](index-alphabetical.md) -- Find any topic alphabetically
+- 📚 [Table of Contents](#table-of-contents-your-journey-map) -- See all chapters and the learning path
+
+---
+
 ## Kumusta, Kabayan! 👋
 
 Welcome to **"A Filipino's Guide to Python: The 'Bahala Na' Approach to Learning Code."**
@@ -226,20 +235,6 @@ Read in order for the best experience. Each chapter builds on the last.
 ---
 
 *Ready? Let's write your first line of Python.*
-
----
-
-## Continue With DEP
-
-Finished the book? Here's what comes next:
-
-| Resource | What It Is |
-|----------|-----------|
-| [DEP Website](https://dataengineering.ph/) | The broader learning ecosystem |
-| [DEP Resources](https://dataengineering.ph/resources.html) | Curated tools, tutorials, and guides |
-| [DEP Barkada](https://discord.com/invite/buDgydz7J9) | Ask questions, share projects, get unstuck |
-
-The book is your onboarding. DEP is your community. Together, you grow.
 
 ---
 

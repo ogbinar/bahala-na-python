@@ -331,4 +331,5 @@ remaining = spend(500, 100)
 
 ---
 
+*Previous: [Chapter 5: Loops](chapter-05-loops.md) -- Repeating actions*
 *Next: [Chapter 7: Files](chapter-07-files.md) -- Saving data permanently.*

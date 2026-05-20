@@ -54,3 +54,8 @@ That's this book. **Bahala na.**
 ---
 
 *Let's begin. [Chapter 1: Hello, World!](chapter-01-hello-world.md)*
+
+---
+
+*Previous: [Preface](../preface.md) -- Why this book exists | [Home](../index.md) -- Welcome*
+*Next: [Chapter 1: Hello, World!](chapter-01-hello-world.md) -- Your first line of Python*

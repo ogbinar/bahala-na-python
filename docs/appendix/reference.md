@@ -4,6 +4,10 @@
 
 ---
 
+**Related chapters:** [Ch 3](../part-1-fundamentals/chapter-03-variables.md) (Variables & Data Types) | [Ch 4](../part-1-fundamentals/chapter-04-conditionals.md) (Conditionals) | [Ch 5](../part-1-fundamentals/chapter-05-loops.md) (Loops) | [Ch 6](../part-1-fundamentals/chapter-06-functions.md) (Functions) | [Ch 7](../part-1-fundamentals/chapter-07-files.md) (File I/O) | [Ch 9](../part-2-building-things/chapter-09-classes.md) (Classes) | [Ch 11](../part-2-building-things/chapter-11-apis.md) (APIs) | [Ch 13](../part-2-building-things/chapter-13-errors.md) (Errors) | [Ch 15](../part-3-going-further/chapter-15-discord-bots.md) (Async & Discord) | [Ch 16](../part-3-going-further/chapter-16-dataviz.md) (Data Viz)
+
+---
+
 ## Python Keywords
 
 These are reserved words you can't use as variable names:
@@ -412,3 +416,8 @@ re.match(r"^\d{3}-\d{4}$", "123-4567")  # Validate format
 ---
 
 *Keep this reference handy. You'll use these patterns again and again.*
+
+---
+
+*Previous: [Troubleshooting](troubleshooting.md) -- Common issues and fixes*
+*Next: [Glossary](glossary.md) -- Key terms*

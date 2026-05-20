@@ -120,4 +120,5 @@ Kaya ko 'to!
 
 ---
 
+*Previous: [Getting Started](index.md) -- Setting up your environment*
 *Next: [Your First Program](first-program.md) -- Verify everything works.*

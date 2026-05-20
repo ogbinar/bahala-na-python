@@ -511,4 +511,5 @@ In Chapter 24, you'll add:
 
 ---
 
+*Previous: [Chapter 22: Bayanihan](chapter-22-bayanihan.md) -- Community collaboration*
 *Next: [Chapter 24: Capstone B](chapter-24-capstone-b.md) -- Adding certificates, APIs, and advanced features.*

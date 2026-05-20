@@ -64,4 +64,5 @@ If both steps worked, Python is set up correctly. You're ready to start learning
 
 ---
 
+*Previous: [Installing Python](install-python.md) -- Getting Python on your computer*
 *Next: [Chapter 1: Hello, World!](../part-0-welcome/chapter-01-hello-world.md) -- Let's learn Python properly.*

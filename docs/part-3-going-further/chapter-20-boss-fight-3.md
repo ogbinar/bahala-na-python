@@ -7,7 +7,7 @@
     | **Time** | 90 min |
     | **XP** | +500 XP |
 
-??? warning "⚔️ Elite Boss Fight"
+??? warning "⚔️ Tier 3 — Advanced Boss"
     **Tier:** Elite Boss | **Concepts Combined:** 5+ (Async, Data Viz, NLP, AI Coding, Open Source)
     **XP Reward:** 500 XP | **Badge:** "Barangay Captain"
 
@@ -666,4 +666,5 @@ Sample output:
 
 ---
 
+*Previous: [Chapter 19: Open Source](chapter-19-open-source.md) -- Contributing to the community*
 *Next: [Part 4: Capstone](../part-4-capstone/index.md) -- Your capstone projects begin.*

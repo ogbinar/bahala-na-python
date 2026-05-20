@@ -28,7 +28,10 @@ Don't just read. Type the code. Run it. Break it. Fix it. That's how you learn.
 
 ### Use the XP System
 
-Track your progress using the XP tracker in the bottom-right corner. Earn XP by reading chapters, completing exercises, and beating Boss Fights. Level up from Tambay to Legend!
+Track your progress using the XP values in each chapter's opener card. Earn XP by completing exercises, Side Quests, and Boss Fights. Level up from Tambay to Legend!
+
+Want to keep a manual tally? Grab a notebook or make a simple
+spreadsheet — just log your XP as you go.
 
 ### Join the Community
 
@@ -60,4 +63,4 @@ Not a formal textbook. Not gatekeeping. Just one Filipino sharing his love for t
 
 ---
 
-*Next: [Home](index.md) -- Welcome to Bahala Na Python*
+*Previous: [Home](index.md) -- Welcome to Bahala Na Python*

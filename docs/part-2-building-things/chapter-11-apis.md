@@ -321,6 +321,7 @@ except requests.exceptions.RequestException as e:
 
 ---
 
+*Previous: [Chapter 10: Strings](chapter-10-strings.md) -- Working with text*
 *Next: [Chapter 12: Web Scraping](chapter-12-scraping.md) -- Pulling data from websites.*
 
 ---

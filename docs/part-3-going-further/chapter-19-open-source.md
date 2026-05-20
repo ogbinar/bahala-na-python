@@ -53,6 +53,9 @@ Look for projects with `good-first-issue` or `help-wanted` labels:
 
 - [first-contributions](https://github.com/first-contributions/first-contributions) -- Designed for first-time contributors
 - [good-first-issue](https://goodfirstissue.dev) -- Aggregates beginner-friendly issues
+- [OSS Philippines GitHub](https://github.com/OSSPhilippines) -- Philippine open-source projects (PSGC API, etc.)
+- [PythonPH GitHub](https://github.com/pythonph) -- Tools and resources from the PythonPH community
+- [Python Discord sir-lancebot](https://github.com/python-discord/sir-lancebot) -- Intro-level Discord bot, great for first contributions
 
 ### Step 2: Fork the Repository
 
@@ -230,4 +233,5 @@ Typos in code examples can confuse beginners. This correction ensures the code r
 
 ---
 
+*Previous: [Chapter 18: AI Coding](chapter-18-ai-coding.md) -- Coding with AI partners*
 *Next: [Chapter 20: Boss Fight 3](chapter-20-boss-fight-3.md) -- The ultimate challenge.*

@@ -7,7 +7,7 @@
     | **Time** | 60 min |
     | **XP** | +500 XP |
 
-??? warning "⚔️ Regular Boss Fight"
+??? warning "⚔️ Tier 2 — Midpoint Boss"
     **Tier:** Regular Boss | **Concepts Combined:** 4 (Classes, Strings, APIs, Error Handling)
     **XP Reward:** 500 XP | **Badge:** "Diskarte King/Queen"
 
@@ -376,6 +376,7 @@ In Part 3, you'll go even further: Discord bots, data visualization, NLP, AI-ass
 
 ---
 
+*Previous: [Chapter 13: Errors](chapter-13-errors.md) -- Handling problems gracefully*
 *Next: [Part 3: Going Further](../part-3-going-further/index.md) -- Where things get really cool.*
 
 ---

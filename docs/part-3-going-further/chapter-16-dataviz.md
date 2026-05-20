@@ -346,4 +346,5 @@ dashboard.create_summary_report()
 
 ---
 
+*Previous: [Chapter 15: Discord Bots](chapter-15-discord-bots.md) -- Building bots for your barkada*
 *Next: [Chapter 17: NLP](chapter-17-nlp.md) -- Understanding language.*

@@ -4,6 +4,10 @@
 
 ---
 
+**Browse by chapter:** [Ch 1-7](../part-1-fundamentals/index.md) (Fundamentals) | [Ch 9-14](../part-2-building-things/index.md) (Building Things) | [Ch 15-20](../part-3-going-further/index.md) (Level Up) | [Ch 21-26](../part-4-capstone/index.md) (Capstone)
+
+---
+
 ## A
 
 **API (Application Programming Interface)** -- A way for programs to communicate with each other. Like a restaurant menu: you order what's available, the kitchen prepares it, and you get your food.
@@ -158,3 +162,7 @@
 ---
 
 *Terms are defined in context throughout the book. This glossary is a quick reference for looking up specific terms.*
+
+---
+
+*Previous: [Reference](reference.md) -- Quick reference guide*

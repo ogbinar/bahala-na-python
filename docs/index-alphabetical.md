@@ -127,3 +127,8 @@ An alphabetical index of key terms, concepts, and topics covered in this book.
 ## X
 
 - **XP (Experience Points)** -- Points earned by completing activities. [Home](index.md)
+
+---
+
+*Previous: [Home](index.md) -- Welcome to Bahala Na Python*
+*Next: [Getting Started](getting-started/index.md) -- Install Python*

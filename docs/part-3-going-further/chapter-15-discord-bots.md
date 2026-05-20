@@ -365,4 +365,5 @@ To run your bot 24/7:
 
 ---
 
+*Previous: [Boss Fight 2: Midpoint Battle](../part-2-building-things/chapter-14-boss-fight-2.md) -- Midpoint boss fight*
 *Next: [Chapter 16: Data Visualization](chapter-16-dataviz.md) -- Making charts and graphs.*

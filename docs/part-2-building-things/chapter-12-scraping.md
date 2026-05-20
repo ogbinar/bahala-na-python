@@ -327,6 +327,7 @@ Many modern websites load content via JavaScript, which means the HTML you get f
 
 ---
 
+*Previous: [Chapter 11: APIs](chapter-11-apis.md) -- Connecting to live data*
 *Next: [Chapter 13: Errors & Debugging](chapter-13-errors.md) -- Handling problems gracefully.*
 
 ---

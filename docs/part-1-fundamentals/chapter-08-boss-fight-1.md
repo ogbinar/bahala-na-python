@@ -7,7 +7,7 @@
     | **Time** | 60 min |
     | **XP** | +500 XP |
 
-??? warning "⚔️ Elite Boss Fight"
+??? warning "⚔️ Tier 1 — Fundamentals Boss"
     **Tier:** Elite Boss | **Concepts Combined:** 5 (Variables, Lists/Dicts, Conditionals, Loops, Functions, File I/O)
     **XP Reward:** 500 XP | **Badge:** "Sari-Sari Store Owner"
 
@@ -398,6 +398,7 @@ In Part 2, you'll level up with **classes, APIs, web scraping, and error handlin
 
 ---
 
+*Previous: [Chapter 7: Files](chapter-07-files.md) -- Saving data permanently*
 *Next: [Part 2: Building Things](../part-2-building-things/index.md) -- Where things get real.*
 
 ---

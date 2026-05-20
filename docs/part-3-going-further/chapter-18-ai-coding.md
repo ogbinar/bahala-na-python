@@ -226,4 +226,5 @@ This is the right way to use AI: as a partner that helps you learn, not a magic 
 
 ---
 
+*Previous: [Chapter 17: NLP](chapter-17-nlp.md) -- Understanding language*
 *Next: [Chapter 19: Open Source](chapter-19-open-source.md) -- Contributing to the community.*
