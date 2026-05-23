@@ -20,6 +20,8 @@ Learn Python the Filipino way -- through culture, community, and code.
 
 **Licensing:** book text and prose are under [CC BY 4.0](../LICENSE-BOOK.md); source code, scripts, and tooling are under [GPLv3+](../LICENSE-CODE.md).
 
+**Found an error?** If you spot a typo, wrong quote, broken link, or incorrect example, please open a Pull Request or file an issue with the exact page and line. Bayanihan tayo.
+
 ---
 
 ??? note "📖 Why This Book Exists"

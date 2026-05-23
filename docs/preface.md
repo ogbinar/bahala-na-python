@@ -37,6 +37,8 @@ spreadsheet — just log your XP as you go.
 
 Learning alone is hard. Join our [DEP Barkada on Discord](https://discord.com/invite/buDgydz7J9) to get help, share projects, and celebrate wins with your barkada.
 
+If you spot something incorrect in the book, the easiest way to help is to open a Pull Request or file an issue with the exact page and line. Small fixes matter.
+
 ## Acknowledgments
 
 This book exists because of the Filipino tech community -- the teachers on YouTube who make free tutorials, the Discord members who answer beginner questions at 2 AM, the open-source contributors who build tools we all use for free.
