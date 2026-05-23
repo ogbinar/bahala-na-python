@@ -14,6 +14,7 @@ Learn Python the Filipino way -- through culture, community, and code.
     Continue your learning journey through the [DEP website](https://dataengineering.ph/) and [DEP Barkada](https://discord.com/invite/buDgydz7J9).
 
 [![Read Online](https://img.shields.io/badge/Read_Online-Click-blue?style=for-the-badge)](https://ogbinar.github.io/bahala-na-python)
+[![Download PDF](https://img.shields.io/badge/Download_PDF-Click-red?style=for-the-badge&logo=adobeacrobatreader)](pdf/book.pdf)
 [![View GitHub](https://img.shields.io/badge/View_GitHub-Click-gray?style=for-the-badge&logo=github)](https://github.com/ogbinar/bahala-na-python)
 [![Join the Barkada](https://img.shields.io/badge/Join_the_Barkada-Click-purple?style=for-the-badge&logo=discord)](https://discord.com/invite/buDgydz7J9)
 
