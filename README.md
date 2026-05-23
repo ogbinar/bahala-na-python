@@ -6,12 +6,15 @@
 ![Book: CC BY 4.0](https://img.shields.io/badge/Book-CC%20BY%204.0-lightgrey?style=flat-square)
 ![Code: GPLv3+](https://img.shields.io/badge/Code-GPLv3%2B-green?style=flat-square)
 ![Status: Early Access](https://img.shields.io/badge/Status-Early%20Access-orange?style=flat-square)
+[![Official Site](https://img.shields.io/badge/Official_Site-Click-red?style=flat-square)](https://ogbinar.com/bahala-na-python/)
 
 ---
 
 ## Kumusta! 👋
 
 This is a free, open-source Python book written by Myk Ogbinar for Filipino learners who want a practical, low-friction way to start.
+
+Official site: https://ogbinar.com/bahala-na-python/
 
 Myk's public work centers on data, AI, community, and useful systems. The book keeps that perspective, but the teaching voice stays intentionally accessible: clear, friendly, and beginner-safe.
 
