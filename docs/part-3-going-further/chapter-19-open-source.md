@@ -9,6 +9,8 @@
 
 > **Story Hook:** You've been using open-source software for months. Python itself is open source. The libraries you import (requests, pandas, matplotlib) are all open source. You've never contributed to one. Today, that changes. You make your first pull request. Your hands are sweating. You click "Submit." And then: the most beautiful thing in programming. A review comment: "Great first contribution! Could you add a test?" You smile. You belong here now.
 
+Ganito rin ang bayanihan sa code: maliit man ang ambag mo, mahalaga pa rin.
+
 > **Output:** A GitHub contribution workflow, from fork to pull request, that readers can reuse on real projects.
 
 ---

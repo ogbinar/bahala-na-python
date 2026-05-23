@@ -2,6 +2,8 @@
 
 > Let's get Python on your computer. This takes about 10 minutes. **Kaya mo yan.**
 
+Kung medyo nakaka-intimidate sa simula, okay lang. Isang setup lang 'to, hindi mo kailangan maging expert muna.
+
 ---
 
 ## Step 1: Download Python

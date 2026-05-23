@@ -1,6 +1,6 @@
 # Your First Program
 
-> Now that you have Python installed, let's verify everything works. If this goes smoothly, you're ready for Chapter 1.
+> Now that you have Python installed, let's verify everything works. If this goes smoothly, you're ready for Chapter 1. Simple lang muna -- isang maliit na win at a time.
 
 ---
 

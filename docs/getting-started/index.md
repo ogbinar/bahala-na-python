@@ -1,6 +1,6 @@
 # Getting Started
 
-> Before we write any code, let's make sure you have everything set up.
+> Before we write any code, let's make sure you have everything set up. Dahan-dahan lang tayo -- wala namang race dito.
 
 ---
 
@@ -12,6 +12,8 @@ You don't need much:
 - **Internet access** -- For downloading Python and reading along. WiFi hunting is fine.
 - **Curiosity** -- The most important tool.
 - **Patience** -- This is a marathon, not a sprint.
+
+Kapag may hindi gumana agad, normal lang 'yan. Hindi ka late; nagsisimula ka pa lang.
 
 ## What You'll Learn
 

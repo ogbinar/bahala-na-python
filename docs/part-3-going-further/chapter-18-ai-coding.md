@@ -9,6 +9,8 @@
 
 > **Story Hook:** You're stuck on a bug for 3 hours. You've tried everything: print debugging, rubber duck debugging, even a nap. The error message makes no sense. You think about asking in the Python Discord, but it's 2 AM. Then you remember: you have AI. You paste the code, describe the problem, and within seconds, the AI suggests a fix. It works. You think: "This is either amazing or terrifying. Probably both."
 
+Minsan, ang kailangan mo lang ay kausap na marunong magpaliwanag ng error nang simple.
+
 > **Output:** A safer AI workflow: prompts, code review, and a reusable checklist for debugging with help.
 
 ---

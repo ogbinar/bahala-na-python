@@ -9,6 +9,8 @@
 
 > **Story Hook:** You've been coding for weeks. Your programs work -- sometimes. Then you hit a wall. A program that worked yesterday crashes with a cryptic error message. You stare at the screen. "What does this even mean?" Your first instinct is to panic. But then you remember: errors are data. Every error is a clue. And you're a detective now.
 
+Walang masama kung kailangan mong ulitin ang run. Normal lang 'yan habang inaayos mo ang daloy ng code.
+
 > **Output:** A sturdier Python tool that fails gracefully and gives useful debugging clues.
 
 ---

@@ -9,6 +9,8 @@
 
 > **Story Hook:** It's 11.11 sale season. You're on Shopee, comparing prices for the same item across 50 sellers. Some claim "50% off!" but their "original price" is inflated. You wonder: "How much has the price changed over the past month? Is this really a deal?" So you write a script that tracks prices automatically. No more guessing.
 
+Sa totoo lang, ganito rin tayo mamili minsan: titingin muna sa presyo, rereview pa ang deal, tapos tsaka magdedesisyon.
+
 > **Output:** A scraper that collects product prices and saves comparison data you can review later.
 
 ---

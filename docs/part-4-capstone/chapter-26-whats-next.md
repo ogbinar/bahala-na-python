@@ -76,6 +76,7 @@ There's no single "right" path. But here are some directions you might explore:
 | Resource | What It Is |
 |----------|-----------|
 | [Python.org Tutorial](https://docs.python.org/3/tutorial/) | Official Python tutorial |
+| [Python for Everybody (PY4E)](https://www.py4e.com/) | Free beginner-friendly Python course and book |
 | [Real Python](https://realpython.com/) | In-depth tutorials (some free) |
 | [freeCodeCamp](https://freecodecamp.org/) | Free coding certifications |
 | [CS50](https://cs50.harvard.edu/) | Harvard's free CS course |

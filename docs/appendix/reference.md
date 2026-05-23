@@ -2,6 +2,8 @@
 
 > Quick reference for Python keywords, built-in functions, and common patterns. Bookmark this page!
 
+Kung gusto mo ng mas hands-on na paliwanag, balikan mo ang chapters; dito, pang-reference lang muna tayo.
+
 ---
 
 **Related chapters:** [Ch 3](../part-1-fundamentals/chapter-03-variables.md) (Variables & Data Types) | [Ch 4](../part-1-fundamentals/chapter-04-conditionals.md) (Conditionals) | [Ch 5](../part-1-fundamentals/chapter-05-loops.md) (Loops) | [Ch 6](../part-1-fundamentals/chapter-06-functions.md) (Functions) | [Ch 7](../part-1-fundamentals/chapter-07-files.md) (File I/O) | [Ch 9](../part-2-building-things/chapter-09-classes.md) (Classes) | [Ch 11](../part-2-building-things/chapter-11-apis.md) (APIs) | [Ch 13](../part-2-building-things/chapter-13-errors.md) (Errors) | [Ch 15](../part-3-going-further/chapter-15-discord-bots.md) (Async & Discord) | [Ch 16](../part-3-going-further/chapter-16-dataviz.md) (Data Viz)
