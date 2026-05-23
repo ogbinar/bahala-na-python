@@ -87,7 +87,7 @@ book-python/
 ├── requirements.txt            # Simpler dependency listing
 ├── CONTRIBUTING.md             # How to contribute to the book
 ├── CODE_OF_CONDUCT.md
-├── LICENSE.md                  # CC BY 4.0 recommended
+├── LICENSE.md                  # License overview (book CC BY 4.0, code GPLv3+)
 ├── README.md                   # Book landing page (also shown on GitHub)
 ├── STYLE-GUIDE.md              # Writing & formatting rules for contributors
 └── AGENT-BEST-PRACTICES.md     # This file
@@ -603,15 +603,17 @@ v2.0.0 -- Second edition (major updates)
 
 ## 13. LICENSE & CREDIT
 
-### Recommended License: CC BY 4.0
+### Recommended Split
 
-- **Attribution required**: Anyone can use, share, adapt -- but must credit the authors
-- **Open and permissive**: Encourages translations, adaptations, and community contributions
-- **Compatible with GitHub**: Widely understood and supported
+- **Book text / prose / documentation:** CC BY 4.0
+- **Source code / scripts / tooling:** GPLv3 or later
+- This keeps the writing open for sharing and adaptation while keeping the code open too
 
 ### Additional Files Needed
 
-- `LICENSE.md` -- Full CC BY 4.0 text
+- `LICENSE.md` -- Short overview of the split
+- `LICENSE-BOOK.md` -- Full CC BY 4.0 text
+- `LICENSE-CODE.md` -- Full GPLv3-or-later text
 - `CREDITS.md` -- List of all contributors, translators, reviewers
 - `CONTRIBUTING.md` -- How to contribute (code of conduct, workflow, guidelines)
 - `CODE_OF_CONDUCT.md` -- Adopt [Contributor Covenant](https://www.contributor-covenant.org/)

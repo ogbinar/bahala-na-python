@@ -18,6 +18,8 @@ Learn Python the Filipino way -- through culture, community, and code.
 [![View GitHub](https://img.shields.io/badge/View_GitHub-Click-gray?style=for-the-badge&logo=github)](https://github.com/ogbinar/bahala-na-python)
 [![Join the Barkada](https://img.shields.io/badge/Join_the_Barkada-Click-purple?style=for-the-badge&logo=discord)](https://discord.com/invite/buDgydz7J9)
 
+**Licensing:** book text and prose are under [CC BY 4.0](../LICENSE-BOOK.md); source code, scripts, and tooling are under [GPLv3+](../LICENSE-CODE.md).
+
 ---
 
 ??? note "📖 Why This Book Exists"

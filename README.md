@@ -3,7 +3,8 @@
 > Learn Python through Filipino culture, community, and code. No CS degree required. Just curiosity.
 
 ![Bahala Na Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python)
-![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey?style=flat-square)
+![Book: CC BY 4.0](https://img.shields.io/badge/Book-CC%20BY%204.0-lightgrey?style=flat-square)
+![Code: GPLv3+](https://img.shields.io/badge/Code-GPLv3%2B-green?style=flat-square)
 ![Status: Early Access](https://img.shields.io/badge/Status-Early%20Access-orange?style=flat-square)
 
 ---
@@ -64,7 +65,7 @@ This is an open-source project. Every contribution matters -- fixing a typo, add
 
 ## 📜 License
 
-This book is licensed under [CC BY 4.0](LICENSE.md). You're free to share and adapt it -- just give appropriate credit.
+The book text and prose are licensed under [CC BY 4.0](LICENSE-BOOK.md). The source code, scripts, and code tooling are licensed under [GPLv3+](LICENSE-CODE.md). If you're sharing the book, cite it; if you're reusing the code, keep the code open too.
 
 ## 🇵🇭 Built With Bayanihan
 

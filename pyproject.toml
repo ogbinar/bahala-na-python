@@ -7,7 +7,7 @@ name = "bahala-na-python"
 version = "0.1.0"
 description = "A Filipino's Guide to Python: The 'Bahala Na' Approach to Learning Code"
 readme = "README.md"
-license = "CC-BY-4.0"
+license = { file = "LICENSE-CODE.md" }
 requires-python = ">=3.9"
 dependencies = [
     "mkdocs>=1.5.0",

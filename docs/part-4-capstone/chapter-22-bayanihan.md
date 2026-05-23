@@ -191,7 +191,7 @@ Your `README.md` is your project's front page. It should answer:
 
 ### Step 3: License It
 
-Use [choosealicense.com](https://choosealicense.com/) to pick a license. For this book, we use **CC BY 4.0**. For code, common choices:
+Use [choosealicense.com](https://choosealicense.com/) to pick a license. For this book, we split it like this: **book text under CC BY 4.0** and **code under GPLv3+**. For code, common choices:
 
 | License | What It Allows | Best For |
 |---------|---------------|----------|
