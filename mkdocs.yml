@@ -1,7 +1,7 @@
 site_name: "A Filipino's Guide to Python"
 site_description: Learn Python the Filipino way -- through culture, community, and code.
 site_author: Myk Ogbinar
-site_url: https://ogbinar.github.io/bahala-na-python/
+site_url: https://ogbinar.com/bahala-na-python/
 repo_url: https://github.com/ogbinar/bahala-na-python
 repo_name: ogbinar/bahala-na-python
 # repo_actions_ignored: true
