@@ -4,7 +4,7 @@
 
 ---
 
-**Jump to a chapter:** [Ch 3](../part-1-fundamentals/chapter-03-variables.md) | [Ch 4](../part-1-fundamentals/chapter-04-conditionals.md) | [Ch 5](../part-1-fundamentals/chapter-05-loops.md) | [Ch 6](../part-1-fundamentals/chapter-06-functions.md) | [Ch 7](../part-1-fundamentals/chapter-07-files.md) | [Ch 8](../part-1-fundamentals/chapter-08-boss-fight-1.md) | [Ch 9](../part-2-building-things/chapter-09-classes.md) | [Ch 10](../part-2-building-things/chapter-10-strings.md) | [Ch 11](../part-2-building-things/chapter-11-apis.md) | [Ch 12](../part-2-building-things/chapter-12-scraping.md) | [Ch 13](../part-2-building-things/chapter-13-errors.md) | [Ch 15](../part-3-going-further/chapter-15-discord-bots.md) | [Ch 16](../part-3-going-further/chapter-16-dataviz.md) | [Ch 17](../part-3-going-further/chapter-17-nlp.md) | [Ch 18](../part-3-going-further/chapter-18-ai-coding.md)
+**Jump to a chapter:** [Ch 3](../part-1-fundamentals/chapter-03-variables.md) | [Ch 4](../part-1-fundamentals/chapter-04-conditionals.md) | [Ch 5](../part-1-fundamentals/chapter-05-loops.md) | [Ch 6](../part-1-fundamentals/chapter-06-functions.md) | [Ch 7](../part-1-fundamentals/chapter-07-files.md) | [Ch 9](../part-2-building-things/chapter-09-classes.md) | [Ch 10](../part-2-building-things/chapter-10-strings.md) | [Ch 11](../part-2-building-things/chapter-11-apis.md) | [Ch 12](../part-2-building-things/chapter-12-scraping.md) | [Ch 13](../part-2-building-things/chapter-13-errors.md) | [Ch 14](../part-2-building-things/chapter-14-boss-fight-2.md) | [Ch 15](../part-3-going-further/chapter-15-discord-bots.md) | [Ch 16](../part-3-going-further/chapter-16-dataviz.md) | [Ch 17](../part-3-going-further/chapter-17-nlp.md) | [Ch 18](../part-3-going-further/chapter-18-ai-coding.md) | [Ch 20](../part-3-going-further/chapter-20-boss-fight-3.md) | [Ch 21](../part-4-capstone/chapter-21-mobile.md) | [Ch 22](../part-4-capstone/chapter-22-bayanihan.md) | [Ch 23-24](../part-4-capstone/chapter-23-capstone-a.md) | [Ch 25](../part-4-capstone/chapter-25-final-boss.md) | [Ch 26](../part-4-capstone/chapter-26-whats-next.md)
 
 ---
 
@@ -524,16 +524,13 @@ def compare_prices(item, base_price):
         savings_str = f"Save ₱{data['savings']:.2f}" if data["savings"] > 0 else f"Overpay ₱{abs(data['savings']):.2f}"
         print(f"  {source.capitalize()}: ₱{data['price']:.2f} ({savings_str}){flag}")
 
-    return best_source
+    return best_source, results
 
 
 def alert_price(item, threshold, base_price):
     """Alert when a price drops below threshold."""
-    best_source = compare_prices(item, base_price)
-    best_price = next(d for s, d in {
-        s: {"price": fetch_prices(s, base_price), "savings": base_price - fetch_prices(s, base_price)}
-        for s in ["palengke", "supermarket", "online"]
-    }.items() if s == best_source)["price"]
+    best_source, results = compare_prices(item, base_price)
+    best_price = results[best_source]["price"]
 
     if best_price < threshold:
         print(f"\n🔔 ALERT: {item} is below ₱{threshold:.2f} at {best_source.capitalize()}!")
@@ -728,7 +725,7 @@ print(safe_divide("10", 2))   # Error message, None
 
 ### Boss Fight: Discord Bot Challenge (Chapter 15)
 
-**Approach:** Use `discord.Bot()` with slash commands. Key points:
+**Approach:** Use `py-cord`'s `discord.Bot()` with slash commands. Key points:
 - Use `@bot.slash_command` for slash commands
 - Use `ctx.respond()` for initial response, `ctx.send()` follow-ups
 - Store reminders in memory or a JSON file
@@ -1093,7 +1090,7 @@ chat_data = [
     ("Juan", "Nako, exam bukas eh", 21),
     ("Maria", "Sige na, kaya natin 'to!", 21),
     ("Pedro", "Loddddd! Kaya natin! 💪", 21),
-    ("Juan", "Kumusta na review ninyo?", 09),
+    ("Juan", "Kumusta na review ninyo?", 9),
 ]
 
 for member, message, hour in chat_data:

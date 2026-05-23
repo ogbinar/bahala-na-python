@@ -13,15 +13,19 @@ Learn Python the Filipino way -- through culture, community, and code.
 
     Continue your learning journey through the [DEP website](https://dataengineering.ph/) and [DEP Barkada](https://discord.com/invite/buDgydz7J9).
 
-[![Read Online](https://img.shields.io/badge/Read_Online-Click-blue?style=for-the-badge)](https://ogbinar.github.io/bahala-na-python)[![View GitHub](https://img.shields.io/badge/View_GitHub-Click-gray?style=for-the-badge&logo=github)][![Join the Barkada](https://img.shields.io/badge/Join_the_Barkada-Click-purple?style=for-the-badge&logo=discord)](https://discord.com/invite/buDgydz7J9)
+[![Read Online](https://img.shields.io/badge/Read_Online-Click-blue?style=for-the-badge)](https://ogbinar.github.io/bahala-na-python)
+[![View GitHub](https://img.shields.io/badge/View_GitHub-Click-gray?style=for-the-badge&logo=github)](https://github.com/ogbinar/bahala-na-python)
+[![Join the Barkada](https://img.shields.io/badge/Join_the_Barkada-Click-purple?style=for-the-badge&logo=discord)](https://discord.com/invite/buDgydz7J9)
 
 ---
 
 ??? note "📖 Why This Book Exists"
 
-    I remember my first time writing Python. I was sitting at a comshop in Cubao, drinking a 10-peso instant coffee, with a laptop that took five minutes to boot up. I didn't know what a variable was. I didn't know what a loop did. I just knew I wanted to build something -- anything -- that worked.
+    Myk Ogbinar's public work centers on data, AI, community, and useful systems. This book turns that perspective into a beginner-friendly Python guide.
 
-    The internet was full of tutorials that assumed I had a CS degree, a good laptop, and unlimited data. None of that was true. So I figured it out the Filipino way: *bahala na*, try it, break it, fix it, share what worked.
+    I remember my first time writing Python. I was on a slow, low-resource setup, with a laptop that took forever to boot and very little room for mistakes. I didn't know what a variable was. I didn't know what a loop did. I just knew I wanted to build something -- anything -- that worked.
+
+    I wanted automation to make my life easier. The internet was full of tutorials that assumed I had a CS degree, a good laptop, and unlimited data. None of that was true. So I figured it out the Filipino way: *bahala na*, try it, break it, fix it, share what worked.
 
     This book is for the version of me who was too intimidated to start. You don't need the perfect setup. You don't need to be "good at math." You just need to be willing to try.
 
@@ -70,14 +74,18 @@ This book is built on five philosophies:
 
 ## How This Book Works
 
-### Two Halves: Learn + Build
+### The Learning Path
 
-The book is divided into two clear parts:
+The live book is organized as a guided path with setup, foundations, and progressively bigger builds:
 
-| Part | What It Is | Chapters |
+| Section | What It Is | Chapters |
 |------|-----------|----------|
-| **Fundamentals** | Learn the basics step by step | Ch 3-7 |
-| **Building Things** | Apply what you learned to real projects | Ch 9-26 |
+| **Getting Started** | Install Python and verify your setup | Setup pages |
+| **Part 0: Welcome** | Learn the book's mindset and write your first code | Ch 1-2 |
+| **Part 1: Fundamentals** | Learn the basics step by step | Ch 3-8 |
+| **Part 2: Building Things** | Build practical tools with core Python skills | Ch 9-14 |
+| **Part 3: Level Up** | Add async, data, AI, and open-source workflows | Ch 15-20 |
+| **Part 4: Capstone** | Synthesize everything into community-scale projects | Ch 21-26 |
 
 ### Gaming-Inspired Learning
 
@@ -104,7 +112,9 @@ You'll learn Python through:
 
 ### The Smart Kuya Voice
 
-I'm not a professor. I'm the big sibling who's been through this, made the same mistakes, and figured it out. I'll explain things like we're sitting at a comshop, drinking instant coffee, and you're asking "Paano ko gagawin 'to?"
+Myk Ogbinar builds around useful systems, clear thinking, and honest execution. In this book, that shows up as a calm, beginner-friendly kuya voice: practical, patient, and easy to follow.
+
+I'll explain things like we're working through it together and you're asking, "Paano ko gagawin 'to?"
 
 The answer: **Bahala na. Let's try it.**
 

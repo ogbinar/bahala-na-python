@@ -13,6 +13,8 @@
 
 > **Story Hook:** It's been a few weeks since you started learning Python. Your Lola's notebook is getting full, and she keeps miscounting. You've learned variables, conditionals, loops, functions, and file handling. Now it's time to put it all together. "Lola," you say, "hayaan mo na 'to. Gagawan kita ng computer system." She looks at you skeptically. "Ah, oo nga? Kaya mo ba 'yan?" "Bahala na," you say. And you get to work.
 
+> **Output:** A complete CLI sari-sari store system with inventory, sales, and saved records.
+
 ---
 
 ## What You'll Do
@@ -405,11 +407,11 @@ In Part 2, you'll level up with **classes, APIs, web scraping, and error handlin
 
 ??? example "Portfolio Tip"
 
-    **GitHub README**: Your sari-sari store system is a STAR project. Write a README that explains: the problem (Lola's notebook), the solution (Python + JSON), and a screenshot of the menu. Add an `assets/` folder with a demo screenshot. This is the kind of project that gets interviews.
+    **GitHub README**: Your sari-sari store system is a STAR project. Write a README that explains: the problem (Lola's notebook), the solution (Python + JSON), and a screenshot of the menu. Add an `assets/` folder with a demo screenshot. This is the kind of project you can bring into interviews.
 
     **LinkedIn**: Post a detailed write-up: "I built a complete inventory management system for my Lola's sari-sari store using Python. It tracks stock, processes sales, calculates profit, and persists data to JSON. Real problem, real solution. #Python #SariSariStore". Include a short demo video if you can.
 
-    **Interview Talking Point**: "I built a CRUD application from scratch -- a sari-sari store system with inventory management, sales tracking, and data persistence. It used classes, dictionaries, file I/O, and error handling. It taught me that the best projects solve problems for real people, not just tutorial exercises."
+    **Interview Talking Point**: You can say: "I built a CRUD application from scratch -- a sari-sari store system with inventory management, sales tracking, and data persistence. It used classes, dictionaries, file I/O, and error handling. The best projects solve problems for real people, not just tutorial exercises."
 
 ??? example "🧠 Reflection — Sari-Sari Store System Boss Fight"
 

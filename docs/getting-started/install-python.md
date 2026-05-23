@@ -71,7 +71,7 @@ python3
 
 You should see:
 
-```python
+```pycon
 Python 3.12.x (main, ... )
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
@@ -79,7 +79,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 That `>>>` is Python waiting for you. It's like a conversation:
 
-```python
+```pycon
 >>> 2 + 2
 4
 >>> print("Kumusta, World!")

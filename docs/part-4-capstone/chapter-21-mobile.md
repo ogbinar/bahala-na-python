@@ -9,6 +9,8 @@
 
 > **Story Hook:** Your Lola doesn't have a laptop. She has a ₱5,000 Infinix phone with 32GB of storage and a cracked screen. She uses WhatsApp to talk to her sisters in another barangay and GCash to receive money from her children abroad. She's never heard of Python. But she tracks her sari-sari store inventory in a notebook, just like before. You think: "What if she could use her phone to track everything? What if Python could run on that phone?"
 
+> **Output:** A phone-friendly tool with compact terminal output and offline-first storage.
+
 ---
 
 ## What You'll Learn
@@ -360,6 +362,9 @@ inventory = {
     "instant noodles": {"qty": 30, "price": 8.00},
 }
 
+with open("inventory.json", "w") as f:
+    json.dump(inventory, f, indent=4)
+
 check_and_alert("inventory.json", "09171234567")
 ```
 
@@ -410,7 +415,7 @@ check_and_alert("inventory.json", "09171234567")
 
     **LinkedIn**: Post: "Built a Python inventory app that runs on a ₱5,000 Android phone -- no laptop needed. Uses Termux for the terminal, offline-first JSON storage, and compact output for narrow screens. Because not every Filipino developer has a 16GB MacBook. #Python #Mobile #InclusiveTech". This shows empathy for users.
 
-    **Interview Talking Point**: "I've built Python applications for mobile devices using Termux and Pydroid 3, with offline-first data storage and UI optimized for narrow screens. I understand that designing for constraints -- limited data, small screens, low-end hardware -- makes better products for more people."
+    **Interview Talking Point**: Example talking point: "I've built Python applications for mobile devices using Termux and Pydroid 3, with offline-first data storage and UI optimized for narrow screens. I understand that designing for constraints -- limited data, small screens, low-end hardware -- makes better products for more people."
 
 ??? example "🧠 Reflection — Mobile Python"
 

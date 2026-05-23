@@ -18,13 +18,13 @@ python3
 
 You should see the Python prompt:
 
-```python
+```pycon
 >>>
 ```
 
 Type this and press Enter:
 
-```python
+```pycon
 >>> print("Kumusta!")
 ```
 

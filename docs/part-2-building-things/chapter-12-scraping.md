@@ -9,6 +9,8 @@
 
 > **Story Hook:** It's 11.11 sale season. You're on Shopee, comparing prices for the same item across 50 sellers. Some claim "50% off!" but their "original price" is inflated. You wonder: "How much has the price changed over the past month? Is this really a deal?" So you write a script that tracks prices automatically. No more guessing.
 
+> **Output:** A scraper that collects product prices and saves comparison data you can review later.
+
 ---
 
 ## What You'll Learn
@@ -150,7 +152,8 @@ class PriceTracker:
             if price_elements:
                 price_text = price_elements[0].text.strip()
                 # Extract number from price text
-                price = float(price_text.replace("₱", "").replace(",", "").replace(".", ""))
+                normalized_price = price_text.replace("₱", "").replace(",", "").strip()
+                price = float(normalized_price)
                 self.record_price(price)
                 return price
             else:
@@ -255,7 +258,7 @@ Many modern websites load content via JavaScript, which means the HTML you get f
 
     1. **GitHub README** -- Include sample scraped data (anonymized) and explain your ethical approach to scraping
     2. **LinkedIn** -- Add "Web Scraping" and "BeautifulSoup" to your skills. Post: "Built a price tracker that monitors e-commerce prices automatically. Learned BeautifulSoup and ethical scraping practices."
-    3. **Interview talking point** -- "I built a price comparison tool that scrapes product data from e-commerce sites. I made sure to respect rate limits and terms of service, and built in delays between requests to be a good citizen of the web."
+    3. **Interview talking point** -- "You can say: I built a price comparison tool that scrapes product data from e-commerce sites. I respected rate limits and terms of service, and built in delays between requests to be a good citizen of the web."
 
 ## Summary
 

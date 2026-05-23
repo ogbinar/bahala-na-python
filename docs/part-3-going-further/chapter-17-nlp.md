@@ -9,6 +9,8 @@
 
 > **Story Hook:** Your friend sends you a message: "grabe, ang hirap ng homework ni prof" and you immediately understand. But what if a computer had to understand it? Tagalog, Taglish, slang, memes -- it's messy, beautiful, and incredibly complex. You decide to build a chatbot that understands Filipino communication. Not perfect, but good enough to have a conversation.
 
+> **Output:** A lightweight chatbot that classifies Taglish messages and prints the bot's response flow.
+
 ---
 
 ## What You'll Learn
@@ -174,7 +176,7 @@ class BarkadaChatbot:
 
         positive_words = ["maganda", "galing", "ganda", "awesome", "love", "great",
                          "salamat", "nice", "good", "happy", "excited", "gumagana"]
-       negative_words = ["hirap", "sira", "error", "bad", "hate", "angry",
+        negative_words = ["hirap", "sira", "error", "bad", "hate", "angry",
                           "frustrated", "nagugulu", "confused"]
 
         pos_count = sum(1 for word in positive_words if word in text_lower)
@@ -318,7 +320,7 @@ def analyze_sentiment(text):
 
     **LinkedIn**: Post: "Built a Taglish chatbot in Python using pattern matching and sentiment analysis. Most NLP tools are English-first, but Filipino communication is messy, beautiful, and code-switched. This bot handles Kumusta, grabe, and charot. #Python #NLP #FilipinoAI". This positions you as building for underserved languages.
 
-    **Interview Talking Point**: "I built a chatbot that processes Taglish (Tagalog-English code-switching) using regex pattern matching and simple sentiment analysis. It handles greetings, help requests, motivation, and unknown input gracefully. It taught me about tokenization, pattern matching, and the challenges of NLP for low-resource languages."
+    **Interview Talking Point**: You can say: "I built a chatbot that processes Taglish (Tagalog-English code-switching) using regex pattern matching and simple sentiment analysis. It handles greetings, help requests, motivation, and unknown input gracefully. It shows the challenges of NLP for low-resource languages."
 
 ??? example "🧠 Reflection — NLP and the AI Barkada Chatbot"
 
@@ -337,4 +339,4 @@ def analyze_sentiment(text):
 ---
 
 *Previous: [Chapter 16: Data Visualization](chapter-16-dataviz.md) -- Making charts and graphs*
-*Next: [Chapter 18: AI-Assisted Coding](chapter-18-ai-coding.md) -- Coding with AI partners.*
+*Next: [Chapter 18: Coding with AI as a Partner](chapter-18-ai-coding.md) -- Using AI without outsourcing your learning.*

@@ -9,6 +9,8 @@
 
 > **Story Hook:** Your Lola has been cooking adobo for 40 years. No measurements, no recipes -- just "sapat na asin" (enough salt) and "hanggang luto na" (cook until done). You ask her for her secret adobo recipe, and she points to a small notebook on the kitchen shelf. The pages are stained with soy sauce and cooking oil. You take a photo, but then you think: "Why not digitize Lola's recipes? Let's make a searchable recipe database."
 
+> **Output:** A recipe organizer that saves, loads, and searches data from files.
+
 ---
 
 ## What You'll Learn
@@ -21,7 +23,7 @@
 
 ## Why Save Data?
 
-So far, all our data disappears when the program ends. Variables live only in memory. But what if you want your sari-sari store inventory to still be there when you restart the program? Or your budget tracker to remember last week's numbers?
+So far, all our data disappears when the program ends. Variables live only in memory. But what if you want your recipe list to still be there when you restart the program? Or your org budget tracker to remember last week's numbers?
 
 **Files** let you save data permanently. When your program writes to a file, the data survives even after the program closes.
 
@@ -315,8 +317,8 @@ if __name__ == "__main__":
     Your recipe organizer shows you understand file I/O and data persistence -- skills used in every real application:
 
     1. **GitHub README** -- Include a sample `recipes.json` file to show the data structure. Add a screenshot of the search feature working.
-    2. **LinkedIn** -- Post: "Built a searchable recipe database with Python. It saves to JSON and supports keyword search. Inspired by my Lola's handwritten cookbook."
-    3. **Interview talking point** -- "I built a recipe organizer that persists data between sessions using JSON. This taught me about file handling, data serialization, and building search functionality from scratch."
+    2. **LinkedIn** -- Post: "Built a searchable recipe database with Python. It saves to JSON and supports keyword search. A simple project that made file handling feel real."
+    3. **Interview talking point** -- "You can say: I built a recipe organizer that persists data between sessions using JSON. This taught me about file handling, data serialization, and building search functionality from scratch."
 
 ## Summary
 
@@ -365,7 +367,7 @@ if __name__ == "__main__":
 ??? example "🧠 Reflection — Files and Data Persistence"
 
     - **What did you learn?** You learned how to read from and write to files using `with` statements, and how to store structured data in CSV and JSON formats so your programs remember information between runs.
-    - **How can you apply this?** You can digitize Lola's recipe notebook, keep a running log of your sari-sari store inventory, or save your daily budget tracker so the data doesn't disappear when you close your program.
+    - **How can you apply this?** You can digitize a family recipe notebook, save your club budget records, or keep a personal expense tracker so the data doesn't disappear when you close your program.
     - **What's next?** How would you handle a file that's too big to fit in memory, or a file that multiple people are editing at the same time?
 
 ??? checkbox "✅ Chapter Checklist"

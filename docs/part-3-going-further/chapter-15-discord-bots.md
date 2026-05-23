@@ -9,12 +9,14 @@
 
 > **Story Hook:** Your barkada's Discord server has 200 members. Every day, someone asks "Ano yung homework?" at 2 AM. Someone else posts a meme at 3 AM. The group chat is chaos. You think: "I should build a bot. A Filipino Discord bot." So you write one that responds in Taglish, shares daily memes, and reminds everyone about deadlines.
 
+> **Output:** An event-driven Discord bot that replies to messages, runs commands, and stays online 24/7.
+
 ---
 
 ## What You'll Learn
 
 - What Discord bots are and how they work
-- Async programming with `asyncio` and `discord.py`
+- Async programming with `asyncio` and `py-cord`
 - Event-driven programming
 - Working with external APIs from a bot
 - Deploying a bot to run 24/7
@@ -23,10 +25,10 @@
 
 A Discord bot is a program that lives in a Discord server and responds to messages, plays music, manages roles, or does anything you can program. Discord bots use the **Discord API** to send and receive messages.
 
-## Installing discord.py
+## Installing py-cord
 
 ```bash
-pip install discord.py pytz
+pip install py-cord pytz
 ```
 
 ## Your First Discord Bot
@@ -43,8 +45,8 @@ import pytz
 
 
 # Create the bot instance
- intents = discord.Intents.default()
- intents.message_content = True  # Allow bot to read messages
+intents = discord.Intents.default()
+intents.message_content = True  # Allow bot to read messages
 
 bot = discord.Bot(intents=intents)
 
@@ -336,7 +338,7 @@ To run your bot 24/7:
 
 ## Further Reading
 
-- [discord.py documentation](https://discordpy.readthedocs.io/)
+- [Pycord documentation](https://docs.pycord.dev/en/stable/)
 - [Real Python: Async programming](https://realpython.com/async-io-python/)
 
 ---
@@ -347,7 +349,7 @@ To run your bot 24/7:
 
     **LinkedIn**: Post: "Built a Discord bot in Python with async programming that responds in Taglish, manages study reminders, and runs 24/7. Deployed on a free hosting platform. My barkada's Discord server now has its own Filipino study assistant. #Python #DiscordBot". This is a highly visible project.
 
-    **Interview Talking Point**: "I understand async programming -- using `async def`, `await`, and `asyncio.gather()` to handle multiple concurrent tasks. I built and deployed a Discord bot that processes events, manages state, and runs continuously. It's practical experience with event-driven architecture."
+    **Interview Talking Point**: Example talking point: "I understand async programming -- using `async def`, `await`, and `asyncio.gather()` to handle multiple concurrent tasks. I built and deployed a Discord bot that processes events, manages state, and runs continuously. It's practical experience with event-driven architecture."
 
 ??? example "🧠 Reflection — Discord Bots and Async Python"
 

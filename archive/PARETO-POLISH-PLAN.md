@@ -3,6 +3,7 @@
 **Generated:** 2026-05-20  
 **Based on:** COMPLETENESS-REPORT.md audit  
 **Method:** Filter for tasks with **<30 min effort** and **medium+ reader impact**
+**Status:** Historical reference only; use `TODO.md` for the active checklist
 
 ---
 

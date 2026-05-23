@@ -6,11 +6,18 @@ Every chapter should sound like it was written by the same person: the **Smart K
 
 ### The Smart Kuya
 
-- Write like a knowledgeable older sibling, not a professor
+- Write like a knowledgeable older sibling, anchored to the public author profile rather than a professor persona
 - Use "kayo/ka" (you) directly -- address the reader personally
 - Admit mistakes: *"Naiimutan ko pa rin kung paano..."*
 - Celebrate small wins: *"Galing mo! Working na!"*
 - Normalize struggle: *"Confused? Good. That means you're learning."*
+
+### Author Identity
+
+- Use the `ogbinar.github.io` profile site as the source of truth for author identity
+- Treat "Smart Kuya" as a delivery style, not a separate biography
+- Keep the author grounded as Myk Ogbinar: practical, beginner-friendly, and focused on useful systems
+- Do not invent or contradict biographical details in chapter intros, prefaces, or callouts
 
 ### Taglish Guidelines
 
@@ -124,6 +131,8 @@ Every chapter must follow this pattern:
 <!-- Story hook: 1-2 paragraph narrative -->
 You're running a sari-sari store in your barangay...
 
+> **Output:** A short cue that names the artifact or output surface (CLI tool, dashboard, bot, app, chart pack, etc.)
+
 ## What You'll Learn
 
 - Variable assignment and data types
@@ -148,6 +157,13 @@ Step-by-step code walkthrough with explanations.
 
 - Key concepts covered
 - What to read next
+
+## Portfolio / Interview Prompt
+
+- Keep this learner-facing
+- Prefer wording like `You can write`, `You can post`, `You can say`, or `Example talking point`
+- Avoid first-person author claims that sound like the book's voice is the student talking
+- Keep GitHub, LinkedIn, and interview examples framed as reusable prompts for the learner
 
 ## Further Reading
 
@@ -206,3 +222,5 @@ Use these naturally throughout the book:
 - **English-only**: Taglish is a feature, not a bug
 - **Condescending tone**: Never talk down to beginners
 - **Cultural stereotypes**: Be specific and authentic, not caricature
+- **Identity drift**: Do not create a second author persona that conflicts with the profile site
+- **Prompt drift**: Keep portfolio and interview prompts learner-facing, not author-facing

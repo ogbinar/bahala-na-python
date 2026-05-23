@@ -9,6 +9,8 @@
 
 > **Story Hook:** Your Tita works in Dubai. Every month, she sends money home through a remittance center. But the rate changes -- sometimes ₱54 per dollar, sometimes ₱52, sometimes ₱56. Your Lola always asks: "Ano ang rate ngayon? Magkaiba ba sa last month?" You think: "Kailangan ko ng app na i-track 'to." So you build one, connecting to live exchange rate data.
 
+> **Output:** A CLI remittance tracker that fetches live API data and prints a clear savings summary.
+
 ---
 
 ## What You'll Learn
@@ -66,6 +68,8 @@ print(f"1 USD = {data['rates']['PHP']} PHP")
     - **Save responses once, practice many times**: When you do have internet, save the API response to a file with `json.dump()`, then reuse that file for practice.
 
     ```python
+    import json
+
     # Instead of calling the API every time:
     with open("mock_exchange_rates.json", "r") as f:
         data = json.load(f)  # Works offline!
@@ -242,7 +246,7 @@ except requests.exceptions.RequestException as e:
 
     1. **GitHub README** -- Document which APIs you used (exchangerate-api, etc.) and why. Include a screenshot of real exchange rate data.
     2. **LinkedIn** -- Add "API Integration" to your skills. Post: "Built a remittance tracker that pulls live exchange rates from APIs. Helps OFW families track how much PHP their USD converts to."
-    3. **Interview talking point** -- "I built a remittance tracker that integrates with live exchange rate APIs, handles JSON parsing, and includes error handling for when APIs are down. This mirrors how fintech apps handle real-time currency data."
+    3. **Interview talking point** -- "You can say: I built a remittance tracker that integrates with live exchange rate APIs, handles JSON parsing, and includes error handling for when APIs are down. This mirrors how fintech apps handle real-time currency data."
 
 ## Summary
 

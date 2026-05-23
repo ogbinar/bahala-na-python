@@ -134,6 +134,7 @@ with open("file.txt", "r") as f:
     content = f.read()        # Read entire file
     lines = f.readlines()     # Read as list of lines
     for line in f:             # Read line by line
+        print(line.rstrip())
 
 # Writing files
 with open("file.txt", "w") as f:

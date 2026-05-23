@@ -3,6 +3,7 @@
 **Generated:** 2026-05-20  
 **Scope:** Comprehensive audit of all MD plan files against current codebase  
 **Method:** Cross-reference of PARETO-PLAN.md, REVISION-PLAN.md, DESIGN.md, IMPLEMENTATION-REPORT.md against live files
+**Status:** Historical reference only; use `TODO.md` for the active checklist
 
 ---
 

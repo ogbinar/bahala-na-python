@@ -9,6 +9,8 @@
 
 > **Story Hook:** It's 6 AM. Your Lola opens her sari-sari store for the day. She walks through the rows of shelves, checking what needs restocking. "Tatlong laundry soap, sampung biskwit, lima na lang sigarilye," she mutters. She keeps track of everything in a small notebook -- items on the left, quantities on the right, prices in a column. It works, but sometimes she miscounts. You think: "Lola, let me help you with this."
 
+> **Output:** A simple inventory script that stores item names, counts, and prices.
+
 ---
 
 ## What You'll Learn
@@ -69,7 +71,7 @@ in_stock = True
 ??? bug "Common Mistake"
     `"10"` (with quotes) is a string, not a number. `10` (without quotes) is an integer. Mixing these up is the #1 beginner error.
 
-    ```python
+    ```pycon
     >>> "10" + 5
     TypeError: can only concatenate str (not "int") to str
 
@@ -163,7 +165,7 @@ print(f"Kumusta, {name}!")
 ??? note "Try It Yourself"
     Try this in the interpreter:
 
-    ```python
+    ```pycon
     >>> name = input("Ano ang pangalan mo? ")
     Ano ang pangalan mo? Juan
     >>> print(f"Kumusta, {name}!")
@@ -210,7 +212,7 @@ for item, qty in inventory.items():
 ??? bug "Common Mistake"
     `input()` always returns a string. If you need a number, wrap it in `int()` or `float()`:
 
-    ```python
+    ```pycon
     >>> quantity = input("Quantity: ")
     Quantity: 10
     >>> type(quantity)
@@ -227,8 +229,8 @@ for item, qty in inventory.items():
 
     1. **Push to GitHub** -- Create a repo called `sari-sari-store-inventory` with a README that explains the problem you solved
     2. **Screenshot it** -- Take a screenshot of the program running and add it to your README
-    3. **LinkedIn** -- Add to your About section: "Built a Python inventory management system for small businesses"
-    4. **Interview talking point** -- "I started by learning Python fundamentals and immediately applied them to build a real tool that helps track inventory for small stores like the ones in my community."
+    3. **LinkedIn** -- You can add this to your About section: "Built a Python inventory management system for small businesses"
+    4. **Interview talking point** -- "You can say: I started with Python fundamentals and applied them to build a real tool that helps track inventory for small stores like the ones in my community."
 
 ## Summary
 

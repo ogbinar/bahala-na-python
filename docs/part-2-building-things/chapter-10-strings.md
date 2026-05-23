@@ -7,7 +7,9 @@
     | **Time** | 25 min |
     | **XP** | +100 XP |
 
-> **Story Hook:** You're at a comshop, and the person next to you is furiously typing in Tagalog. You look at their screen: "Ang lalaking nag-iisip nang mabuti ay walang kapantay na lakas." Your eyes glaze over. "How do they type SO fast?" you wonder. You try -- your fingers stumble over the keyboard, especially the words with special characters. "Ano 'yung ñ?" you ask the operator. "Sir, wala pong ñ sa keyboard namin," they reply. You think: "I should build a typing game. In Tagalog."
+> **Story Hook:** You're using a shared computer setup, and the person next to you is furiously typing in Tagalog. You look at their screen: "Ang lalaking nag-iisip nang mabuti ay walang kapantay na lakas." Your eyes glaze over. "How do they type SO fast?" you wonder. You try -- your fingers stumble over the keyboard, especially the words with special characters. "Ano 'yung ñ?" you ask. You think: "I should build a typing game. In Tagalog."
+
+> **Output:** A typing game that measures speed and accuracy on Tagalog text.
 
 ---
 
@@ -283,7 +285,7 @@ if __name__ == "__main__":
 
     **LinkedIn**: Post: "Created a Tagalog typing game in Python with 3 difficulty levels. Most typing tools only support English, but Filipino students need practice in their own language too. Open source and free. #Python #FilipinoEd". This shows you build for underserved communities.
 
-    **Interview Talking Point**: "I built a typing game that handles Unicode text and Tagalog words, with performance tracking (WPM, accuracy). It uses string methods like `strip()`, `split()`, `lower()`, and f-string formatting extensively. The project showed me how to handle edge cases like special characters and whitespace."
+    **Interview Talking Point**: Example talking point: "I built a typing game that handles Unicode text and Tagalog words, with performance tracking (WPM, accuracy). It uses string methods like `strip()`, `split()`, `lower()`, and f-string formatting extensively. The project shows how to handle edge cases like special characters and whitespace."
 
 ??? example "🧠 Reflection — Strings and Text Processing"
 

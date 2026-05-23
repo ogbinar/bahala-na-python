@@ -9,6 +9,8 @@
 
 > **Story Hook:** You've been coding for weeks. Your programs work -- sometimes. Then you hit a wall. A program that worked yesterday crashes with a cryptic error message. You stare at the screen. "What does this even mean?" Your first instinct is to panic. But then you remember: errors are data. Every error is a clue. And you're a detective now.
 
+> **Output:** A sturdier Python tool that fails gracefully and gives useful debugging clues.
+
 ---
 
 ## What You'll Learn
@@ -23,7 +25,7 @@
 
 ### Syntax Errors: Breaking the Rules
 
-```python
+```pycon
 >>> print("Hello
   File "<stdin>", line 1
     print("Hello
@@ -37,7 +39,7 @@ SyntaxError: EOL while scanning string literal
 
 ### Name Errors: Unknown Variables
 
-```python
+```pycon
 >>> print(name)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -50,7 +52,7 @@ NameError: name 'name' is not defined
 
 ### Type Errors: Wrong Data Type
 
-```python
+```pycon
 >>> "Age: " + 25
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -63,7 +65,7 @@ TypeError: can only concatenate str (not "int") to str
 
 ### Index Errors: Out of Bounds
 
-```python
+```pycon
 >>> fruits = ["apple", "banana"]
 >>> fruits[5]
 IndexError: list index out of range
@@ -368,7 +370,7 @@ if __name__ == "__main__":
 
     **LinkedIn**: Post: "Learned to stop panicking at error messages. Python errors are data, not failures. Built a budget calculator with full error handling -- try/except, input validation, graceful fallbacks. Subok ulit lang. #Python #Debugging". This shows maturity as a developer.
 
-    **Interview Talking Point**: "I read tracebacks from bottom to top, use try/except for graceful error handling, and apply systematic debugging strategies like print debugging and binary search. I don't fear errors -- I treat them as clues that tell me exactly where to look."
+    **Interview Talking Point**: Example talking point: "I read tracebacks from bottom to top, use try/except for graceful error handling, and apply systematic debugging strategies like print debugging and binary search. I treat errors as clues that tell me exactly where to look."
 
 ??? example "🧠 Reflection — Error Handling and Debugging"
 

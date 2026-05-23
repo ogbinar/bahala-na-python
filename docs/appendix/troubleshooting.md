@@ -69,7 +69,7 @@ sudo dnf install python3
 
 ### SyntaxError
 
-```python
+```pycon
 >>> print "Hello"
   File "<stdin>", line 1
     print "Hello"
@@ -83,7 +83,7 @@ SyntaxError: Missing parentheses in call to 'print'.
 
 ### NameError
 
-```python
+```pycon
 >>> print(name)
 NameError: name 'name' is not defined
 ```
@@ -94,7 +94,7 @@ NameError: name 'name' is not defined
 
 ### TypeError
 
-```python
+```pycon
 >>> "Hello" + 5
 TypeError: can only concatenate str (not "int") to str
 ```
@@ -105,7 +105,7 @@ TypeError: can only concatenate str (not "int") to str
 
 ### IndexError
 
-```python
+```pycon
 >>> my_list = [1, 2, 3]
 >>> my_list[5]
 IndexError: list index out of range
@@ -117,7 +117,7 @@ IndexError: list index out of range
 
 ### KeyError
 
-```python
+```pycon
 >>> my_dict = {"name": "Juan"}
 >>> my_dict["age"]
 KeyError: 'age'
@@ -135,7 +135,7 @@ print(my_dict.get("age", "Not found"))
 
 ### IndentationError
 
-```python
+```pycon
 >>> def hello():
 ... print("Hi")
   File "<stdin>", line 2
@@ -156,7 +156,7 @@ def hello():
 
 ### "FileNotFoundError"
 
-```python
+```pycon
 >>> with open("data.txt", "r") as f:
 ...     print(f.read())
 FileNotFoundError: [Errno 2] No such file or directory: 'data.txt'
@@ -193,7 +193,7 @@ chmod u+w data.txt
 
 ### "ModuleNotFoundError"
 
-```python
+```pycon
 >>> import requests
 ModuleNotFoundError: No module named 'requests'
 ```
@@ -220,7 +220,7 @@ python -m pip install requests
 
 ### Conflicting package versions
 
-```python
+```pycon
 >>> import some_package
 ImportError: some_package requires version X, but Y is installed.
 ```

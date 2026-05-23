@@ -11,7 +11,9 @@
     **Tier:** Final Boss | **Concepts Combined:** ALL (Everything from Chapters 1-24)
     **XP Reward:** 1000 XP | **Badge:** "Legend"
 
-> **Story Hook:** You've completed 25 chapters. You've built a sari-sari store system, a Discord bot, a barangay management system, and everything in between. Your barkada says: "Kaya mo na magturo." Your Lola says: "Gawa ka na ng system para sa lahat." You sit down at your comshop -- that same comshop from Chapter 1 -- and open a blank Python file. The cursor blinks. No step-by-step instructions. No hand-holding. Just you, your diskarte, and everything you've learned. (Well, there are some resources below if you need them — that's not cheating, that's diskarte.)
+> **Story Hook:** You've completed 25 chapters. You've built store tools, dashboards, bots, and data projects. Your barkada says: "Kaya mo na magturo." Someone in your family says: "Gawa ka na ng system para sa totoong problema." You sit down with a blank Python file. The cursor blinks. No step-by-step instructions. No hand-holding. Just you, your diskarte, and everything you've learned. (Well, there are some resources below if you need them — that's not cheating, that's diskarte.)
+
+> **Output:** A final, self-chosen project proposal that turns the whole book into one visible portfolio piece.
 
 ---
 
@@ -53,7 +55,7 @@ Whatever you build, it should include:
 - [ ] **Real data** -- not just `print("hello")` with hardcoded values
 - [ ] **Error handling** -- the program shouldn't crash on bad input
 - [ ] **A clear purpose** -- it should solve a real problem
-- [ ] ** Filipino context** -- sari-sari stores, jeepneys, GCash, barangays, etc.
+- [ ] **Filipino context** -- ground it in real local needs such as transport, budgeting, community work, school life, or small business
 
 ## Project Ideas
 
@@ -280,14 +282,14 @@ Because you've made it this far. Twenty-five chapters. Hundreds of hours of lear
 
     **GitHub README**: Your Final Boss project is THE centerpiece of your portfolio. Write a README that tells the story: what problem you solved, who it serves, what Python concepts you used, and screenshots of it running. This is what recruiters and hiring managers will look at first.
 
-    **LinkedIn**: Post a comprehensive write-up: "I just completed the Final Boss -- a Python project of my own choosing that solves [describe your problem]. No starter code, no hand-holding. Just 25 chapters of learning, diskarte, and bahala na. Here's what I built and why it matters. #Python #Capstone #FilipinoDeveloper". Link to your GitHub repo.
+    **LinkedIn**: Post a comprehensive write-up: "I just completed the Final Boss -- a Python project of my own choosing that solves [describe your problem]. No starter code, no hand-holding. Just 25 chapters of learning, diskarte, and iteration. Here's what I built and why it matters. #Python #Capstone #FilipinoDeveloper". Link to your GitHub repo.
 
-    **Interview Talking Point**: "I independently designed and built a Python application from scratch to solve [your problem]. It combines [list concepts: classes, file I/O, APIs, etc.], handles errors gracefully, and serves real users. The most important lesson: the real challenge isn't the code -- it's not quitting when things get hard. Kaya mo 'yan."
+    **Interview Talking Point**: Example talking point: "I independently designed and built a Python application from scratch to solve [your problem]. It combines [list concepts: classes, file I/O, APIs, etc.], handles errors gracefully, and serves real users. The most important lesson: the real challenge isn't the code -- it's not quitting when things get hard. Kaya mo 'yan."
 
 ??? example "🧠 Reflection — Final Boss: The Ultimate Filipino Python Project"
 
     - **What did you learn?** The real test of learning isn't following instructions — it's building something of your own from scratch to solve a real problem.
-    - **How can you apply this?** Build a tool for something you care about: your Lola's sari-sari store, your barkada's study group, or your barangay's disaster preparedness.
+    - **How can you apply this?** Build a tool for something you care about: a family budget workflow, a study group, a church or campus organization, a local transport problem, or community disaster preparedness.
     - **What's next?** What problem in your community have you been meaning to solve that Python is the right tool for?
 
 ??? checkbox "✅ Chapter Checklist"

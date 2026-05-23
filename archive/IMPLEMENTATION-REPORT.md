@@ -3,6 +3,7 @@
 **Generated:** 2026-05-20  
 **Scope:** Comprehensive audit of all planning documents vs. actual codebase implementation  
 **Method:** Cross-reference of PLAN.md, REVISION-PLAN.md, PARETO-PLAN.md, FIX-PLAN.md, IMPROVEMENT-PLAN.md, DESIGN.md against live codebase
+**Status:** Historical reference only; use `TODO.md` for the active checklist
 
 ---
 

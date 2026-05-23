@@ -7,7 +7,9 @@
     | **Time** | 15 min |
     | **XP** | +100 XP |
 
-> **Story Hook:** You're sitting at a comshop. The monitor is a CRT from 2008, the keyboard has sticky keys, and the "P10/HOUR" sign is flickering above you. On the screen, someone has left Python open -- the cursor blinking at a `>>>` prompt. You've never coded before. Your fingers hover over the keyboard. What do you type?
+> **Story Hook:** You're sitting at a shared computer setup. The monitor is old, the keyboard has seen better days, and Python is already open -- the cursor blinking at a `>>>` prompt. You've never coded before. Your fingers hover over the keyboard. What do you type?
+
+> **Output:** A first terminal interaction: Python prints text back to you immediately.
 
 ---
 
@@ -35,7 +37,7 @@ Think of Python like a recipe. You write the instructions (code), and Python fol
 
 The Python interpreter is like a conversation with a computer. You type something, and Python responds immediately.
 
-```python
+```pycon
 >>> 2 + 2
 4
 >>> print("Kumusta, World!")
@@ -50,13 +52,13 @@ That `>>>` is Python saying: *"I'm ready. Try me."*
 
     - **Replit in your mobile browser** — Go to replit.com, create a free account, and code Python right in your phone's browser. No installation needed, works on any smartphone.
     - **Pydroid 3 (Android)** — Free Python IDE for Android phones. Download from Play Store, write and run Python scripts directly on your device.
-    - **Pro tip**: If you're at a comshop or using your phone's mobile data, Replit is lighter than most options. Many Filipino learners code on their phones during commute — split your screen with this book open on one side and Replit on the other!
+    - **Pro tip**: If you're using a low-resource device or your phone's mobile data, Replit is lighter than most options. Many Filipino learners code on their phones during commute — split your screen with this book open on one side and Replit on the other!
 
 ## Your First Line of Code
 
 Type this at the `>>>` prompt:
 
-```python
+```pycon
 >>> print("Hello, World!")
 ```
 
@@ -89,7 +91,7 @@ print("Hello, World!")
 ??? note "Try It Yourself"
     Change the text inside the quotes and try again:
 
-    ```python
+    ```pycon
     >>> print("Ang galing ko sa Python!")
     >>> print("P10/Hour lang, pero free if my diskarte!")
     >>> print(100 + 200)
@@ -103,7 +105,7 @@ Errors are not failures. They're **data**. Every programmer sees errors -- the b
 
 ### Error 1: Missing quotes
 
-```python
+```pycon
 >>> print(Hello)
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
@@ -116,7 +118,7 @@ NameError: name 'Hello' is not defined
 
 ### Error 2: Missing parentheses
 
-```python
+```pycon
 >>> print "Hello"
   File "<stdin>", line 1
     print "Hello"
@@ -141,19 +143,17 @@ SyntaxError: Missing parentheses in call to 'print'.
     But here's the rule: **understand the answer before you use it**.
     AI is a friend who helps you learn, not a magic button that fixes things.
 
-## The Sari-Sari Store Connection
+## The Familiar Problem
 
-Every great learning journey starts with something familiar. For us Filipinos, that's the **sari-sari store**.
+Every great learning journey starts with something familiar. For many Filipino learners, that might be a **sari-sari store**, a school allowance tracker, or a simple list of orders for an online selling page.
 
-Imagine you're helping your lola manage her sari-sari store. She needs to:
+Those situations all ask for the same things:
 
-- Track what items she has in stock
-- Calculate the total price for a customer
-- Remember who owes her money
+- Track information clearly
+- Calculate totals or changes
+- Remember what happened yesterday, not just right now
 
-All of these require the same thing: **the ability to store and process information**. That's what programming is. Python is just the tool that helps you do it.
-
-In the chapters ahead, you'll build a sari-sari store inventory system from scratch. But first, let's master the absolute basics.
+That's what programming is: **storing and processing information so work becomes easier and more consistent**. In the chapters ahead, you'll still build a sari-sari store inventory system, but you'll also see that the same thinking applies far beyond one example.
 
 ## Summary
 
@@ -179,14 +179,14 @@ In the next chapter, we'll install Python on your computer and write your first 
 
     **GitHub README**: Create a repo called `hello-python` with your first scripts. Include a screenshot of your terminal showing the output -- it's proof you took the first step, and every great project starts with `print("Hello, World!")`.
 
-    **LinkedIn**: Post: "Day 1 of learning Python. Started with `print('Kumusta, World!')`. No fancy laptop, just curiosity and a comshop mindset. Bahala na!" Attach a photo of your setup -- even a phone is enough.
+    **LinkedIn**: Post: "Day 1 of learning Python. Started with `print('Kumusta, World!')`. No fancy setup, just curiosity and consistency. Bahala na!" Attach a photo of your setup -- even a phone is enough.
 
-    **Interview Talking Point**: "I didn't wait for the perfect setup to start learning. I began with the Python interpreter and a willingness to make mistakes. That diskarte -- finding a way with what you have -- is how I approach every project."
+    **Interview Talking Point**: You can say: "I didn't wait for the perfect setup to start learning. I began with the Python interpreter and a willingness to make mistakes. That diskarte -- finding a way with what you have -- is how I approach projects."
 
 ??? example "🧠 Reflection — Hello, World!"
 
     - **What did you learn?** Python is a programming language that reads like English, and you can interact with it instantly using the interpreter and `print()`.
-    - **How can you apply this?** Just like how you first learned to type at a comshop, every skill starts with a single step. Now you can use Python to automate small tasks — like calculating your sari-sari store change or sending formatted messages.
+    - **How can you apply this?** Every skill starts with a single step. Now you can use Python to automate small tasks — like calculating change, formatting announcements, or printing a quick study checklist.
     - **What's next?** How far can you push `print()` before you need something more powerful?
 
 ??? checkbox "✅ Chapter Checklist"

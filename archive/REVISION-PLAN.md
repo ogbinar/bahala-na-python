@@ -2,7 +2,7 @@
 
 **Generated:** 2026-05-18  
 **Based on:** Full audit against DESIGN.md, STYLE-GUIDE.md, AGENT-BEST-PRACTICES.md  
-**Status:** Ready for execution
+**Status:** Historical reference only; use `TODO.md` for the active checklist
 
 ---
 

@@ -13,6 +13,8 @@
 
 > **Story Hook:** You've been coding for a while now. Classes, strings, APIs, web scraping, error handling. Each skill by itself is useful. But what happens when you combine them all? You stand at the midpoint of your journey, looking back at how far you've come and forward at what's ahead. Your Lola asks: "Anak, ano na ang natutunan mo?" You smile. "Lola, I built something that connects to the internet." She doesn't understand. But the code does. And that's enough.
 
+> **Output:** A multi-feature personal finance dashboard that combines OOP, APIs, and robust input handling.
+
 ---
 
 ## What You'll Do
@@ -372,12 +374,12 @@ if __name__ == "__main__":
 
 ## What's Next
 
-In Part 3, you'll go even further: Discord bots, data visualization, NLP, AI-assisted coding, and open-source contribution. The skills get more advanced, but so do you.
+In Part 3, you'll level up: Discord bots, data visualization, NLP, AI-assisted coding, and open-source contribution. The skills get more advanced, but so do you.
 
 ---
 
 *Previous: [Chapter 13: Errors](chapter-13-errors.md) -- Handling problems gracefully*
-*Next: [Part 3: Going Further](../part-3-going-further/index.md) -- Where things get really cool.*
+*Next: [Part 3: Level Up](../part-3-going-further/index.md) -- Where things get really cool.*
 
 ---
 
@@ -387,7 +389,7 @@ In Part 3, you'll go even further: Discord bots, data visualization, NLP, AI-ass
 
     **LinkedIn**: Post: "Built a Personal Finance Dashboard in Python at the midpoint of my learning journey. Combines OOP, API integration, string formatting, error handling, and file I/O. Tracks expenses, auto-categorizes transactions, and converts currencies. #Python #FinTech". Show the formatted output table as an image.
 
-    **Interview Talking Point**: "At the midpoint of my Python learning, I built a finance dashboard that combines classes, APIs, error handling, and data persistence. It auto-categorizes transactions using keyword matching and generates formatted reports. It taught me how to architect a multi-feature application from scratch."
+    **Interview Talking Point**: You can say: "At the midpoint of my Python learning, I built a finance dashboard that combines classes, APIs, error handling, and data persistence. It auto-categorizes transactions using keyword matching and generates formatted reports. It shows how to architect a multi-feature application from scratch."
 
 ??? example "🧠 Reflection — Midpoint Boss Battle"
 

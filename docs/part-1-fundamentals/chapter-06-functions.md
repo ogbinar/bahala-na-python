@@ -9,6 +9,8 @@
 
 > **Story Hook:** Every week, your parents send you allowance. Every week, you spend it on three things: pamasahe (transport), kain (food), and photocopy (school supplies). By Wednesday, you're already broke. You think: "Kailangan ko ng system. Parang budget tracker sa GCash, pero para sa akin." So you write one -- with functions.
 
+> **Output:** A modular budget tracker with reusable functions for totals, categories, and summaries.
+
 ---
 
 ## What You'll Learn
@@ -276,8 +278,8 @@ remaining = spend(500, 100)
     Your budget tracker using functions shows you understand code organization -- a key skill for any developer:
 
     1. **GitHub README** -- Highlight how your code uses functions to avoid repetition. Employers love seeing modular code!
-    2. **LinkedIn headline** -- "Student Developer | Built a budget tracker with Python that tracks spending patterns"
-    3. **Interview talking point** -- "I wrote my budget tracker using functions to keep the code clean and reusable. Each function handles one responsibility, like how a real codebase is structured."
+    2. **LinkedIn headline** -- You can try: "Student Developer | Built a budget tracker with Python that tracks spending patterns"
+    3. **Interview talking point** -- "You can say: I wrote my budget tracker using functions to keep the code clean and reusable. Each function handles one responsibility, like how a real codebase is structured."
 
 ## Summary
 

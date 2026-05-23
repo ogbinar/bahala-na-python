@@ -9,6 +9,8 @@
 
 > **Story Hook:** You're stuck on a bug for 3 hours. You've tried everything: print debugging, rubber duck debugging, even a nap. The error message makes no sense. You think about asking in the Python Discord, but it's 2 AM. Then you remember: you have AI. You paste the code, describe the problem, and within seconds, the AI suggests a fix. It works. You think: "This is either amazing or terrifying. Probably both."
 
+> **Output:** A safer AI workflow: prompts, code review, and a reusable checklist for debugging with help.
+
 ---
 
 ## Why This Chapter Exists
@@ -208,7 +210,7 @@ This is the right way to use AI: as a partner that helps you learn, not a magic 
 
     **LinkedIn**: Post: "Learned to code WITH AI, not INSTEAD of learning. Built a code analysis tool that checks for common Python errors, enforces PEP 8, and suggests improvements. The vibecoding workflow: describe, generate, read, test, modify. #Python #AICoding". This is a hot topic that shows you're current.
 
-    **Interview Talking Point**: "I use AI as a creative partner -- for understanding error messages, brainstorming approaches, and code review. But I always audit AI-generated code for bugs, test it thoroughly, and understand every line. I know the difference between using AI to learn and using AI to replace thinking."
+    **Interview Talking Point**: Example talking point: "I use AI as a creative partner -- for understanding error messages, brainstorming approaches, and code review. But I always audit AI-generated code for bugs, test it thoroughly, and understand every line. I know the difference between using AI to learn and using AI to replace thinking."
 
 ??? example "🧠 Reflection — Coding with AI as a Partner"
 

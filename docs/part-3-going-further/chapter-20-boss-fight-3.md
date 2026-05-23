@@ -13,6 +13,8 @@
 
 > **Story Hook:** Your barkada is proud of the Discord bot you built. Your data viz skills are getting attention in your community. Your NLP experiments with Tagalog text are actually useful. But the barangay captain needs more than individual tools -- he needs a complete dashboard. A single view that shows everything: who's paid their fees, who needs help, what the collection rate looks like, upcoming events, emergency contacts. "Gawin mo 'yan sa Python," he says. "Gusto ko ng dashboard na makikita ng lahat." You take a deep breath. This is the ultimate test of everything you've learned in Part 3.
 
+> **Output:** A complete barangay dashboard that combines automation, charts, and Taglish text processing.
+
 ---
 
 ## What You'll Combine
@@ -145,20 +147,20 @@ class BarangayDashboard:
 
     def get_collection_trend(self, months=6):
         """Get monthly collection trend."""
-        now = datetime.now()
+        today = date.today()
         monthly = defaultdict(float)
 
         for t in self.transactions:
             if t["status"] == "paid":
                 t_date = date.fromisoformat(t["date"])
-                if (now - t_date).days <= months * 30:
+                if (today - t_date).days <= months * 30:
                     key = t_date.strftime("%Y-%m")
                     monthly[key] += t["amount"]
 
         # Sort and format
         trend = []
         for i in range(months, 0, -1):
-            month_date = (now.replace(day=1) - timedelta(days=30 * i)).replace(day=1)
+            month_date = (today.replace(day=1) - timedelta(days=30 * i)).replace(day=1)
             key = month_date.strftime("%Y-%m")
             trend.append({
                 "month": month_date.strftime("%b %Y"),
@@ -646,15 +648,15 @@ Sample output:
 
     **GitHub README**: This is your flagship Part 3 project. Document the architecture: `BarangayDashboard` class for data, `DashboardVisualizer` with matplotlib charts, `TaglishProcessor` for NLP. Include screenshots of the generated charts and a sample output. Consider releasing it as a community tool.
 
-    **LinkedIn**: Post: "Built a complete Barangay Dashboard integrating async data fetching, data visualization with matplotlib, Taglish NLP processing, and file-based persistence. It processes resident messages, generates collection charts, and tracks demographics. Real tools for real communities. #Python #DataViz #NLP". Share the charts as images.
+    **LinkedIn**: Post: "Built a complete community dashboard integrating async data fetching, data visualization with matplotlib, Taglish NLP processing, and file-based persistence. It processes messages, generates charts, and tracks useful local data. #Python #DataViz #NLP". Share the charts as images.
 
-    **Interview Talking Point**: "I built a barangay management dashboard that combines async programming, matplotlib data visualization, and Tagalog NLP processing. It loads data from JSON, generates bar/pie/gauge charts, processes Taglish messages for intent and sentiment, and runs async data refreshes. It's the kind of full-stack project that shows I can handle multiple concepts at once."
+    **Interview Talking Point**: You can say: "I built a barangay management dashboard that combines async programming, matplotlib data visualization, and Tagalog NLP processing. It loads data from JSON, generates bar/pie/gauge charts, processes Taglish messages for intent and sentiment, and runs async data refreshes. It's the kind of full-stack project that shows I can handle multiple concepts at once."
 
 ??? example "🧠 Reflection — Boss Fight 3: Complete Barangay Dashboard"
 
     - **What did you learn?** Combining async programming, data visualization, NLP, and open-source practices creates a powerful real-world tool.
-    - **How can you apply this?** Present your dashboard to your barangay officials to help them make data-driven decisions about aid distribution and fee collection.
-    - **What's next?** How could you turn this dashboard into a web app that any barangay in the Philippines could use?
+    - **How can you apply this?** Present your dashboard to barangay officials, a volunteer group, or a school organization that needs clearer local reporting.
+    - **What's next?** How could you turn this dashboard into a web app that different communities in the Philippines could adapt to their needs?
 
 ??? checkbox "✅ Chapter Checklist"
 

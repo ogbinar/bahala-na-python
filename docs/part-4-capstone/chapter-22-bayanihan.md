@@ -7,7 +7,9 @@
     | **Time** | 25 min |
     | **XP** | +100 XP |
 
-> **Story Hook:** You've built your sari-sari store system. Your Lola uses it every day. Your tito asks if you can build something similar for his hardware store. Your barkada wants their own versions. You realize: "I'm not the only one who needs this. What if we built it together?" That's the spirit of bayanihan. That's open source.
+> **Story Hook:** You've built useful tools all throughout the book: a store tracker, a study bot, a dashboard for community data. Now other people want versions they can adapt for their own needs. You realize: "I'm not the only one who needs this. What if we built it together?" That's the spirit of bayanihan. That's open source.
+
+> **Output:** An open-source-ready project setup and contribution workflow you can reuse beyond the book.
 
 ---
 
@@ -25,7 +27,7 @@ Open source means the code is **free for anyone to use, modify, and share**. It'
 
 > "Given enough eyeballs, all bugs are shallow." -- Linus's Law
 
-In the Filipino context, open source is pure bayanihan:
+In the Filipino context, open source feels a lot like bayanihan:
 
 - **Bayanihan** = neighbors lifting a bahay kubo together
 - **Open source** = developers building software together
@@ -290,15 +292,15 @@ Open source isn't just about code. It's about a mindset:
 
     **GitHub README**: Create your own open-source project and set it up properly: LICENSE file, CONTRIBUTING.md, README with installation and usage instructions. A well-structured repo is a signal that you know professional development practices.
 
-    **LinkedIn**: Post: "Learned that open source is bayanihan for developers. Neighbors lifting a bahay kubo together = developers building software together. Created my first open-source project with proper licensing, documentation, and contribution guidelines. #OpenSource #Bayanihan #Python". Link to your repo.
+    **LinkedIn**: Post: "Learned that open source is bayanihan for developers. Built my first open-source project with proper licensing, documentation, and contribution guidelines. #OpenSource #Bayanihan #Python". Link to your repo.
 
-    **Interview Talking Point**: "I understand the open-source ecosystem: how to find projects to contribute to, write good pull requests, license code appropriately, and maintain documentation. I've created my own open-source project with proper structure. Open source taught me collaboration, communication, and community -- skills that matter in any team."
+    **Interview Talking Point**: Example talking point: "I understand the open-source ecosystem: how to find projects to contribute to, write good pull requests, license code appropriately, and maintain documentation. I've created my own open-source project with proper structure. Open source taught me collaboration, communication, and community -- skills that matter in any team."
 
 ??? example "🧠 Reflection — Bayanihan & Open Source"
 
     - **What did you learn?** Open source embodies the Filipino spirit of bayanihan — neighbors building something together for the common good.
-    - **How can you apply this?** Share your sari-sari store system with other tinderos in your area, or contribute to Philippine-focused open-source projects.
-    - **What's next?** How could you organize a local hackathon where your community builds open-source tools for barangay problems?
+    - **How can you apply this?** Share a useful project, improve someone else's documentation, or contribute to Philippine-focused tools for transport, education, disaster response, or local language support.
+    - **What's next?** How could you organize a local build day where your community creates open-source tools for real local problems?
 
 ??? checkbox "✅ Chapter Checklist"
 

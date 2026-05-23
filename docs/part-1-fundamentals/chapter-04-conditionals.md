@@ -9,6 +9,8 @@
 
 > **Story Hook:** You're on a jeepney heading home from school. The driver pulls over, picks up three passengers at the front, and two more at the back. The conductor starts shouting the fare: "Nine pesos inside! Seven pesos outside! Nine more pasahero na po!" You wonder: how does the conductor know exactly how much to charge? It depends on where you sit, how many people are already inside, and whether it's peak hour. That's a conditional system -- and today you'll build one.
 
+> **Output:** A fare calculator that applies rules for seating, discounts, and peak-hour logic.
+
 ---
 
 ## What You'll Learn
@@ -64,7 +66,7 @@ else:
 ??? bug "Common Mistake"
     `=` assigns a value. `==` checks equality. They are NOT the same.
 
-    ```python
+    ```pycon
     >>> x = 5    # Assign 5 to x
     >>> x == 5   # Check if x equals 5 (returns True)
     True
@@ -218,7 +220,7 @@ else:
 
     1. **GitHub README** -- Show the different scenarios your calculator handles (peak/off-peak, student/senior discounts)
     2. **LinkedIn skill** -- Add "Python" to your Skills section and write a post: "Just built a fare calculator that handles edge cases like peak hours and student discounts"
-    3. **Interview talking point** -- "I built a fare calculator that uses nested conditionals to handle real-world pricing rules, similar to how ride-sharing apps calculate fares dynamically."
+    3. **Interview talking point** -- "You can say: I built a fare calculator that uses nested conditionals to handle real-world pricing rules, similar to how ride-sharing apps calculate fares dynamically."
 
 ## Summary
 

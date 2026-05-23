@@ -4,7 +4,7 @@ An alphabetical index of key terms, concepts, and topics covered in this book.
 
 ## A
 
-- **AI-Assisted Coding** -- Using AI tools to accelerate learning and development. [Ch 18](part-3-going-further/chapter-18-ai-coding.md)
+- **Coding with AI as a Partner** -- Using AI tools to accelerate learning without outsourcing your understanding. [Ch 18](part-3-going-further/chapter-18-ai-coding.md)
 - **Allowance Manager** -- Project demonstrating classes and OOP. [Ch 9](part-2-building-things/chapter-09-classes.md)
 - **Allowance Tracker** -- Project demonstrating functions. [Ch 6](part-1-fundamentals/chapter-06-functions.md)
 - **API (Application Programming Interface)** -- A way for programs to communicate with each other. [Ch 11](part-2-building-things/chapter-11-apis.md)
@@ -22,7 +22,7 @@ An alphabetical index of key terms, concepts, and topics covered in this book.
 
 ## C
 
-- **Chaotic Cozy Tech** -- The visual theme of this book, inspired by Filipino comshops.
+- **Chaotic Cozy Tech** -- The visual theme of this book, inspired by low-resource Filipino learning spaces.
 - **Classes** -- Blueprints for creating objects. [Ch 9](part-2-building-things/chapter-09-classes.md)
 - **Comshop** -- Filipino internet cafe culture. [Ch 1](part-0-welcome/chapter-01-hello-world.md)
 - **Conditionals** -- Making decisions with `if/elif/else`. [Ch 4](part-1-fundamentals/chapter-04-conditionals.md)
@@ -108,7 +108,7 @@ An alphabetical index of key terms, concepts, and topics covered in this book.
 - **Sari-Sari Store System** -- Boss Fight 1 project. [Ch 8](part-1-fundamentals/chapter-08-boss-fight-1.md)
 - **Scraping** -- Extracting data from websites. [Ch 12](part-2-building-things/chapter-12-scraping.md)
 - **Side Quest** -- Optional challenges for extra practice.
-- **Smart Kuya** -- The voice and teaching style of this book.
+- **Smart Kuya** -- The accessible teaching style of this book, anchored to Myk Ogbinar's profile identity.
 - **String** -- Text data type. [Ch 3](part-1-fundamentals/chapter-03-variables.md), [Ch 10](part-2-building-things/chapter-10-strings.md)
 
 ## T

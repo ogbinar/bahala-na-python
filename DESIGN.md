@@ -38,9 +38,11 @@
 
 ### What Makes This Book Different
 
-- **Filipino-first context:** Every example, analogy, and story grounded in Filipino life (sari-sari store, jeepney, comshop, GCash, OFW)
+- **Filipino-first context:** Every example, analogy, and story grounded in Filipino life (sari-sari store, jeepney, shared computer setup, GCash, OFW)
 - **Gaming-inspired pedagogy:** XP, Boss Fights, Side Quests, Level Up, Achievement Badges as learning structure
-- **Smart Kuya voice:** Taglish, older-sibling mentorship tone, not professor
+- **Smart Kuya voice:** Taglish, older-sibling mentorship tone anchored to Myk Ogbinar's public profile, not a separate persona
+- **Learner-facing prompts:** Portfolio and interview prompts should sound like the student speaking, not the author
+- **Visible artifact cues:** Each chapter should signal the output surface early so the reader knows what kind of project they are building
 - **Anti-gatekeeping:** Works on a P8,000 laptop with slow internet. No CS degree needed.
 - **AI as creative partner:** Light-touch philosophy — AI accelerates learning, doesn't replace it
 
@@ -50,8 +52,8 @@
 2. **Anti-Gatekeeping** — No "real programmers," no "you need math," no "get a better computer."
 3. **Filipino Context** — Not a translated book; written from Filipino experience.
 4. **Practical Building** — Theory serves practice. Build something in every chapter.
-5. **Cozy Chaotic Tech Energy** — Warm, lived-in, comshop-at-2AM energy. Not corporate, not sterile.
-6. **Mentorship Over Authority** — Smart Kuya, not Professor.
+5. **Cozy Chaotic Tech Energy** — Warm, lived-in, low-resource-friendly energy. Not corporate, not sterile.
+6. **Mentorship Over Authority** — Smart Kuya, not Professor, while staying aligned with the public author profile.
 7. **Progression Over Perfection** — XP, Boss Fights, levels exist to show learning is a journey with milestones.
 8. **PDF-First Parity** — PDF is not a byproduct. Primary reading format for Filipino learners.
 9. **Community as Continuation, Not Dependency** — DEP is the "what's next." Book stands alone.
@@ -149,22 +151,23 @@ Appendix
   - Glossary
 ```
 
-**Total:** 40 .md files across 8 sections. All files present and containing substantial content.
+**Total:** 41 .md files across 9 sections. All files present and containing substantial content.
 
 ### 3.2 Chapter Template
 
 Every chapter follows this structure:
 
 1. **Story Hook** — Filipino cultural narrative
-2. **Chapter Opener Card** — `??? example "📋 Chapter Info"` with Difficulty / Time / XP
-3. **What You'll Learn** — Learning objectives
-4. **Tutorial** — Concept explanation + hands-on code
-5. **Boss Fight** (select chapters) — Cumulative synthesis challenge
-6. **Side Quests** — Optional extra challenges
-7. **Portfolio Tip** — GitHub/LinkedIn/interview guidance
-8. **Checklist** — Self-assessment
-9. **Reflection** — Deeper thinking prompts
-10. **Further Reading** — Next steps
+2. **Output Cue** — One short `> **Output:** ...` line that names the artifact or output surface
+3. **Chapter Opener Card** — `??? example "📋 Chapter Info"` with Difficulty / Time / XP
+4. **What You'll Learn** — Learning objectives
+5. **Tutorial** — Concept explanation + hands-on code
+6. **Boss Fight** (select chapters) — Cumulative synthesis challenge
+7. **Side Quests** — Optional extra challenges
+8. **Portfolio Tip** — GitHub/LinkedIn/interview guidance written as learner-facing prompts
+9. **Checklist** — Self-assessment
+10. **Reflection** — Deeper thinking prompts
+11. **Further Reading** — Next steps
 
 ### 3.3 Chapter Length
 
@@ -207,7 +210,7 @@ Every chapter follows this structure:
 
 ### The Smart Kuya
 
-- Knowledgeable older sibling, not a professor
+- Knowledgeable older sibling, anchored to the public author profile rather than a professor persona
 - Uses "kayo/ka" (you) directly
 - Admits mistakes: *"Naiimutan ko pa rin kung paano..."*
 - Celebrates wins: *"Galing mo! Working na!"*
@@ -327,9 +330,9 @@ XP exists as **content-embedded motivational framing only** — in chapter opene
 | Chapter structure (7-section template) | Complete |
 | Voice & tone (Smart Kuya, Taglish) | Complete |
 | Code quality (14 bugs fixed, CI validates) | Complete |
-| Appendix (4 types) | Partial — answers missing Ch 8, 10, 17, 18 |
+| Appendix (4 types) | Partial — `answers.md` has 15 dedicated chapter sections plus boss-fight reference solutions for Ch 14, 15, 20-25; still missing Ch 1, 2, 8, 19 |
 | CI/CD (syntax, build, deploy) | Complete |
-| MkDocs build (`--strict`) | Passing, 40 HTML files |
+| MkDocs build (`--strict`) | Warns/fails when PDF export is disabled; site build still generates 43 HTML files |
 | Gamification content (XP, Boss Fights, etc.) | Complete as content-embedded framing |
 | AI as Creative Partner integration | Complete (Ch 1, 18, 26) |
 | Experience improvements (T1-T15) | Complete, 15/15 tasks done |
@@ -345,14 +348,14 @@ XP exists as **content-embedded motivational framing only** — in chapter opene
 | `images/` has 3 files (favicon, 2 poring SVGs) | Low | Placeholder references only |
 | `exercises/` directory empty | Low | Code embedded in chapters |
 | No community Discord configured | Low | Out of scope for code |
-| No PDF build pipeline | Low | `mkdocs-with-pdf` in optional deps |
+| PDF export path exists but is not CI-safe yet | Medium | `mkdocs-with-pdf` still fails in strict build |
 | No translation infrastructure | Low | `mkdocs-static-i18n` not set up |
 | No analytics | Low | Plausible not configured |
 | No companion video content | Medium | YouTube/TikTok planned |
-| `answers.md` missing 4 chapters | Medium | Ch 8, 10, 17, 18 |
+| `answers.md` still lacks full chapter sections for 4 chapters | Medium | Ch 1, 2, 8, 19 |
 | Side quests missing from 6 chapters | Low | Ch 1, 2, 8, 14, 25, 26 |
-| Broken PDF download link in index.md | Medium | `pdf/book.pdf` does not exist |
-| Ch 18 title mismatch in master TOC | Medium | index.md says old title |
+| PDF export fails before `pdf/book.pdf` is produced | Medium | `mkdocs-with-pdf` errors during generation |
+| Ch 18 naming drift in secondary docs | Low | Part 3 index / chapter links can regress if not kept aligned |
 
 ---
 
@@ -431,7 +434,7 @@ The following items were previously listed as pending but have since been fixed 
 | P3.2 | Pause and Predict prompts | Done — 7 chapters have prompts |
 | P5.1 | Portfolio tips expansion | Done — all 26 chapters have portfolio tips |
 | L2 | Part 0 index missing XP table | Fixed — XP table present at line 45-52 |
-| C1 | XP total wrong (3,950 vs 4,900) | Fixed — corrected to 4,900 in index.md and all chapter cards |
+| C1 | XP total resolved | Fixed — corrected to 4,900 in index.md and all chapter cards |
 
 ### High Priority
 
@@ -443,25 +446,21 @@ The following items were previously listed as pending but have since been fixed 
 
 `first-program.md` covers a simple `print("Kumusta!")` verification. Ch 1 covers `print()` with full story hook and cultural context. The overlap is small and intentional (setup verification vs. first real lesson). **Acceptable as-is.**
 
-#### H5: Ch 18 Title Mismatch in Master TOC
+#### H5: Ch 18 Title Alignment
 
-**Location:** `index.md:159`
-
-Master TOC lists Ch 18 as "AI-Assisted Coding & Vibecoding" but the chapter title is "Coding with AI as a Partner". The chapter's Reflection block also still says "AI-Assisted Coding and Vibecoding".
-
-**Fix:** Update `index.md:159` to match chapter title. Update Ch 18 Reflection block title.
+Homepage, Part 3 index, alphabetical index, and chapter navigation now consistently use **"Coding with AI as a Partner."** Older "AI-Assisted Coding / Vibecoding" wording remains only where it describes the workflow itself inside Ch 18.
 
 ### Medium Priority
 
 | Issue | Location | Status | Fix |
 |-------|----------|--------|-----|
 | M2 | Ch 25 Resources | **Resolved** | Ch 25 now references Ch 21-24 including mobile, open source, capstone |
-| M3 | Appendix answers coverage | **Partial** | 22/26 chapters covered. Missing: Ch 8, 10, 17, 18 |
+| M3 | Appendix answers coverage | **Partial** | 15 dedicated chapter sections, plus boss-fight references for Ch 14, 15, 20-25. Still missing full coverage for Ch 1, 2, 8, 19 |
 | M4 | Projects table in index.md | **Resolved** | 8 projects + "and more" note present |
 | M5 | Ch 23 `to_dict` complexity | **Pending** | No explanatory comment on `to_dict()` method |
 | M6 | Ch 24 Flask security | **Resolved** | Warning callout present at line 490 |
-| M7 | Broken PDF link in index.md | **Pending** | `pdf/book.pdf` link targets non-existent file |
-| M8 | Ch 18 Reflection title | **Pending** | Still says "AI-Assisted Coding and Vibecoding" |
+| M7 | PDF export path | **Pending** | `mkdocs-with-pdf` still fails before `pdf/book.pdf` is produced |
+| M8 | Ch 18 reflection title | **Resolved** | Reflection and surrounding navigation now match the live chapter title |
 
 ### Low Priority
 
@@ -547,7 +546,7 @@ Code block readability, bullet list fix, table styling, footer noise reduction, 
 | Five core philosophies woven in | Aligned |
 | 4 Boss Fights with starter code + hints | Aligned |
 | 14 code bugs fixed, CI validates | Aligned |
-| Appendix complete (4 types) | Aligned |
+| Appendix suite present (4 types) | Aligned |
 | CI/CD functional | Aligned |
 
 ### Key Misalignments (Plan vs. Implementation)
@@ -563,7 +562,7 @@ Code block readability, bullet list fix, table styling, footer noise reduction, 
 | **Side quest types** | 4 categorized types | 20/26 chapters have side quests, uncategorized | Medium |
 | **Publishing** | PDF, translation, analytics | None configured | Medium |
 | **XP totals** | 4,900 XP | 4,900 XP | **Resolved** |
-| **Ch 18 title** | "Coding with AI as a Partner" | index.md still says old title | **Bug: stale reference** |
+| **Ch 18 title** | "Coding with AI as a Partner" | Live navigation now matches the chapter title | **Resolved** |
 
 ### Strengths to Preserve
 
@@ -642,10 +641,10 @@ The research documents have been consolidated into this file. Key research areas
 
 | Component | Status |
 |-----------|--------|
-| MkDocs + Material theme | Active, `mkdocs build --strict` passes |
+| MkDocs + Material theme | Active; strict build currently stops on the optional PDF warning |
 | CI/CD (`.github/workflows/ci.yml`) | Python syntax validation, MkDocs build, GitHub Pages deploy |
 | Issue templates | bug_report.md, content_contribution.md, chapter_proposal.md |
-| Build output | 40 HTML files, all nav sections rendered |
+| Build output | 43 HTML files, all nav sections rendered |
 | Sitemap + RSS | Generated successfully |
 
 ### Override Files
@@ -743,8 +742,8 @@ Each pending fix in §10 was verified against the actual source files. Each clai
 | Chapters with portfolio tips | 26/26 |
 | Chapters with side quests | 20/26 (missing: Ch 1, 2, 8, 14, 25, 26) |
 | Chapters with "Pause and Predict" | 7 |
-| Answers.md coverage | 22/26 chapters (missing: Ch 8, 10, 17, 18) |
-| MkDocs build status | `--strict` passes, 40 HTML files |
+| Answers.md coverage | 15 dedicated chapter sections, plus boss-fight references for Ch 14, 15, 20-25; full chapter coverage still missing for Ch 1, 2, 8, 19 |
+| MkDocs build status | `--strict` aborts on the optional PDF warning; site build still generates 43 HTML files |
 | Images directory | 3 files (favicon, 2 poring SVGs) |
 | Exercises directory | Empty |
 | Get Started flow ordering | Correct: overview → install → first program |

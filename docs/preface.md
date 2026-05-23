@@ -44,20 +44,18 @@ This book exists because of the Filipino tech community -- the teachers on YouTu
 Special thanks to:
 
 - Every Filipino programmer who's ever said "Kaya mo 'yan" to a beginner
-- The comshops of the Philippines, where many of us first touched a computer
+- The shared computer setups and low-resource spaces where many of us first touched a computer
 - Our Lolas, who taught us that resourcefulness (diskarte) is a superpower
 - The OFWs who send money home so we can afford internet and laptops
 - The bayanihan spirit that makes Filipino communities the most supportive in the world
 
-## About Myk
+## About Myk Ogbinar
 
-Myk isn't the best Python teacher out there. He's not a tech bro. He's more like the kuya who's been through the confusion, frustration, and the "baka hindi talaga para sakin 'to" moments — made all the mistakes and somehow made it through.
+Myk Ogbinar builds around useful systems, clear thinking, and honest execution. He is a full-time corporate professional, a part-time PhD student, and someone who cares about data, AI, community work, and tools that solve real problems.
 
-He learned Python on a low-end PC, drinking instant Coke Zero, surviving on tinapay and Pancit Canton Chilimansi. His first program was a calculator for his cousin's take-home assignment. The second renamed an MP3 collection automatically, for his OCD. The third was a mouse wriggler for work so chat apps wouldn't mark him idle.
+He learned Python the practical way: on limited hardware, through a lot of trial and error, and by building small utilities that made life easier. That experience shaped this book's voice. The goal is not to sound impressive. The goal is to make starting feel possible.
 
-That's what this book is.
-
-Not a formal textbook. Not gatekeeping. Just one Filipino sharing his love for tinkering with technology — sometimes for fun, sometimes to make life a little easier.
+So this book stays approachable on purpose. It keeps the "smart kuya" energy, but the source of that voice is real-world experience, not gatekeeping. You get honest guidance, simple explanations, and room to learn at your own pace.
 
 **Bahala na. Let's try it!**
 

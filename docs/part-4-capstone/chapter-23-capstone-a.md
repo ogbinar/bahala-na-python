@@ -7,7 +7,9 @@
     | **Time** | 60 min |
     | **XP** | +200 XP |
 
-> **Story Hook:** Your barangay captain approaches you after a community clean-up. "Naku, ang hirap namin mag-track ng mga resident fees," he says. "Nawawala ang records, napapalitan ng mga tao, at kapag kailangan ng certificate,ahan namin." He hands you a worn notebook full of handwritten entries. You open it: names, addresses, monthly fees, payments -- some marked "PAID," others with question marks. "Kaya mo ba 'to?" he asks. You think about everything you've learned: classes, files, APIs, error handling. "Bahala na," you say. And you start building.
+> **Story Hook:** Your barangay captain approaches you after a community clean-up. "Naku, ang hirap namin mag-track ng mga resident fees," he says. "Nawawala ang records, napapalitan ng mga detalye, at kapag kailangan ng certificate, nangangapa kami." He hands you a worn notebook full of handwritten entries. You open it: names, addresses, monthly fees, payments -- some marked "PAID," others with question marks. "Kaya mo ba 'to?" he asks. You think about everything you've learned: classes, files, APIs, error handling. "Bahala na," you say. And you start building.
+
+> **Output:** The core data model and CLI workflow for a barangay system that stores residents, fees, and payment state.
 
 ---
 
@@ -456,11 +458,11 @@ Birthdate (YYYY-MM-DD): 1985-03-15
 ```
 
 ??? example "Portfolio Tip: Full-Stack Application"
-    Your barangay management system is a real, complete application. This is the kind of project that gets interviews:
+    Your barangay management system is a real, complete application. This is the kind of project you can confidently talk through in interviews:
 
     1. **GitHub README** -- Write a full README: problem statement, features, installation instructions, screenshots of the CLI interface, and a data model diagram
     2. **LinkedIn Featured Section** -- Pin this project. Write: "Built a complete barangay management system with resident tracking, fee management, and data persistence. Handles real-world edge cases like duplicate residents and partial payments."
-    3. **Interview talking point** -- "I built a full barangay management system from scratch. It handles resident registration, fee tracking with payment status enums, and data persistence using JSON. I designed it with real-world constraints in mind -- like handling 500+ residents and supporting multiple barangays. This taught me about data modeling, file I/O, and building production-ready CLI tools."
+    3. **Interview talking point** -- "You can say: I built a full barangay management system from scratch. It handles resident registration, fee tracking with payment status enums, and data persistence using JSON. I designed it with real-world constraints in mind -- like handling 500+ residents and supporting multiple barangays. This taught me about data modeling, file I/O, and building production-ready CLI tools."
 
 ## Summary
 

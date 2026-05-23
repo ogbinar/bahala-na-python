@@ -9,6 +9,8 @@
 
 > **Story Hook:** You just merged your first open-source PR. Your code is in someone else's project. Strangers are reading your code, leaving comments, maybe even fixing your typos. You feel something you haven't felt before: belonging. You're not just learning to code. You're part of something bigger. The book ends here, but your journey is just getting started.
 
+> **Output:** A next-step roadmap for turning book projects into a visible learning portfolio.
+
 ---
 
 ## What You've Achieved
@@ -19,7 +21,7 @@ Let's take a moment to look back at how far you've come:
 Part 0: Welcome           -- "What is Python?" → You typed your first print()
 Part 1: Fundamentals      -- Variables, conditionals, loops, functions, files
 Part 2: Building Things   -- Classes, APIs, scraping, error handling
-Part 3: Going Further     -- Discord bots, data viz, NLP, AI, open source
+Part 3: Level Up          -- Discord bots, data viz, NLP, AI, open source
 Part 4: Capstone          -- Real projects that solve real problems
 ```
 
@@ -226,11 +228,11 @@ You've finished the book. But the journey doesn't end here. Join the DEP Barkada
 
 ??? example "Portfolio Tip"
 
-    **GitHub README**: Your entire GitHub profile IS your portfolio now. Pin your best 3-6 projects, write a profile README with your story (comshop to programmer), and add a "Currently learning" section. Employers in the Philippines increasingly look at GitHub before resumes.
+    **GitHub README**: Your entire GitHub profile IS your portfolio now. Pin your best 3-6 projects, write a profile README with your story, and add a "Currently learning" section. Employers in the Philippines increasingly look at GitHub before resumes.
 
     **LinkedIn**: Post a journey update: "Finished the Bahala Na Python book -- from `print('Hello, World!')` to building full applications. Built a sari-sari store system, Discord bot, barangay dashboard, and more. The journey doesn't end here. Next: [your next goal]. #Python #FilipinoDeveloper #Journey". Tag communities like PyCon PH and Data Engineering Pilipinas.
 
-    **Interview Talking Point**: "I'm a self-taught Python developer who learned through building real projects for my community. I've gone from zero programming experience to building applications with classes, APIs, async programming, data visualization, and NLP. My diskarte -- finding ways with limited resources -- drives everything I build."
+    **Interview Talking Point**: Example talking point: "I'm a self-taught Python developer who learned through building real projects for my community. I've gone from zero programming experience to building applications with classes, APIs, async programming, data visualization, and NLP. My diskarte -- finding ways with limited resources -- drives everything I build."
 
 ??? example "🧠 Reflection — What's Next: Your Journey Continues"
 

@@ -9,6 +9,8 @@
 
 > **Story Hook:** You've been using open-source software for months. Python itself is open source. The libraries you import (requests, pandas, matplotlib) are all open source. You've never contributed to one. Today, that changes. You make your first pull request. Your hands are sweating. You click "Submit." And then: the most beautiful thing in programming. A review comment: "Great first contribution! Could you add a test?" You smile. You belong here now.
 
+> **Output:** A GitHub contribution workflow, from fork to pull request, that readers can reuse on real projects.
+
 ---
 
 ## What You'll Learn
@@ -215,7 +217,7 @@ Typos in code examples can confuse beginners. This correction ensures the code r
 
     **LinkedIn**: Post a screenshot of your merged PR with the caption: "My first open-source contribution is merged! From reading other people's code to submitting a pull request -- this is what bayanihan looks like in the developer world. #OpenSource #Python". Link to the PR.
 
-    **Interview Talking Point**: "I've contributed to open-source projects following the full GitHub workflow: forking, branching, making changes, and submitting pull requests. I understand code of conduct, write clear PR descriptions, and respond to review feedback. Open source taught me how to collaborate with developers I've never met."
+    **Interview Talking Point**: Example talking point: "I've contributed to open-source projects following the full GitHub workflow: forking, branching, making changes, and submitting pull requests. I understand code of conduct, write clear PR descriptions, and respond to review feedback. Open source taught me how to collaborate with developers I've never met."
 
 ??? example "🧠 Reflection — Open Source and Your First Contribution"
 

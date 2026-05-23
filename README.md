@@ -10,7 +10,9 @@
 
 ## Kumusta! 👋
 
-This is a free, open-source Python book written for Filipino learners -- by people who've been there.
+This is a free, open-source Python book written by Myk Ogbinar for Filipino learners who want a practical, low-friction way to start.
+
+Myk's public work centers on data, AI, community, and useful systems. The book keeps that perspective, but the teaching voice stays intentionally accessible: clear, friendly, and beginner-safe.
 
 We know what it's like to code on a 2GB RAM laptop, to worry about data pack limits, to feel lost in a sea of English-only documentation. We also know that **you don't need a CS degree to learn to code**. You just need curiosity, a willingness to try, and a community to learn with.
 
@@ -22,10 +24,11 @@ The book follows a gaming-inspired learning path:
 
 | Part | Chapters | What You'll Do |
 |------|----------|---------------|
-| **Part Zero** | Ch 1-2 | Your first Python program, installing everything |
+| **Getting Started** | Setup | Install Python and verify your environment |
+| **Part Zero** | Ch 1-2 | Your first Python program and the book's learning philosophy |
 | **Part 1: Fundamentals** | Ch 3-8 | Variables, conditionals, loops, functions, files + Boss Fight |
 | **Part 2: Building Things** | Ch 9-14 | Classes, APIs, web scraping, error handling + Boss Fight |
-| **Part 3: Going Further** | Ch 15-20 | Discord bots, data viz, NLP, AI coding, open source + Boss Fight |
+| **Part 3: Level Up** | Ch 15-20 | Discord bots, data viz, NLP, AI coding, open source + Boss Fight |
 | **Part 4: Capstone** | Ch 21-26 | Mobile tools, community projects, Final Boss |
 
 Each chapter includes:
@@ -39,11 +42,11 @@ Each chapter includes:
 
 ```bash
 # Clone the repo
-git clone https://github.com/bahala-python/book-python.git
-cd book-python
+git clone https://github.com/ogbinar/bahala-na-python.git
+cd bahala-na-python
 
 # Install dependencies
-pip install -r requirements.txt
+pip install .
 
 # Start the local server
 mkdocs serve
@@ -53,15 +56,7 @@ mkdocs serve
 
 ## 🎮 XP System
 
-| Level | XP | Filipino Name |
-|-------|-----|--------------|
-| 1 | 0-100 | Beginner |
-| 2 | 100-300 | Albano |
-| 3 | 300-600 | Karera |
-| 4 | 600-1000 | Devel |
-| 5 | 1000-1500 | Master |
-| 6 | 1500-2200 | Grand Master |
-| 7 | 2200+ | Legend |
+The live book uses a content-embedded XP system that totals **4,900 XP** across 26 chapters. Finish the full path and you reach **Legend** level.
 
 ## 🤝 Contributing
 

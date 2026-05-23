@@ -8,7 +8,7 @@ Salamat for wanting to contribute! This book is a community project, and every c
 
 1. **Fork** this repository
 2. **Clone** your fork
-3. **Install** dependencies: `pip install -r requirements.txt`
+3. **Install** dependencies: `pip install .`
 4. **Create** a branch: `git checkout -b feature/improve-chapter-3`
 5. **Edit** markdown files in `docs/`
 6. **Preview**: `mkdocs serve` and visit `http://localhost:8000`
@@ -31,11 +31,13 @@ Please read [STYLE-GUIDE.md](STYLE-GUIDE.md) for detailed writing and formatting
 
 ### Key Principles
 
-1. **Smart Kuya voice**: Write like a knowledgeable older sibling, not a professor
+1. **Smart Kuya voice**: Write like a knowledgeable older sibling, anchored to the ogbinar profile site, not a separate persona
 2. **Taglish naturally**: Mix English and Tagalog organically
 3. **Code first**: Show code before explaining theory
 4. **Filipino context**: Use familiar references (sari-sari stores, jeepneys, GCash, etc.)
 5. **Keep it short**: Chapters are 20-40 pages max; paragraphs are 3-5 sentences
+6. **Learner-facing prompts**: Use learner-facing prompt language such as `You can write`, `You can post`, `You can say`, or `Example talking point` in portfolio/interview sections; keep the student as the speaker
+7. **Show the output surface**: Add a short opening cue that makes the project artifact obvious (CLI, dashboard, bot, app, etc.)
 
 ## Pull Request Checklist
 
@@ -44,7 +46,8 @@ Please read [STYLE-GUIDE.md](STYLE-GUIDE.md) for detailed writing and formatting
 - [ ] Headings follow hierarchy (one H1 per file, H2/H3 for structure)
 - [ ] Images have alt text
 - [ ] Links work
-- [ ] Tone matches "Smart Kuya" voice
+- [ ] Tone matches the accessible "Smart Kuya" voice anchored to the profile site
+- [ ] Portfolio/interview prompts use learner-facing wording, not author-facing claims
 - [ ] Technical accuracy verified
 
 ## Code of Conduct
@@ -53,4 +56,4 @@ See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md). We expect all contributors to be k
 
 ## Questions?
 
-Open an issue or join our Discord (coming soon). Hindi ka nag-iisa -- bayanihan tayo!
+Open an issue or join our [DEP Barkada on Discord](https://discord.com/invite/buDgydz7J9). Hindi ka nag-iisa -- bayanihan tayo!

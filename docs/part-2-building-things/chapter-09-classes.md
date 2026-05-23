@@ -9,6 +9,8 @@
 
 > **Story Hook:** You receive ₱500 every Monday as allowance. By Wednesday, you've already spent ₱380 on "small things" -- ₱15 for pamasahe three times, ₱50 for merienda, ₱80 for photocopy, ₱30 for load. You check your wallet: ₱120 left for four more days. You think: "I need a system. Not just a notebook -- something that tracks everything automatically and tells me when I'm overspending." So you create a class.
 
+> **Output:** An allowance manager built from classes and objects instead of loose variables.
+
 ---
 
 ## What You'll Learn
@@ -262,7 +264,7 @@ class GraduateStudent(Student):
 
     1. **GitHub README** -- Include a class diagram (even a simple ASCII one) to show your understanding of object relationships
     2. **LinkedIn** -- Add "Object-Oriented Programming" to your skills. Post: "Just learned OOP in Python by building an allowance manager with inheritance!"
-    3. **Interview talking point** -- "I built an allowance management system using classes and inheritance. The Student class inherits from Person, which I think shows I understand code reuse and hierarchical data modeling."
+    3. **Interview talking point** -- "You can say: I built an allowance management system using classes and inheritance. The Student class inherits from Person, which shows I understand code reuse and hierarchical data modeling."
 
 ## Summary
 

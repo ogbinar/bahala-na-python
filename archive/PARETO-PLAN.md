@@ -3,6 +3,7 @@
 **Generated:** 2026-05-18
 **Method:** 80/20 analysis — which ~20% of fixes deliver ~80% of reader impact?
 **Based on:** Full audit of 26 chapters, answers.md, index.md, preface.md, DESIGN.md
+**Status:** Historical reference only; use `TODO.md` for the active checklist
 
 ---
 

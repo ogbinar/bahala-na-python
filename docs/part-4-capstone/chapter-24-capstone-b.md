@@ -9,6 +9,8 @@
 
 > **Story Hook:** The barangay captain is impressed with the basic system. "Galing!" he says. "Pero kailangan namin ng certificates -- barangay clearance, indigency, residence certification. And the residents keep asking when their fees are due. And the municipal office wants a report every month." You nod. "I know. I'm building it."
 
+> **Output:** Certificate generation, monthly reporting, and a more complete barangay admin workflow.
+
 ---
 
 ## What You'll Add
@@ -198,7 +200,8 @@ class ReportGenerator:
         print(f"{'=' * 60}")
         print(f"  Residents: {total_residents}")
         print(f"  Paid this month: {unique_payers}")
-        print(f"  Collection rate: {(unique_payers/total_residents*100):.1f}%")
+        collection_rate = (unique_payers / total_residents * 100) if total_residents else 0
+        print(f"  Collection rate: {collection_rate:.1f}%")
         print(f"  Total collected: ₱{total_collected:.2f}")
         print(f"{'-' * 60}")
         print(f"  By Fee Type:")
@@ -211,7 +214,7 @@ class ReportGenerator:
             "month": f"{year}-{month:02d}",
             "total_collected": total_collected,
             "unique_payers": unique_payers,
-            "collection_rate": unique_payers / total_residents * 100,
+            "collection_rate": collection_rate,
             "by_type": by_type,
         }
 
@@ -335,7 +338,7 @@ def safe_pay_fee(manager, resident_id, fee_type, amount=None):
         print("   Tip: Use 'Search resident' to find the correct ID.")
     except InvalidFeeError as e:
         print(f"❌ {e}")
-        print(f"   Valid fee types: {', '.join(FeeManager.FEE_AMOUNTS.keys())}")
+        print(f"   Valid fee types: {', '.join(fee.value for fee in FeeManager.FEE_AMOUNTS)}")
     except ValueError as e:
         print(f"❌ Invalid input: {e}")
     except Exception as e:
@@ -507,7 +510,7 @@ python web_app.py
 
     1. **GitHub README** -- Include a live demo screenshot showing the web dashboard. Add a GIF showing the certificate generation flow.
     2. **LinkedIn** -- Post: "Just deployed a web-based barangay management system with Flask. Features include certificate generation, real-time reporting, and role-based access. Built the full stack from database to UI."
-    3. **Interview talking point** -- "I built a complete web application with Flask that handles barangay administration. It includes a custom report generator, certificate system, and error handling with custom exceptions. The web interface shows I can build full-stack applications, not just scripts."
+    3. **Interview talking point** -- "You can say: I built a complete web application with Flask that handles barangay administration. It includes a custom report generator, certificate system, and error handling with custom exceptions. The web interface shows I can build full-stack applications, not just scripts."
 
 ## Summary
 

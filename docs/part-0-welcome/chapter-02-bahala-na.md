@@ -9,6 +9,8 @@
 
 > **Story Hook:** Your friend from Manila just sent you a Python script. "Run this," they said. You have no idea what a script is. Your laptop is a second-hand ThinkPad from 2015 with 4GB of RAM. You have 200MB of data left. But you're curious. You click the file. Nothing happens. "Huh," you think. "Ibaril ko na lang."
 
+> **Output:** A runnable local Python setup, from installation to your first `.py` file.
+
 ---
 
 ## What You'll Learn
@@ -81,7 +83,7 @@ python3
 
 You'll see:
 
-```python
+```pycon
 Python 3.12.x (...)
 Type "help", "copyright", "credits" or "license" for more information.
 >>>
@@ -89,7 +91,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 That `>>>` means Python is waiting for you. Try:
 
-```python
+```pycon
 >>> print("Hello from my computer!")
 Hello from my computer!
 >>> 50 * 75
@@ -183,13 +185,13 @@ If your laptop is nearly full, Python needs about 200-400MB. Clear some space fi
     - **Pydroid 3 (Android)** — Free app that runs Python 3 directly on your phone. Great for practicing on the go.
     - **Pro tip**: If you have limited data, write code offline in a notes app or Google Docs, then paste it into Replit when you have WiFi. Many Filipino learners practice during their jeepney ride home!
 
-## The Comshop Reflection
+## The Shared-Setup Reflection
 
-Remember that comshop from Chapter 1? The one with the flickering "P10/HOUR" sign?
+Remember that shared setup from Chapter 1? The one with the old monitor and the blinking Python prompt?
 
-That comshop is where millions of Filipinos learned their first computer skills. You learned to type, to browse the internet, to open files -- all because someone sat down at that comshop and clicked something.
+That kind of setup is where many Filipinos learned their first computer skills. You learned to type, to browse the internet, to open files -- all because someone sat down, clicked something, and kept going.
 
-Installing Python is the same. It's just a different kind of comshop. Instead of paying ₱10/hour, you're paying with curiosity. And unlike the comshop, this one is yours forever. No time limit. No one kicking you out.
+Installing Python is the same. It's a different kind of setup. Instead of paying with time, you're paying with curiosity. And unlike a shared space, this one is yours forever. No time limit. No one kicking you out.
 
 **Bahala na. Let's try it.**
 
@@ -212,7 +214,7 @@ Installing Python is the same. It's just a different kind of comshop. Instead of
 
     **LinkedIn**: Share your installation journey: "Just got Python running on my machine! Took some troubleshooting but I figured it out. Next step: building real tools." This shows persistence, a quality employers value more than a perfect setup.
 
-    **Interview Talking Point**: "I taught myself to set up a Python development environment from scratch, including troubleshooting PATH issues and verifying installations. I'm comfortable working through technical blockers independently."
+    **Interview Talking Point**: Example talking point: "I set up a Python development environment from scratch, including troubleshooting PATH issues and verifying installations. I can work through technical blockers independently."
 
 ??? example "🧠 Reflection — Installing Python and Running Scripts"
 

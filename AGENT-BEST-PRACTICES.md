@@ -72,7 +72,7 @@ book-python/
 │   │   ├── index.md
 │   │   └── ...
 │   ├── images/                 # All book images/illustrations
-│   │   ├── comshop-retro.png
+│   │   ├── shared-setup-retro.png
 │   │   ├── poring-mascot.png
 │   │   └── ...
 │   └── exercises/              # Exercise code files (referenced from MD)
@@ -211,7 +211,7 @@ Material theme supports native callout blocks:
 ```markdown
 ![Sari-sari store illustration](images/sari-sari-store.png)
 
-![Comshop retro aesthetic](images/comshop-retro.png){ width="600" }
+![Shared-setup retro aesthetic](images/shared-setup-retro.png){ width="600" }
 
 ![Diagram showing data flow](images/data-flow.png){ .center }
 ```
@@ -253,6 +253,8 @@ Every chapter should follow this consistent structure:
 <!-- Story hook: 1-2 paragraph narrative -->
 You're running a sari-sari store in your barangay...
 
+> **Output:** A short cue that names the artifact or output surface.
+
 <!-- What you'll learn -->
 ## What You'll Learn
 
@@ -287,6 +289,12 @@ inventory = {"merienda": 50, "candy": 30}
 - Key concepts covered
 - What to read next
 
+## Portfolio / Interview Prompt
+
+- Keep prompts learner-facing
+- Prefer wording such as `You can write`, `You can post`, `You can say`, or `Example talking point`
+- Avoid making the author sound like the person claiming the project
+
 ## Further Reading
 
 - Links to Python docs, related chapters
@@ -298,9 +306,9 @@ inventory = {"merienda": 50, "candy": 30}
 
 ### Voice and Tone
 
-- **The "Smart Kuya" voice**: A big sibling figure who's been through this. Not a professor.
+- **The "Smart Kuya" voice**: A big sibling delivery style rooted in Myk Ogbinar's real public identity -- practical, beginner-safe, and not a separate persona.
 - **Taglish naturally**: Code comments and explanations mix English and Tagalog organically.
-- **Conversational, not academic**: Write like you're explaining to a friend at a comshop.
+- **Conversational, not academic**: Write like you're explaining to a friend in a shared study setup.
 - **Admit mistakes**: "Naiimutan ko pa rin kung paano..." makes the writer relatable.
 
 ### Sentence Structure
@@ -414,7 +422,9 @@ jobs:
 - [ ] Headings follow hierarchy rules
 - [ ] Images have alt text
 - [ ] Links work (internal and external)
-- [ ] Tone matches "Smart Kuya" voice
+- [ ] Tone matches the accessible "Smart Kuya" voice anchored to the ogbinar profile site
+- [ ] Portfolio and interview prompts stay learner-facing (`You can write`, `You can post`, `You can say`, `Example talking point`)
+- [ ] Chapter opening includes a brief output cue so the artifact type is obvious
 - [ ] Technical accuracy verified
 - [ ] No plagiarism or copyright issues
 - [ ] Spell check passes
@@ -615,7 +625,7 @@ v2.0.0 -- Second edition (major updates)
 ```bash
 # Clone the repo
 git clone <repo-url>
-cd book-python
+cd bahala-na-python
 
 # Install dependencies
 pip install -r requirements.txt

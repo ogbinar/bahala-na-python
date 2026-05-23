@@ -9,6 +9,8 @@
 
 > **Story Hook:** Your barangay captain wants to know how many families received aid during the last typhoon. The data is in a spreadsheet -- 500 rows, 20 columns. She asks you to "make something visual" so she can present it at the next meeting. You think: "I can do that with Python." So you build a dashboard that turns raw data into beautiful charts.
 
+> **Output:** A chart pack and dashboard export that turns raw data into something people can present.
+
 ---
 
 ## What You'll Learn
@@ -255,8 +257,8 @@ dashboard.create_summary_report()
     Your barangay data visualization project shows you can turn raw data into visual stories -- a skill in high demand:
 
     1. **GitHub README** -- Include the generated charts as images in your README. Show before/after: raw data vs. visualized data.
-    2. **LinkedIn** -- Add "Data Visualization", "matplotlib", and "pandas" to your skills. Post: "Visualized barangay data to create charts showing aid distribution and population trends. Data tells stories!"
-    3. **Interview talking point** -- "I built a data visualization dashboard for barangay data using matplotlib and pandas. I created bar charts for comparisons, pie charts for distributions, and line charts for trends. This is similar to how data analysts create reports for decision-makers."
+    2. **LinkedIn** -- Add "Data Visualization", "matplotlib", and "pandas" to your skills. Post: "Visualized community data with Python to create charts showing trends and comparisons. Data tells stories!"
+    3. **Interview talking point** -- "You can say: I built a data visualization dashboard using matplotlib and pandas. I created bar charts for comparisons, pie charts for distributions, and line charts for trends. The same approach works for barangay reports, school organizations, or small-business data."
 
 ## Summary
 
@@ -333,8 +335,8 @@ dashboard.create_summary_report()
 ??? example "🧠 Reflection — Data Visualization and the Barangay Dashboard"
 
     - **What did you learn?** matplotlib and pandas turn raw numbers into visual stories that anyone can understand at a glance.
-    - **How can you apply this?** Help your barangay create visual reports for meetings, or track your family's finances with charts instead of spreadsheets.
-    - **What's next?** How could you make your charts interactive so barangay officials can click and explore the data themselves?
+    - **How can you apply this?** Turn raw numbers into clearer reports for a barangay meeting, a student organization, or your family's finances.
+    - **What's next?** How could you make your charts interactive so the people using them can click and explore the data themselves?
 
 ??? checkbox "✅ Chapter Checklist"
 

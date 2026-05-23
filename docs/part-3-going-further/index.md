@@ -11,7 +11,7 @@
 | 15 | Async & Discord Bots | Filipino Meme Bot |
 | 16 | Data Visualization | Barangay Dashboard |
 | 17 | NLP & Text Processing | AI Barkada Chatbot |
-| 18 | AI-Assisted Coding | Vibecoding with AI |
+| 18 | Coding with AI as a Partner | Responsible AI Workflow |
 | 19 | Open Source | Your First Contribution |
 | 20 | Boss Fight 3 | Barangay Dashboard Complete |
 
@@ -22,7 +22,7 @@ Part 3 introduces **advanced concepts** that professional developers use every d
 - **Async programming** for handling multiple tasks simultaneously
 - **Data visualization** with charts and graphs
 - **Natural language processing** for understanding Tagalog
-- **AI-assisted development** for coding faster
+- **AI as a creative partner** for debugging, prompting, and review
 - **Open-source contribution** for collaborating with others
 
 ## XP Rewards
