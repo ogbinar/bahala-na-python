@@ -208,7 +208,7 @@ Every chapter follows this structure:
 
 ## 5. Voice and Tone
 
-### The Smart Kuya
+### The Teaching Voice
 
 - Knowledgeable older sibling, anchored to the public author profile rather than a professor persona
 - Uses "kayo/ka" (you) directly

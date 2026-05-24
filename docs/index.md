@@ -115,7 +115,7 @@ You'll learn Python through:
 - Tracking **OFW remittances**
 - And a lot more
 
-### The Smart Kuya Voice
+### An Approachable Voice
 
 Myk Ogbinar builds around useful systems, clear thinking, and honest execution. In this book, that shows up as a calm, beginner-friendly kuya voice: practical, patient, and easy to follow.
 

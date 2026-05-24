@@ -57,7 +57,7 @@ Myk Ogbinar builds around useful systems, clear thinking, and honest execution. 
 
 He learned Python the practical way: on limited hardware, through a lot of trial and error, and by building small utilities that made life easier. That experience shaped this book's voice. The goal is not to sound impressive. The goal is to make starting feel possible.
 
-So this book stays approachable on purpose. It keeps the "smart kuya" energy, but the source of that voice is real-world experience, not gatekeeping. You get honest guidance, simple explanations, and room to learn at your own pace.
+So this book stays approachable on purpose. The voice comes from real-world experience, not gatekeeping. You get honest guidance, simple explanations, and room to learn at your own pace.
 
 **Bahala na. Let's try it!**
 

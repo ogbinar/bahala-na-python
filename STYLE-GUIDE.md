@@ -1,10 +1,10 @@
 # Style Guide for Bahala Na Python
 
-Every chapter should sound like it was written by the same person: the **Smart Kuya** who's been through this, makes mistakes too, and speaks Taglish naturally.
+Every chapter should sound like it was written by the same person: someone who's been through this, makes mistakes too, and speaks Taglish naturally.
 
 ## Voice and Tone
 
-### The Smart Kuya
+### The Teaching Voice
 
 - Write like a knowledgeable older sibling, anchored to the public author profile rather than a professor persona
 - Use "kayo/ka" (you) directly -- address the reader personally
@@ -15,7 +15,7 @@ Every chapter should sound like it was written by the same person: the **Smart K
 ### Author Identity
 
 - Use the `ogbinar.github.io` profile site as the source of truth for author identity
-- Treat "Smart Kuya" as a delivery style, not a separate biography
+- Treat the tone as a delivery style, not a separate biography
 - Keep the author grounded as Myk Ogbinar: practical, beginner-friendly, and focused on useful systems
 - Do not invent or contradict biographical details in chapter intros, prefaces, or callouts
 

@@ -64,7 +64,7 @@ The live book uses a content-embedded XP system that totals **4,900 XP** across 
 
 ## 🤝 Contributing
 
-This is an open-source project. Every contribution matters -- fixing a typo, adding a Filipino example, improving an explanation. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
+This is an open-source project. Every contribution matters -- fixing a typo, adding a Filipino example, improving an explanation, or correcting something that is wrong. If you find an error, open a Pull Request with the fix or file an issue with the exact page and line. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started.
 
 ## 📜 License
 
@@ -76,4 +76,4 @@ This project is a labor of love for the Filipino tech community. Whether you're 
 
 ---
 
-*Ang hindi magmahal sa sariling wika ay daang manghina ng sariling buhay.* -- Dr. Jose Rizal
+*Ang hindi marunong magmahal sa sariling wika ay higit pa sa hayop at malansang isda.* -- Commonly attributed to Jose Rizal

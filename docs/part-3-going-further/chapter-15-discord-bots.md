@@ -104,7 +104,7 @@ async def time(ctx):
 @bot.slash_command(description="Get a random Filipino wisdom quote")
 async def quote(ctx):
     quotes = [
-        "Ang hindi magmahal sa sariling wika ay daang manghina ng sariling buhay.",
+        "Ang hindi marunong magmahal sa sariling wika ay higit pa sa hayop at malansang isda.",
         "Kaya mo yan! You can do it!",
         "Bahala na -- not fatalism, but courage in the face of uncertainty.",
         "Diskarte == resourcefulness. The art of making do with what you have.",

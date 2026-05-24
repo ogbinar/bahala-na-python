@@ -25,13 +25,25 @@ Salamat for wanting to contribute! This book is a community project, and every c
 - **Translate** -- Tagalog, Cebuano, and other Philippine language versions
 - **Design** -- illustrations, icons, cover art
 
+### Found Something Incorrect?
+
+If you spot a typo, wrong quote, broken link, outdated example, or incorrect technical detail:
+
+1. Fork the repository
+2. Fix the issue in the relevant file
+3. Preview with `mkdocs serve` if it affects the docs
+4. Commit your change with a clear message
+5. Open a Pull Request and describe what you corrected
+
+If you're not sure how to fix it, open an issue and point to the exact page or line.
+
 ## Writing Guidelines
 
 Please read [STYLE-GUIDE.md](STYLE-GUIDE.md) for detailed writing and formatting rules.
 
 ### Key Principles
 
-1. **Smart Kuya voice**: Write like a knowledgeable older sibling, anchored to the ogbinar profile site, not a separate persona
+1. **Accessible mentor voice**: Write like a knowledgeable older sibling, anchored to the ogbinar profile site, not a separate persona
 2. **Taglish naturally**: Mix English and Tagalog organically
 3. **Code first**: Show code before explaining theory
 4. **Filipino context**: Use familiar references (sari-sari stores, jeepneys, GCash, etc.)
@@ -46,7 +58,7 @@ Please read [STYLE-GUIDE.md](STYLE-GUIDE.md) for detailed writing and formatting
 - [ ] Headings follow hierarchy (one H1 per file, H2/H3 for structure)
 - [ ] Images have alt text
 - [ ] Links work
-- [ ] Tone matches the accessible "Smart Kuya" voice anchored to the profile site
+- [ ] Tone matches the accessible mentor voice anchored to the profile site
 - [ ] Portfolio/interview prompts use learner-facing wording, not author-facing claims
 - [ ] Technical accuracy verified
 

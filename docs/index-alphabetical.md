@@ -108,7 +108,6 @@ An alphabetical index of key terms, concepts, and topics covered in this book.
 - **Sari-Sari Store System** -- Boss Fight 1 project. [Ch 8](part-1-fundamentals/chapter-08-boss-fight-1.md)
 - **Scraping** -- Extracting data from websites. [Ch 12](part-2-building-things/chapter-12-scraping.md)
 - **Side Quest** -- Optional challenges for extra practice.
-- **Smart Kuya** -- The accessible teaching style of this book, anchored to Myk Ogbinar's profile identity.
 - **String** -- Text data type. [Ch 3](part-1-fundamentals/chapter-03-variables.md), [Ch 10](part-2-building-things/chapter-10-strings.md)
 
 ## T

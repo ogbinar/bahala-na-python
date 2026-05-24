@@ -306,7 +306,7 @@ inventory = {"merienda": 50, "candy": 30}
 
 ### Voice and Tone
 
-- **The "Smart Kuya" voice**: A big sibling delivery style rooted in Myk Ogbinar's real public identity -- practical, beginner-safe, and not a separate persona.
+- **Accessible mentor voice**: A big sibling delivery style rooted in Myk Ogbinar's real public identity -- practical, beginner-safe, and not a separate persona.
 - **Taglish naturally**: Code comments and explanations mix English and Tagalog organically.
 - **Conversational, not academic**: Write like you're explaining to a friend in a shared study setup.
 - **Admit mistakes**: "Naiimutan ko pa rin kung paano..." makes the writer relatable.
@@ -422,7 +422,7 @@ jobs:
 - [ ] Headings follow hierarchy rules
 - [ ] Images have alt text
 - [ ] Links work (internal and external)
-- [ ] Tone matches the accessible "Smart Kuya" voice anchored to the ogbinar profile site
+- [ ] Tone matches the accessible mentor voice anchored to the ogbinar profile site
 - [ ] Portfolio and interview prompts stay learner-facing (`You can write`, `You can post`, `You can say`, `Example talking point`)
 - [ ] Chapter opening includes a brief output cue so the artifact type is obvious
 - [ ] Technical accuracy verified
