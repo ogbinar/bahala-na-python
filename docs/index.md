@@ -14,7 +14,7 @@ Learn Python the Filipino way -- through culture, community, and code.
     Continue your learning journey through the [DEP website](https://dataengineering.ph/) and [DEP Barkada](https://discord.com/invite/buDgydz7J9).
 
 [![Read Online](https://img.shields.io/badge/Read_Online-Click-blue?style=for-the-badge)](https://ogbinar.com/bahala-na-python/)
-[![PDF Build Info](https://img.shields.io/badge/PDF_Build-Info-red?style=for-the-badge&logo=adobeacrobatreader)](#pdf-and-offline-reading)
+[![Download PDF](https://img.shields.io/badge/Download_PDF-Click-red?style=for-the-badge&logo=adobeacrobatreader)](https://ogbinar.com/bahala-na-python/pdf/book.pdf)
 [![View GitHub](https://img.shields.io/badge/View_GitHub-Click-gray?style=for-the-badge&logo=github)](https://github.com/ogbinar/bahala-na-python)
 [![Join the Barkada](https://img.shields.io/badge/Join_the_Barkada-Click-purple?style=for-the-badge&logo=discord)](https://discord.com/invite/buDgydz7J9)
 
@@ -44,10 +44,6 @@ Learn Python the Filipino way -- through culture, community, and code.
 - 🚀 [Getting Started](getting-started/index.md) -- Install Python and set up your environment
 - 🔤 [Alphabetical Index](index-alphabetical.md) -- Find any topic alphabetically
 - 📚 [Table of Contents](#table-of-contents-your-journey-map) -- See all chapters and the learning path
-
-## PDF and Offline Reading
-
-The live docs do not always ship with a prebuilt PDF. If you want the PDF version, use the official site when available or generate it locally with the PDF export workflow in this repo.
 
 ---
 
