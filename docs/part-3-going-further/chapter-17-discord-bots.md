@@ -1,4 +1,4 @@
-# Chapter 15: Discord Bots and Async Python
+# Chapter 17: Discord Bots and Async Python
 
 ??? example "📋 Chapter Info"
     | | |
@@ -35,7 +35,7 @@ pip install py-cord pytz
 
 ```python
 # Simple Discord Bot
-# Chapter 15
+# Chapter 17
 
 import discord
 import asyncio
@@ -159,7 +159,7 @@ Let's build a more complete bot for a study group:
 
 ```python
 # Filipino Study Group Bot
-# Chapter 15
+# Chapter 17
 
 import discord
 import asyncio
@@ -367,5 +367,5 @@ To run your bot 24/7:
 
 ---
 
-*Previous: [Boss Fight 2: Midpoint Battle](../part-2-building-things/chapter-14-boss-fight-2.md) -- Midpoint boss fight*
-*Next: [Chapter 16: Data Visualization](chapter-16-dataviz.md) -- Making charts and graphs.*
+*Previous: [Boss Fight 2: Midpoint Battle](../part-2-building-things/chapter-16-boss-fight-2.md) -- Midpoint boss fight*
+*Next: [Chapter 18: Data Visualization](chapter-18-dataviz.md) -- Making charts and graphs.*

@@ -1,4 +1,4 @@
-# Chapter 25: Final Boss -- The Ultimate Filipino Python Project
+# Chapter 27: Final Boss -- The Ultimate Filipino Python Project
 
 ??? example "📋 Chapter Info"
     | | |
@@ -8,10 +8,10 @@
     | **XP** | +1000 XP |
 
 ??? warning "⚔️ Tier 4 — Final Boss"
-    **Tier:** Final Boss | **Concepts Combined:** ALL (Everything from Chapters 1-24)
+    **Tier:** Final Boss | **Concepts Combined:** ALL (Everything from Chapters 1-26)
     **XP Reward:** 1000 XP | **Badge:** "Legend"
 
-> **Story Hook:** You've completed 25 chapters. You've built store tools, dashboards, bots, and data projects. Your barkada says: "Kaya mo na magturo." Someone in your family says: "Gawa ka na ng system para sa totoong problema." You sit down with a blank Python file. The cursor blinks. No step-by-step instructions. No hand-holding. Just you, your diskarte, and everything you've learned. (Well, there are some resources below if you need them — that's not cheating, that's diskarte.)
+> **Story Hook:** You've completed 26 chapters. You've built store tools, dashboards, bots, and data projects. Your barkada says: "Kaya mo na magturo." Someone in your family says: "Gawa ka na ng system para sa totoong problema." You sit down with a blank Python file. The cursor blinks. No step-by-step instructions. No hand-holding. Just you, your diskarte, and everything you've learned. (Well, there are some resources below if you need them — that's not cheating, that's diskarte.)
 
 > **Output:** A final, self-chosen project proposal that turns the whole book into one visible portfolio piece.
 
@@ -34,7 +34,7 @@ This is it. The Final Boss.
 ??? tip "Before You Start"
     - Pick a problem you genuinely care about
     - Start small, then add features
-    - Use everything you've learned from Chapters 1-24
+    - Use everything you've learned from Chapters 1-26
     - It's okay to look up documentation -- that's diskarte, not cheating
 
 ## What Makes a Good Final Boss Project
@@ -45,7 +45,7 @@ This is it. The Final Boss.
 | A jeepney fare calculator with routes | An app that replaces GCash | Basic to-do -- try adding categories or priority levels |
 | A community announcement bot for Discord | A social media platform | Guessing game -- try adding difficulty levels or scoring |
 | A recipe organizer for your Lola's cooking | A full e-commerce website | "Hello, World!" -- try adding multiple programs |
-| A barangay fee collector (like Chapter 23-24) | An AI that replaces doctors | A password generator -- try adding strength checking |
+| A barangay fee collector (like Chapters 25-26) | An AI that replaces doctors | A password generator -- try adding strength checking |
 
 ## Your Project Checklist
 
@@ -85,7 +85,7 @@ Whatever you build, it should include:
 
 ### Advanced (for the truly brave)
 
-11. **Discord Study Group Bot** -- Like Chapter 15 but with features you design: accountability tracking, study timers, resource sharing.
+11. **Discord Study Group Bot** -- Like Chapter 17 but with features you design: accountability tracking, study timers, resource sharing.
 
 12. **Weather Alert System** -- Checks PAGASA weather data via API and sends alerts for typhoons, heavy rain, or flooding in your area.
 
@@ -148,7 +148,7 @@ Here's a skeleton to get you started. Fill in YOUR project:
 
 ```python
 # Final Boss -- Your Project
-# Chapter 25
+# Chapter 27
 
 import json
 import os
@@ -302,5 +302,5 @@ Because you've made it this far. Twenty-five chapters. Hundreds of hours of lear
 
 ---
 
-*Previous: [Chapter 24: Capstone B](chapter-24-capstone-b.md) -- Advanced features*
-*Next: [Chapter 26: What's Next](chapter-26-whats-next.md) -- Your journey doesn't end here.*
+*Previous: [Chapter 26: Capstone B](chapter-26-capstone-b.md) -- Advanced features*
+*Next: [Chapter 28: What's Next](chapter-28-whats-next.md) -- Your journey doesn't end here.*

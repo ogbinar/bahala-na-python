@@ -1,4 +1,4 @@
-# Chapter 12: Web Scraping and the Shopee Price Tracker
+# Chapter 14: Web Scraping and the Shopee Price Tracker
 
 ??? example "📋 Chapter Info"
     | | |
@@ -97,7 +97,7 @@ Let's build a Shopee price tracker (using a mock example since real scraping req
 
 ```python
 # Shopee Price Tracker
-# Chapter 12
+# Chapter 14
 
 import requests
 from bs4 import BeautifulSoup
@@ -332,8 +332,8 @@ Many modern websites load content via JavaScript, which means the HTML you get f
 
 ---
 
-*Previous: [Chapter 11: APIs](chapter-11-apis.md) -- Connecting to live data*
-*Next: [Chapter 13: Errors & Debugging](chapter-13-errors.md) -- Handling problems gracefully.*
+*Previous: [Chapter 13: APIs](chapter-13-apis.md) -- Connecting to live data*
+*Next: [Chapter 15: Errors & Debugging](chapter-15-errors.md) -- Handling problems gracefully.*
 
 ---
 

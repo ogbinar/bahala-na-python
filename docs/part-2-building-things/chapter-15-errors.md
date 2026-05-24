@@ -1,4 +1,4 @@
-# Chapter 13: Errors, Debugging, and the Boss Fight
+# Chapter 15: Errors, Debugging, and the Boss Fight
 
 ??? example "📋 Chapter Info"
     | | |
@@ -177,7 +177,7 @@ Let's build a program that handles errors gracefully -- the "Bahala Na" way:
 
 ```python
 # Error-Resilient Program
-# Chapter 13
+# Chapter 15
 
 import sys
 
@@ -361,8 +361,8 @@ if __name__ == "__main__":
 
 ---
 
-*Previous: [Chapter 12: Web Scraping](chapter-12-scraping.md) -- Pulling data from websites*
-*Next: [Chapter 14: Boss Fight 2](chapter-14-boss-fight-2.md) -- The midpoint boss battle.*
+*Previous: [Chapter 14: Web Scraping](chapter-14-scraping.md) -- Pulling data from websites*
+*Next: [Chapter 16: Boss Fight 2](chapter-16-boss-fight-2.md) -- The midpoint boss battle.*
 
 ---
 

@@ -4,7 +4,7 @@
 
 ---
 
-**Browse by chapter:** [Ch 1-7](../part-1-fundamentals/index.md) (Fundamentals) | [Ch 9-14](../part-2-building-things/index.md) (Building Things) | [Ch 15-20](../part-3-going-further/index.md) (Level Up) | [Ch 21-26](../part-4-capstone/index.md) (Capstone)
+**Browse by chapter:** [Ch 3-10](../part-1-fundamentals/index.md) (Fundamentals) | [Ch 11-16](../part-2-building-things/index.md) (Building Things) | [Ch 17-22](../part-3-going-further/index.md) (Level Up) | [Ch 23-28](../part-4-capstone/index.md) (Capstone)
 
 ---
 

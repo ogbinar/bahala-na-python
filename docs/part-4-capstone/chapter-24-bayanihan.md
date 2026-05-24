@@ -1,4 +1,4 @@
-# Chapter 22: Bayanihan & Open Source
+# Chapter 24: Bayanihan & Open Source
 
 ??? example "📋 Chapter Info"
     | | |
@@ -312,5 +312,5 @@ Open source isn't just about code. It's about a mindset:
 
 ---
 
-*Previous: [Chapter 21: Mobile Python](chapter-21-mobile.md) -- Python on your phone*
-*Next: [Chapter 23: Capstone A](chapter-23-capstone-a.md) -- Building the Barangay Management System.*
+*Previous: [Chapter 23: Mobile Python](chapter-23-mobile.md) -- Python on your phone*
+*Next: [Chapter 25: Capstone A](chapter-25-capstone-a.md) -- Building the Barangay Management System.*

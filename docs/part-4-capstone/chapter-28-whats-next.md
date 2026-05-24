@@ -1,4 +1,4 @@
-# Chapter 26: What's Next
+# Chapter 28: What's Next
 
 ??? example "📋 Chapter Info"
     | | |
@@ -269,4 +269,4 @@ You've finished the book. But the journey doesn't end here. Join the DEP Barkada
 
 ---
 
-*Previous: [Chapter 25: Final Boss](chapter-25-final-boss.md) -- Your ultimate challenge*
+*Previous: [Chapter 27: Final Boss](chapter-27-final-boss.md) -- Your ultimate challenge*

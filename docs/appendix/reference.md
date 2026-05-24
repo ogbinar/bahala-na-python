@@ -6,7 +6,7 @@ Kung gusto mo ng mas hands-on na paliwanag, balikan mo ang chapters; dito, pang-
 
 ---
 
-**Related chapters:** [Ch 3](../part-1-fundamentals/chapter-03-variables.md) (Variables & Data Types) | [Ch 4](../part-1-fundamentals/chapter-04-conditionals.md) (Conditionals) | [Ch 5](../part-1-fundamentals/chapter-05-loops.md) (Loops) | [Ch 6](../part-1-fundamentals/chapter-06-functions.md) (Functions) | [Ch 7](../part-1-fundamentals/chapter-07-files.md) (File I/O) | [Ch 9](../part-2-building-things/chapter-09-classes.md) (Classes) | [Ch 11](../part-2-building-things/chapter-11-apis.md) (APIs) | [Ch 13](../part-2-building-things/chapter-13-errors.md) (Errors) | [Ch 15](../part-3-going-further/chapter-15-discord-bots.md) (Async & Discord) | [Ch 16](../part-3-going-further/chapter-16-dataviz.md) (Data Viz)
+**Related chapters:** [Ch 3](../part-1-fundamentals/chapter-03-variables.md) (Variables & Data Types) | [Ch 4](../part-1-fundamentals/chapter-04-conditionals.md) (Comparisons) | [Ch 5](../part-1-fundamentals/chapter-05-branching.md) (Branching) | [Ch 6](../part-1-fundamentals/chapter-06-boolean-logic.md) (Boolean Logic) | [Ch 7](../part-1-fundamentals/chapter-07-loops.md) (Loops) | [Ch 8](../part-1-fundamentals/chapter-08-functions.md) (Functions) | [Ch 9](../part-1-fundamentals/chapter-09-files.md) (File I/O) | [Ch 11](../part-2-building-things/chapter-11-classes.md) (Classes) | [Ch 12](../part-2-building-things/chapter-12-strings.md) (Strings) | [Ch 13](../part-2-building-things/chapter-13-apis.md) (APIs) | [Ch 15](../part-2-building-things/chapter-15-errors.md) (Errors) | [Ch 17](../part-3-going-further/chapter-17-discord-bots.md) (Async & Discord) | [Ch 18](../part-3-going-further/chapter-18-dataviz.md) (Data Viz)
 
 ---
 

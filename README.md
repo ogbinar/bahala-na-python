@@ -14,6 +14,8 @@
 
 This is a free, open-source Python book written by Myk Ogbinar for Filipino learners who want a practical, low-friction way to start.
 
+If you're on a phone, a shared computer, or a low-resource laptop, you can still follow along. The early setup chapters include browser-based and mobile-friendly options so you can begin without a heavy install.
+
 Official site: https://ogbinar.com/bahala-na-python/
 
 Myk's public work centers on data, AI, community, and useful systems. The book keeps that perspective, but the teaching voice stays intentionally accessible: clear, friendly, and beginner-safe.
@@ -30,10 +32,10 @@ The book follows a gaming-inspired learning path:
 |------|----------|---------------|
 | **Getting Started** | Setup | Install Python and verify your environment |
 | **Part Zero** | Ch 1-2 | Your first Python program and the book's learning philosophy |
-| **Part 1: Fundamentals** | Ch 3-8 | Variables, conditionals, loops, functions, files + Boss Fight |
-| **Part 2: Building Things** | Ch 9-14 | Classes, APIs, web scraping, error handling + Boss Fight |
-| **Part 3: Level Up** | Ch 15-20 | Discord bots, data viz, NLP, AI coding, open source + Boss Fight |
-| **Part 4: Capstone** | Ch 21-26 | Mobile tools, community projects, Final Boss |
+| **Part 1: Fundamentals** | Ch 3-10 | Store notebook, comparisons, branching, boolean logic, loops, functions, files + Boss Fight |
+| **Part 2: Building Things** | Ch 11-16 | Classes, strings, APIs, web scraping, error handling + Boss Fight |
+| **Part 3: Level Up** | Ch 17-22 | Discord bots, data viz, NLP, AI coding, open source + Boss Fight |
+| **Part 4: Capstone** | Ch 23-28 | Mobile tools, community projects, Final Boss |
 
 Each chapter includes:
 - 📖 A story hook rooted in Filipino life
@@ -60,7 +62,7 @@ mkdocs serve
 
 ## 🎮 XP System
 
-The live book uses a content-embedded XP system that totals **4,900 XP** across 26 chapters. Finish the full path and you reach **Legend** level.
+The live book uses a content-embedded XP system that totals **5,700 XP** across 28 chapters. Finish the full path and you reach **Legend** level.
 
 ## 🤝 Contributing
 

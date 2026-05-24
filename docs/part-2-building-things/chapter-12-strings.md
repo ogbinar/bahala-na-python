@@ -1,4 +1,4 @@
-# Chapter 10: Strings and the Tagalog Typing Game
+# Chapter 12: Strings and the Tagalog Typing Game
 
 ??? example "📋 Chapter Info"
     | | |
@@ -109,7 +109,7 @@ Let's build a typing game that practices Tagalog words:
 
 ```python
 # Tagalog Typing Game
-# Chapter 10
+# Chapter 12
 
 import time
 import random
@@ -274,8 +274,8 @@ if __name__ == "__main__":
 
 ---
 
-*Previous: [Chapter 9: Classes](chapter-09-classes.md) -- Object-oriented programming*
-*Next: [Chapter 11: APIs](chapter-11-apis.md) -- Connecting to the internet.*
+*Previous: [Chapter 11: Classes](chapter-11-classes.md) -- Object-oriented programming*
+*Next: [Chapter 13: APIs](chapter-13-apis.md) -- Connecting to the internet.*
 
 ---
 

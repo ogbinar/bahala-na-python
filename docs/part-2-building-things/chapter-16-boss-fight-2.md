@@ -1,4 +1,4 @@
-# Chapter 14: Boss Fight 2 -- The Midpoint Boss Battle
+# Chapter 16: Boss Fight 2 -- The Midpoint Boss Battle
 
 ??? example "📋 Chapter Info"
     | | |
@@ -378,7 +378,7 @@ In Part 3, you'll level up: Discord bots, data visualization, NLP, AI-assisted c
 
 ---
 
-*Previous: [Chapter 13: Errors](chapter-13-errors.md) -- Handling problems gracefully*
+*Previous: [Chapter 15: Errors](chapter-15-errors.md) -- Handling problems gracefully*
 *Next: [Part 3: Level Up](../part-3-going-further/index.md) -- Where things get really cool.*
 
 ---

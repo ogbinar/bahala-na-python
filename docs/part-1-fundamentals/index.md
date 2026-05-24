@@ -10,12 +10,14 @@ In this part, you'll learn the building blocks of Python through projects that m
 
 | Chapter | Topic | Project |
 |---------|-------|---------|
-| 3 | Variables & Data Types | Sari-Sari Store Inventory |
-| 4 | Conditionals | Jeepney Fare Calculator |
-| 5 | Loops | Merienda Reminder |
-| 6 | Functions | Budget Tracker |
-| 7 | Files & JSON | Filipino Recipe Organizer |
-| 8 | Boss Fight | Combine everything into one project |
+| 3 | Variables & Data Types | Store notebook foundation |
+| 4 | Comparisons & Truth Values | Store checks and booleans |
+| 5 | Branching | Simple `if/elif/else` store decisions |
+| 6 | Boolean Logic | Combined store rules |
+| 7 | Loops | Repeated stock checks |
+| 8 | Functions | Reusable store helpers |
+| 9 | Files & JSON | Store persistence |
+| 10 | Boss Fight | Complete store system |
 
 ## How This Part Works
 
@@ -29,35 +31,31 @@ Each chapter follows the same pattern:
 
 ## The Sari-Sari Store Arc
 
-Throughout this part, you'll build a **sari-sari store inventory system**. It starts simple:
+Part 1 follows one story all the way through: Lola's sari-sari store grows from a simple notebook into a working store system.
 
-```python
-# Chapter 3: Basic inventory
-inventory = {"laundry soap": 10, "cigarettes": 50}
-```
+- Chapter 3 sets up the data.
+- Chapter 4 teaches how to ask whether something is true or false.
+- Chapter 5 uses that answer to make simple decisions.
+- Chapter 6 combines multiple checks into one rule.
+- Chapter 7 repeats those checks across many items.
+- Chapter 8 turns repeated logic into reusable helpers.
+- Chapter 9 saves the store so it remembers things tomorrow.
+- Chapter 10 combines everything into one working CLI system.
 
-By Chapter 8, you'll combine everything into a working system:
-
-```python
-# Chapter 8: Full inventory system
-store = Store("Lola's Sari-Sari Store")
-store.add_item("laundry soap", 10, 15.00)
-store.sell_item("laundry soap", 2)
-store.check_profit()
-```
-
-Each chapter adds a new tool to your toolkit. By the end, you'll have built something real.
+Each chapter adds one new mental model and builds on the same store world.
 
 ## XP Rewards
 
 | Chapter | XP |
 |---------|-----|
 | Ch 3: Variables | 100 XP + 25 XP per exercise |
-| Ch 4: Conditionals | 100 XP + 25 XP per exercise |
-| Ch 5: Loops | 100 XP + 25 XP per exercise |
-| Ch 6: Functions | 100 XP + 25 XP per exercise |
-| Ch 7: Files | 100 XP + 25 XP per exercise |
-| Ch 8: Boss Fight | 500 XP (Boss Fight) |
+| Ch 4: Comparisons | 100 XP + 25 XP per exercise |
+| Ch 5: Branching | 100 XP + 25 XP per exercise |
+| Ch 6: Boolean Logic | 100 XP + 25 XP per exercise |
+| Ch 7: Loops | 100 XP + 25 XP per exercise |
+| Ch 8: Functions | 100 XP + 25 XP per exercise |
+| Ch 9: Files | 100 XP + 25 XP per exercise |
+| Ch 10: Boss Fight | 500 XP (Boss Fight) |
 
 **Ready to build? Let's go.**
 

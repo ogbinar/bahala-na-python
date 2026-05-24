@@ -1,4 +1,4 @@
-# Chapter 23: Capstone A -- Barangay Management System (Part 1)
+# Chapter 25: Capstone A -- Barangay Management System (Part 1)
 
 ??? example "📋 Chapter Info"
     | | |
@@ -513,5 +513,5 @@ In Chapter 24, you'll add:
 
 ---
 
-*Previous: [Chapter 22: Bayanihan](chapter-22-bayanihan.md) -- Community collaboration*
-*Next: [Chapter 24: Capstone B](chapter-24-capstone-b.md) -- Adding certificates, APIs, and advanced features.*
+*Previous: [Chapter 24: Bayanihan](chapter-24-bayanihan.md) -- Community collaboration*
+*Next: [Chapter 26: Capstone B](chapter-26-capstone-b.md) -- Adding certificates, APIs, and advanced features.*

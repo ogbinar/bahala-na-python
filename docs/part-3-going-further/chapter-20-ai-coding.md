@@ -1,4 +1,4 @@
-# Chapter 18: Coding with AI as a Partner
+# Chapter 20: Coding with AI as a Partner
 
 ??? example "📋 Chapter Info"
     | | |
@@ -230,5 +230,5 @@ This is the right way to use AI: as a partner that helps you learn, not a magic 
 
 ---
 
-*Previous: [Chapter 17: NLP](chapter-17-nlp.md) -- Understanding language*
-*Next: [Chapter 19: Open Source](chapter-19-open-source.md) -- Contributing to the community.*
+*Previous: [Chapter 19: NLP](chapter-19-nlp.md) -- Understanding language*
+*Next: [Chapter 21: Open Source](chapter-21-open-source.md) -- Contributing to the community.*

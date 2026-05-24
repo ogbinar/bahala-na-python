@@ -1,4 +1,4 @@
-# Chapter 9: Classes and the Allowance Manager
+# Chapter 11: Classes and the Allowance Manager
 
 ??? example "📋 Chapter Info"
     | | |
@@ -305,8 +305,8 @@ class GraduateStudent(Student):
 
 ---
 
-*Previous: [Boss Fight 1: Sari-Sari Store](../part-1-fundamentals/chapter-08-boss-fight-1.md) -- First big project*
-*Next: [Chapter 10: Strings](chapter-10-strings.md) -- Working with text.*
+*Previous: [Boss Fight 1: Sari-Sari Store](../part-1-fundamentals/chapter-10-boss-fight-1.md) -- First big project*
+*Next: [Chapter 12: Strings](chapter-12-strings.md) -- Working with text.*
 
 ---
 

@@ -1,4 +1,4 @@
-# Chapter 21: Mobile Python
+# Chapter 23: Mobile Python
 
 ??? example "📋 Chapter Info"
     | | |
@@ -433,5 +433,5 @@ check_and_alert("inventory.json", "09171234567")
 
 ---
 
-*Previous: [Boss Fight 3: Barangay Dashboard](../part-3-going-further/chapter-20-boss-fight-3.md) -- Boss Fight 3*
-*Next: [Chapter 22: Bayanihan & Open Source](chapter-22-bayanihan.md) -- Giving back to the community.*
+*Previous: [Boss Fight 3: Barangay Dashboard](../part-3-going-further/chapter-22-boss-fight-3.md) -- Boss Fight 3*
+*Next: [Chapter 24: Bayanihan & Open Source](chapter-24-bayanihan.md) -- Giving back to the community.*

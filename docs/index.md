@@ -14,11 +14,11 @@ Learn Python the Filipino way -- through culture, community, and code.
     Continue your learning journey through the [DEP website](https://dataengineering.ph/) and [DEP Barkada](https://discord.com/invite/buDgydz7J9).
 
 [![Read Online](https://img.shields.io/badge/Read_Online-Click-blue?style=for-the-badge)](https://ogbinar.com/bahala-na-python/)
-[![Download PDF](https://img.shields.io/badge/Download_PDF-Click-red?style=for-the-badge&logo=adobeacrobatreader)](pdf/book.pdf)
+[![PDF Build Info](https://img.shields.io/badge/PDF_Build-Info-red?style=for-the-badge&logo=adobeacrobatreader)](#pdf-and-offline-reading)
 [![View GitHub](https://img.shields.io/badge/View_GitHub-Click-gray?style=for-the-badge&logo=github)](https://github.com/ogbinar/bahala-na-python)
 [![Join the Barkada](https://img.shields.io/badge/Join_the_Barkada-Click-purple?style=for-the-badge&logo=discord)](https://discord.com/invite/buDgydz7J9)
 
-**Licensing:** book text and prose are under [CC BY 4.0](../LICENSE-BOOK.md); source code, scripts, and tooling are under [GPLv3+](../LICENSE-CODE.md).
+**Licensing:** book text and prose are under [CC BY 4.0](https://github.com/ogbinar/bahala-na-python/blob/main/LICENSE-BOOK.md); source code, scripts, and tooling are under [GPLv3+](https://github.com/ogbinar/bahala-na-python/blob/main/LICENSE-CODE.md).
 
 **Found an error?** If you spot a typo, wrong quote, broken link, or incorrect example, please open a Pull Request or file an issue with the exact page and line. Bayanihan tayo.
 
@@ -44,6 +44,10 @@ Learn Python the Filipino way -- through culture, community, and code.
 - 🚀 [Getting Started](getting-started/index.md) -- Install Python and set up your environment
 - 🔤 [Alphabetical Index](index-alphabetical.md) -- Find any topic alphabetically
 - 📚 [Table of Contents](#table-of-contents-your-journey-map) -- See all chapters and the learning path
+
+## PDF and Offline Reading
+
+The live docs do not always ship with a prebuilt PDF. If you want the PDF version, use the official site when available or generate it locally with the PDF export workflow in this repo.
 
 ---
 
@@ -87,10 +91,10 @@ The live book is organized as a guided path with setup, foundations, and progres
 |------|-----------|----------|
 | **Getting Started** | Install Python and verify your setup | Setup pages |
 | **Part 0: Welcome** | Learn the book's mindset and write your first code | Ch 1-2 |
-| **Part 1: Fundamentals** | Learn the basics step by step | Ch 3-8 |
-| **Part 2: Building Things** | Build practical tools with core Python skills | Ch 9-14 |
-| **Part 3: Level Up** | Add async, data, AI, and open-source workflows | Ch 15-20 |
-| **Part 4: Capstone** | Synthesize everything into community-scale projects | Ch 21-26 |
+| **Part 1: Fundamentals** | Learn the basics step by step | Ch 3-10 |
+| **Part 2: Building Things** | Build practical tools with core Python skills | Ch 11-16 |
+| **Part 3: Level Up** | Add async, data, AI, and open-source workflows | Ch 17-22 |
+| **Part 4: Capstone** | Synthesize everything into community-scale projects | Ch 23-28 |
 
 ### Gaming-Inspired Learning
 
@@ -109,8 +113,9 @@ Every chapter is a "level." Every challenge is a "boss fight." You earn XP as yo
 You'll learn Python through:
 
 - Managing a **sari-sari store** inventory
-- Calculating **jeepney fares**
-- Building a **GCash transaction tracker**
+- Checking **store comparisons** and simple rules
+- Building **repeatable store workflows**
+- Saving **store data** so it lasts
 - Creating a **Discord bot** for your barkada
 - Tracking **OFW remittances**
 - And a lot more
@@ -129,16 +134,16 @@ The answer: **Bahala na. Let's try it.**
 
 | Project | Chapter | What You'll Learn |
 |---------|---------|-------------------|
-| 🏪 Sari-Sari Store System | Ch 8 | Variables, conditionals, functions, files |
-| 🎮 Tagalog Typing Game | Ch 10 | Strings, loops, user input |
-| 📊 OFW Remittance Tracker | Ch 11 | APIs, JSON, data parsing |
-| 🛒 Shopee Price Tracker | Ch 12 | Web scraping, automation |
-| 🤖 Discord Bot | Ch 15 | Async Python, bot frameworks |
-| 📈 Barangay Dashboard | Ch 20 | Data visualization, charts |
-| 🌐 Barangay Management System | Ch 23-24 | Classes, full application architecture |
-| 🏆 Final Boss Project | Ch 25 | All concepts combined |
+| 🏪 Sari-Sari Store System | Ch 10 | Variables, comparisons, branching, boolean logic, loops, functions, files |
+| 🎮 Tagalog Typing Game | Ch 12 | Strings, loops, user input |
+| 📊 OFW Remittance Tracker | Ch 13 | APIs, JSON, data parsing |
+| 🛒 Shopee Price Tracker | Ch 14 | Web scraping, automation |
+| 🤖 Discord Bot | Ch 17 | Async Python, bot frameworks |
+| 📈 Barangay Dashboard | Ch 18 and Ch 22 | Data visualization, dashboards, and synthesis |
+| 🌐 Barangay Management System | Ch 25-26 | Classes, full application architecture |
+| 🏆 Final Boss Project | Ch 27 | All concepts combined |
 
-And many more side projects along the way: jeepney fare calculator, merienda reminder timer, budget tracker, recipe organizer, allowance manager, debugging challenges, AI chatbot, GCash tracker, and more.
+And many more side projects along the way: store checks, store persistence, budget helpers, allowance manager, debugging challenges, AI chatbot, load sharing trackers, and more.
 
 ---
 
@@ -156,46 +161,48 @@ And many more side projects along the way: jeepney fare calculator, merienda rem
 | Ch | Title | XP |
 |----|-------|-----|
 | 3 | [Variables & Sari-Sari Store](part-1-fundamentals/chapter-03-variables.md) | 100 |
-| 4 | [Conditionals & Jeepney Fare](part-1-fundamentals/chapter-04-conditionals.md) | 100 |
-| 5 | [Loops & Merienda Reminder](part-1-fundamentals/chapter-05-loops.md) | 100 |
-| 6 | [Functions & Budget Tracker](part-1-fundamentals/chapter-06-functions.md) | 100 |
-| 7 | [Files & Recipe Organizer](part-1-fundamentals/chapter-07-files.md) | 100 |
-| 8 | [Boss Fight 1: Sari-Sari Store System](part-1-fundamentals/chapter-08-boss-fight-1.md) | 500 |
+| 4 | [Comparisons & Truth Values](part-1-fundamentals/chapter-04-conditionals.md) | 100 |
+| 5 | [If, Else, and Simple Branching](part-1-fundamentals/chapter-05-branching.md) | 100 |
+| 6 | [And, Or, Not](part-1-fundamentals/chapter-06-boolean-logic.md) | 100 |
+| 7 | [Loops & Repeated Checks](part-1-fundamentals/chapter-07-loops.md) | 100 |
+| 8 | [Functions & Reusable Helpers](part-1-fundamentals/chapter-08-functions.md) | 100 |
+| 9 | [Files & JSON for the Store](part-1-fundamentals/chapter-09-files.md) | 100 |
+| 10 | [Boss Fight 1: Complete Sari-Sari Store System](part-1-fundamentals/chapter-10-boss-fight-1.md) | 500 |
 
 ### Part 2: Building Things
 
 | Ch | Title | XP |
 |----|-------|-----|
-| 9 | [Classes & Allowance Manager](part-2-building-things/chapter-09-classes.md) | 100 |
-| 10 | [Strings & Tagalog Typing Game](part-2-building-things/chapter-10-strings.md) | 100 |
-| 11 | [APIs & OFW Remittance Tracker](part-2-building-things/chapter-11-apis.md) | 100 |
-| 12 | [Web Scraping & Shopee Tracker](part-2-building-things/chapter-12-scraping.md) | 100 |
-| 13 | [Errors, Debugging & Boss Fight](part-2-building-things/chapter-13-errors.md) | 100 |
-| 14 | [Boss Fight 2: Midpoint Battle](part-2-building-things/chapter-14-boss-fight-2.md) | 500 |
+| 11 | [Classes & Allowance Manager](part-2-building-things/chapter-11-classes.md) | 100 |
+| 12 | [Strings & Tagalog Typing Game](part-2-building-things/chapter-12-strings.md) | 100 |
+| 13 | [APIs & OFW Remittance Tracker](part-2-building-things/chapter-13-apis.md) | 100 |
+| 14 | [Web Scraping & Shopee Tracker](part-2-building-things/chapter-14-scraping.md) | 100 |
+| 15 | [Errors, Debugging & Boss Fight](part-2-building-things/chapter-15-errors.md) | 100 |
+| 16 | [Boss Fight 2: Midpoint Battle](part-2-building-things/chapter-16-boss-fight-2.md) | 500 |
 
 ### Part 3: Level Up
 
 | Ch | Title | XP |
 |----|-------|-----|
-| 15 | [Discord Bots & Async Python](part-3-going-further/chapter-15-discord-bots.md) | 100 |
-| 16 | [Data Viz & Barangay Dashboard](part-3-going-further/chapter-16-dataviz.md) | 100 |
-| 17 | [NLP & AI Barkada Chatbot](part-3-going-further/chapter-17-nlp.md) | 100 |
-| 18 | [Coding with AI as a Partner](part-3-going-further/chapter-18-ai-coding.md) | 100 |
-| 19 | [Open Source & First Contribution](part-3-going-further/chapter-19-open-source.md) | 100 |
-| 20 | [Boss Fight 3: Barangay Dashboard](part-3-going-further/chapter-20-boss-fight-3.md) | 500 |
+| 17 | [Discord Bots & Async Python](part-3-going-further/chapter-17-discord-bots.md) | 100 |
+| 18 | [Data Viz & Barangay Dashboard](part-3-going-further/chapter-18-dataviz.md) | 100 |
+| 19 | [NLP & AI Barkada Chatbot](part-3-going-further/chapter-19-nlp.md) | 100 |
+| 20 | [Coding with AI as a Partner](part-3-going-further/chapter-20-ai-coding.md) | 100 |
+| 21 | [Open Source & First Contribution](part-3-going-further/chapter-21-open-source.md) | 100 |
+| 22 | [Boss Fight 3: Barangay Dashboard](part-3-going-further/chapter-22-boss-fight-3.md) | 500 |
 
 ### Part 4: Capstone
 
 | Ch | Title | XP |
 |----|-------|-----|
-| 21 | [Mobile Python](part-4-capstone/chapter-21-mobile.md) | 100 |
-| 22 | [Bayanihan & Open Source](part-4-capstone/chapter-22-bayanihan.md) | 100 |
-| 23 | [Capstone A: Barangay System Part 1](part-4-capstone/chapter-23-capstone-a.md) | 200 |
-| 24 | [Capstone B: Barangay System Part 2](part-4-capstone/chapter-24-capstone-b.md) | 200 |
-| 25 | [Final Boss: Ultimate Project](part-4-capstone/chapter-25-final-boss.md) | 1000 |
-| 26 | [What's Next](part-4-capstone/chapter-26-whats-next.md) | 100 |
+| 23 | [Mobile Python](part-4-capstone/chapter-23-mobile.md) | 100 |
+| 24 | [Bayanihan & Open Source](part-4-capstone/chapter-24-bayanihan.md) | 100 |
+| 25 | [Capstone A: Barangay System Part 1](part-4-capstone/chapter-25-capstone-a.md) | 200 |
+| 26 | [Capstone B: Barangay System Part 2](part-4-capstone/chapter-26-capstone-b.md) | 200 |
+| 27 | [Final Boss: Ultimate Project](part-4-capstone/chapter-27-final-boss.md) | 1000 |
+| 28 | [What's Next](part-4-capstone/chapter-28-whats-next.md) | 100 |
 
-**Total XP to complete: 4,900 XP** — You'll reach **Legend** level! 🏆
+**Total XP to complete: 5,700 XP** — You'll reach **Legend** level! 🏆
 
 ---
 
@@ -203,15 +210,15 @@ And many more side projects along the way: jeepney fare calculator, merienda rem
 
 <div class="learning-path">
   <span>Ch 1–2</span><span class="arrow">→</span>
-  <span>Ch 3–7</span><span class="arrow">→</span>
-  <span>Ch 8</span><span class="arrow">→</span>
-  <span>Ch 9–13</span><span class="arrow">→</span>
-  <span>Ch 14</span><span class="arrow">→</span>
-  <span>Ch 15–19</span><span class="arrow">→</span>
-  <span>Ch 20</span><span class="arrow">→</span>
-  <span>Ch 21–24</span><span class="arrow">→</span>
-  <span>Ch 25</span><span class="arrow">→</span>
-  <span>Ch 26</span>
+  <span>Ch 3–9</span><span class="arrow">→</span>
+  <span>Ch 10</span><span class="arrow">→</span>
+  <span>Ch 11–15</span><span class="arrow">→</span>
+  <span>Ch 16</span><span class="arrow">→</span>
+  <span>Ch 17–21</span><span class="arrow">→</span>
+  <span>Ch 22</span><span class="arrow">→</span>
+  <span>Ch 23–26</span><span class="arrow">→</span>
+  <span>Ch 27</span><span class="arrow">→</span>
+  <span>Ch 28</span>
 </div>
 
 Read in order for the best experience. Each chapter builds on the last.

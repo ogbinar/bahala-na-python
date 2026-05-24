@@ -4,7 +4,7 @@
 
 ---
 
-**Jump to a chapter:** [Ch 3](../part-1-fundamentals/chapter-03-variables.md) | [Ch 4](../part-1-fundamentals/chapter-04-conditionals.md) | [Ch 5](../part-1-fundamentals/chapter-05-loops.md) | [Ch 6](../part-1-fundamentals/chapter-06-functions.md) | [Ch 7](../part-1-fundamentals/chapter-07-files.md) | [Ch 9](../part-2-building-things/chapter-09-classes.md) | [Ch 10](../part-2-building-things/chapter-10-strings.md) | [Ch 11](../part-2-building-things/chapter-11-apis.md) | [Ch 12](../part-2-building-things/chapter-12-scraping.md) | [Ch 13](../part-2-building-things/chapter-13-errors.md) | [Ch 14](../part-2-building-things/chapter-14-boss-fight-2.md) | [Ch 15](../part-3-going-further/chapter-15-discord-bots.md) | [Ch 16](../part-3-going-further/chapter-16-dataviz.md) | [Ch 17](../part-3-going-further/chapter-17-nlp.md) | [Ch 18](../part-3-going-further/chapter-18-ai-coding.md) | [Ch 20](../part-3-going-further/chapter-20-boss-fight-3.md) | [Ch 21](../part-4-capstone/chapter-21-mobile.md) | [Ch 22](../part-4-capstone/chapter-22-bayanihan.md) | [Ch 23-24](../part-4-capstone/chapter-23-capstone-a.md) | [Ch 25](../part-4-capstone/chapter-25-final-boss.md) | [Ch 26](../part-4-capstone/chapter-26-whats-next.md)
+**Jump to a chapter:** [Ch 3](../part-1-fundamentals/chapter-03-variables.md) | [Ch 4](../part-1-fundamentals/chapter-04-conditionals.md) | [Ch 5](../part-1-fundamentals/chapter-05-branching.md) | [Ch 6](../part-1-fundamentals/chapter-06-boolean-logic.md) | [Ch 7](../part-1-fundamentals/chapter-07-loops.md) | [Ch 8](../part-1-fundamentals/chapter-08-functions.md) | [Ch 9](../part-1-fundamentals/chapter-09-files.md) | [Ch 10](../part-1-fundamentals/chapter-10-boss-fight-1.md) | [Ch 11](../part-2-building-things/chapter-11-classes.md) | [Ch 12](../part-2-building-things/chapter-12-strings.md) | [Ch 13](../part-2-building-things/chapter-13-apis.md) | [Ch 14](../part-2-building-things/chapter-14-scraping.md) | [Ch 15](../part-2-building-things/chapter-15-errors.md) | [Ch 16](../part-2-building-things/chapter-16-boss-fight-2.md) | [Ch 17](../part-3-going-further/chapter-17-discord-bots.md) | [Ch 18](../part-3-going-further/chapter-18-dataviz.md) | [Ch 19](../part-3-going-further/chapter-19-nlp.md) | [Ch 20](../part-3-going-further/chapter-20-ai-coding.md) | [Ch 21](../part-3-going-further/chapter-21-open-source.md) | [Ch 22](../part-3-going-further/chapter-22-boss-fight-3.md) | [Ch 23](../part-4-capstone/chapter-23-mobile.md) | [Ch 24](../part-4-capstone/chapter-24-bayanihan.md) | [Ch 25-26](../part-4-capstone/chapter-25-capstone-a.md) | [Ch 27](../part-4-capstone/chapter-27-final-boss.md) | [Ch 28](../part-4-capstone/chapter-28-whats-next.md)
 
 ---
 
@@ -97,7 +97,7 @@ sell_item("laundry soap", 12)
 total_value()
 ```
 
-## Chapter 4: Conditionals
+## Chapter 4: Comparisons and Truth Values
 
 ### Exercise 1: Jeepney Fare
 
@@ -135,7 +135,7 @@ gcash_transaction("receive", 200)
 gcash_transaction("send", 600)  # Should fail
 ```
 
-## Chapter 5: Loops
+## Chapter 5: If, Else, and Simple Branching
 
 ### Exercise 1: Merienda Counter
 
@@ -184,7 +184,7 @@ else:
     print(f"😢 Game over! The number was {secret}.")
 ```
 
-## Chapter 6: Functions
+## Chapter 6: And, Or, Not
 
 ### Exercise 1: Budget Calculator
 
@@ -215,7 +215,7 @@ for key, value in budget.items():
     print(f"{key}: ₱{value:.2f}")
 ```
 
-## Chapter 7: Files
+## Chapter 7: Loops and Repeated Checks
 
 ### Boss Fight: Recipe Organizer
 
@@ -269,7 +269,7 @@ add_recipe(recipes)
 search_recipes(recipes, "adobo")
 ```
 
-## Chapter 9: Classes
+## Chapter 11: Classes
 
 ### Boss Fight: Extended Budget Manager
 
@@ -369,7 +369,7 @@ savings.save(200)
 print(f"Progress: {savings.progress():.0f}%")
 ```
 
-## Chapter 13: Errors
+## Chapter 15: Errors
 
 ### Boss Fight: Debugging Challenge
 
@@ -409,7 +409,7 @@ print(f"Total: ₱{apply_discounts(items):.2f}")
 4. No error handling for non-numeric values
 5. The `calculate_discount` function doesn't handle negative discounts
 
-## Chapter 11: APIs
+## Chapter 13: APIs
 
 ### Mini-Project: GCash Transaction Tracker
 
@@ -544,7 +544,7 @@ compare_prices("Laundry soap", 120)
 alert_price("Instant noodles (pack of 5)", 50, 65)
 ```
 
-## Chapter 12: Web Scraping
+## Chapter 14: Web Scraping
 
 ### Mini-Project: Facebook Marketplace Alert Bot
 
@@ -700,9 +700,9 @@ tracker.record_usage("Pedro", 170)
 tracker.summary_report()
 ```
 
-## Boss Fights: Part 2 (Chapters 14-16)
+## Boss Fight and Extension Notes (Chapters 15-18)
 
-### Boss Fight: Error Handling Patterns (Chapter 14)
+### Error Handling Patterns (Chapter 15)
 
 ```python
 def safe_divide(a, b):
@@ -723,7 +723,7 @@ print(safe_divide(10, 0))     # Error message, None
 print(safe_divide("10", 2))   # Error message, None
 ```
 
-### Boss Fight: Discord Bot Challenge (Chapter 15)
+### Discord Bot Challenge (Chapter 17)
 
 **Approach:** Use `py-cord`'s `discord.Bot()` with slash commands. Key points:
 - Use `@bot.slash_command` for slash commands
@@ -731,7 +731,7 @@ print(safe_divide("10", 2))   # Error message, None
 - Store reminders in memory or a JSON file
 - Use `asyncio.create_task()` for background tasks
 
-### Boss Fight: Barangay Dashboard (Chapter 16)
+### Barangay Dashboard (Chapter 18)
 
 **Approach:** Use `matplotlib` to create charts. Key points:
 - Use `plt.subplots()` for multi-chart layouts
@@ -739,7 +739,7 @@ print(safe_divide("10", 2))   # Error message, None
 - Use `pd.DataFrame()` for data aggregation
 - Save with `plt.savefig()` instead of `plt.show()` for non-interactive use
 
-## Chapter 16: Data Visualization
+## Chapter 18: Data Visualization
 
 ### Mini-Project: Typhoon Impact Visualizer
 
@@ -1138,7 +1138,7 @@ analyzer.summary()
 - Use `json` for data persistence with `default=str` for dates
 - Use `Flask` for web API endpoints with input validation
 
-## Chapter 24: Capstone B — Barangay System (Part 2)
+## Chapter 26: Capstone B — Barangay System (Part 2)
 
 ### Part 1: Certificate Generation
 
@@ -1627,11 +1627,11 @@ if __name__ == "__main__":
 
 ---
 
-*Previous: [Chapter 26: What's Next](../part-4-capstone/chapter-26-whats-next.md) -- End of the book*
+*Previous: [Chapter 26: What's Next](../part-4-capstone/chapter-28-whats-next.md) -- End of the book*
 
 ---
 
-## Chapter 26: What's Next — Your Journey Continues
+## Chapter 28: What's Next — Your Journey Continues
 
 ### Sample Reflection Responses
 
@@ -1690,23 +1690,23 @@ Here are projects from earlier chapters that make strong portfolio pieces:
 
 | Project | Chapter | What It Shows |
 |---------|---------|---------------|
-| Sari-Sari Store Inventory System | Ch 8 | OOP, JSON, file I/O, CLI design |
-| GCash Transaction Tracker | Ch 11 | Data modeling, aggregation, APIs |
-| Typing Game Suite | Ch 10 | Classes, file persistence, algorithms |
+| Sari-Sari Store System | Ch 10 | Dictionaries, branching, loops, functions, JSON persistence |
+| GCash Transaction Tracker | Ch 23 | Data modeling, aggregation, and mobile-friendly workflows |
+| Typing Game Suite | Ch 12 | Strings, file persistence, and simple game loops |
 | Facebook Marketplace Alert Bot | Ch 12 | Web scraping simulation, alerts |
-| Personal Finance Dashboard | Ch 14 | Multi-concept integration, reporting |
-| Barkada Chat Analyzer | Ch 16 | Data analysis, NLP basics |
+| Personal Finance Dashboard | Ch 16 | Multi-concept integration, APIs, and reporting |
+| Barkada Chat Analyzer | Ch 19 | Data analysis and NLP basics |
 | Tagalog Slang Dictionary | Ch 17 | Pattern matching, fuzzy search |
 | Advanced Barkada Chatbot | Ch 17 | NLP, conversation memory, learning |
-| Barangay Dashboard | Ch 20 | Async, data viz, NLP, data pipelines |
+| Barangay Dashboard | Ch 18 and Ch 22 | Data viz, synthesis, and reporting |
 | Barangay Management System | Ch 23-24 | Full OOP system, certificates, reports |
 | Flask Web Interface | Ch 24 | Web development, REST APIs, templates |
 
-The full solution is embedded in [Chapter 8](../part-1-fundamentals/chapter-08-boss-fight-1.md). Below is a concise reference version showing the key methods that were implemented in the Boss Fight.
+The full solution is embedded in [Chapter 10](../part-1-fundamentals/chapter-10-boss-fight-1.md). Below is a concise reference version showing the key methods that were implemented in the Boss Fight.
 
 ```python
 # Complete Sari-Sari Store Inventory System
-# Boss Fight 1 — Chapter 8
+# Boss Fight 1 — Chapter 10
 
 inventory = {
     "laundry soap": {"qty": 10, "price": 15.00},
@@ -1762,7 +1762,7 @@ total_value()
 
 ---
 
-## Chapter 10: Strings and the Tagalog Typing Game
+## Chapter 12: Strings and the Tagalog Typing Game
 
 ### Boss Fight: Full Typing Game Suite
 
@@ -1770,7 +1770,7 @@ The Boss Fight asks you to extend the Typing Game with: multiple rounds, leaderb
 
 ```python
 # Full Typing Game Suite
-# Chapter 10 — Boss Fight Solution
+# Chapter 12 — Boss Fight Solution
 
 import time
 import random
@@ -1964,7 +1964,7 @@ if __name__ == "__main__":
 
 ---
 
-## Chapter 17: NLP and the AI Barkada Chatbot
+## Chapter 19: NLP and the AI Barkada Chatbot
 
 ### Boss Fight: Advanced Barkada Bot
 
@@ -1972,7 +1972,7 @@ The Boss Fight asks you to extend the chatbot with conversation memory, learning
 
 ```python
 # Advanced Barkada Chatbot
-# Chapter 17 — Boss Fight Solution
+# Chapter 19 — Boss Fight Solution
 
 import random
 import re
@@ -2192,7 +2192,7 @@ if __name__ == "__main__":
 
 ---
 
-## Chapter 18: Coding with AI as a Partner
+## Chapter 20: Coding with AI as a Partner
 
 ### Boss Fight: Build Without AI
 
@@ -2200,7 +2200,7 @@ The Boss Fight asks you to create a simple Python script that takes user input, 
 
 ```python
 # GCash-Style Transaction Tracker
-# Chapter 18 — Boss Fight Solution
+# Chapter 20 — Boss Fight Solution
 # (Written without AI — just like the Boss Fight requires!)
 
 from datetime import datetime

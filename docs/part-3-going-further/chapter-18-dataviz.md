@@ -1,4 +1,4 @@
-# Chapter 16: Data Visualization and the Barangay Dashboard
+# Chapter 18: Data Visualization and the Barangay Dashboard
 
 ??? example "📋 Chapter Info"
     | | |
@@ -92,7 +92,7 @@ Let's build a complete dashboard:
 
 ```python
 # Barangay Dashboard
-# Chapter 16
+# Chapter 18
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -348,5 +348,5 @@ dashboard.create_summary_report()
 
 ---
 
-*Previous: [Chapter 15: Discord Bots](chapter-15-discord-bots.md) -- Building bots for your barkada*
-*Next: [Chapter 17: NLP](chapter-17-nlp.md) -- Understanding language.*
+*Previous: [Chapter 17: Discord Bots](chapter-17-discord-bots.md) -- Building bots for your barkada*
+*Next: [Chapter 19: NLP](chapter-19-nlp.md) -- Understanding language.*

@@ -1,4 +1,4 @@
-# Chapter 11: APIs and the OFW Remittance Tracker
+# Chapter 13: APIs and the OFW Remittance Tracker
 
 ??? example "📋 Chapter Info"
     | | |
@@ -102,7 +102,7 @@ Let's build a tool that tracks exchange rates and calculates remittance impact:
 
 ```python
 # OFW Remittance Tracker
-# Chapter 11
+# Chapter 13
 
 import requests
 from datetime import datetime, timedelta
@@ -325,8 +325,8 @@ except requests.exceptions.RequestException as e:
 
 ---
 
-*Previous: [Chapter 10: Strings](chapter-10-strings.md) -- Working with text*
-*Next: [Chapter 12: Web Scraping](chapter-12-scraping.md) -- Pulling data from websites.*
+*Previous: [Chapter 12: Strings](chapter-12-strings.md) -- Working with text*
+*Next: [Chapter 14: Web Scraping](chapter-14-scraping.md) -- Pulling data from websites.*
 
 ---
 

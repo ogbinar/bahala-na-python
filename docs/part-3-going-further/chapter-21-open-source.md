@@ -1,4 +1,4 @@
-# Chapter 19: Open Source and Your First Contribution
+# Chapter 21: Open Source and Your First Contribution
 
 ??? example "📋 Chapter Info"
     | | |
@@ -237,5 +237,5 @@ Typos in code examples can confuse beginners. This correction ensures the code r
 
 ---
 
-*Previous: [Chapter 18: AI Coding](chapter-18-ai-coding.md) -- Coding with AI partners*
-*Next: [Chapter 20: Boss Fight 3](chapter-20-boss-fight-3.md) -- The ultimate challenge.*
+*Previous: [Chapter 20: AI Coding](chapter-20-ai-coding.md) -- Coding with AI partners*
+*Next: [Chapter 22: Boss Fight 3](chapter-22-boss-fight-3.md) -- The ultimate challenge.*

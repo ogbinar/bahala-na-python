@@ -8,12 +8,12 @@
 
 | Chapter | Topic | Project |
 |---------|-------|---------|
-| 9 | Classes & OOP | Allowance Manager |
-| 10 | Strings & Text | Tagalog Typing Game |
-| 11 | APIs & Web Requests | OFW Remittance Tracker |
-| 12 | Web Scraping | Shopee Price Tracker |
-| 13 | Errors & Debugging | Debugging Challenge |
-| 14 | Boss Fight 2 | Midpoint Boss Battle |
+| 11 | Classes & OOP | Allowance Manager |
+| 12 | Strings & Text | Tagalog Typing Game |
+| 13 | APIs & Web Requests | OFW Remittance Tracker |
+| 14 | Web Scraping | Shopee Price Tracker |
+| 15 | Errors & Debugging | Debugging Challenge |
+| 16 | Boss Fight 2 | Midpoint Boss Battle |
 
 ## How This Part Works
 
@@ -27,16 +27,16 @@ Part 2 is where things get exciting. You'll:
 
 ## The Allowance Manager Arc
 
-This part introduces **object-oriented programming (OOP)** through the Allowance Manager -- a class-based system that models a student's financial life:
+Part 2 starts after the fundamentals boss fight. You already built a working store system with plain data and functions. That approach works well for small tools. Now the book shifts into **object-oriented programming (OOP)** so you can bundle related data and behavior together as your projects get bigger:
 
 ```python
-# Chapter 9: Introduction to classes
+# Chapter 11: Introduction to classes
 budget = Budget(500)  # ₱500 weekly allowance
 budget.add_expense("pamasahe", 30)
 budget.add_expense("kain", 80)
 budget.check_remaining()
 
-# Chapter 11: Connect to real data
+# Chapter 13: Connect to real data
 tracker = OFWTracker()
 tracker.fetch_exchange_rate("USD")
 tracker.track_remittance(500)
@@ -46,16 +46,16 @@ tracker.track_remittance(500)
 
 | Chapter | XP |
 |---------|-----|
-| Ch 9: Classes | 100 XP + 25 XP per exercise |
-| Ch 10: Strings | 100 XP + 25 XP per exercise |
-| Ch 11: APIs | 100 XP + 25 XP per exercise |
-| Ch 12: Scraping | 100 XP + 25 XP per exercise |
-| Ch 13: Errors | 100 XP + 25 XP per exercise |
-| Ch 14: Boss Fight | 500 XP (Boss Fight) |
+| Ch 11: Classes | 100 XP + 25 XP per exercise |
+| Ch 12: Strings | 100 XP + 25 XP per exercise |
+| Ch 13: APIs | 100 XP + 25 XP per exercise |
+| Ch 14: Scraping | 100 XP + 25 XP per exercise |
+| Ch 15: Errors | 100 XP + 25 XP per exercise |
+| Ch 16: Boss Fight | 500 XP (Boss Fight) |
 
 *Let's build.*
 
 ---
 
-*Previous: [Boss Fight 1](../part-1-fundamentals/chapter-08-boss-fight-1.md) -- First big project*
-*Next: [Chapter 9: Classes & OOP](chapter-09-classes.md) -- Modeling the real world with code.*
+*Previous: [Boss Fight 1](../part-1-fundamentals/chapter-10-boss-fight-1.md) -- First big project*
+*Next: [Chapter 11: Classes & OOP](chapter-11-classes.md) -- Modeling the real world with code.*

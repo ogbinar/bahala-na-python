@@ -34,6 +34,8 @@ If you don't want to install anything right now, or if you're on a school comput
 
 These work on any device with a browser. But for the full experience, we recommend installing Python locally.
 
+If you're using a phone or a very limited laptop, start with Replit or Colab first, then move to a local install when you're ready. The goal is to get you coding, not to block you on setup.
+
 ---
 
 *Previous: [Preface](../preface.md) -- Why this book exists | [Home](../index.md) -- Welcome*

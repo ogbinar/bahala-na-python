@@ -15,6 +15,16 @@ Salamat for wanting to contribute! This book is a community project, and every c
 7. **Commit** and **push** your changes
 8. **Open** a Pull Request
 
+### Local Checks
+
+Before you open a PR, run the book validator from the repo root:
+
+```bash
+python3 scripts/validate_book.py --check-external-links
+```
+
+This single command checks Markdown links and Python code fences in the book. Treat it as the required local gate for docs changes.
+
 ### What You Can Contribute
 
 - **Fix typos and grammar** -- every correction helps
@@ -61,6 +71,18 @@ Please read [STYLE-GUIDE.md](STYLE-GUIDE.md) for detailed writing and formatting
 - [ ] Tone matches the accessible mentor voice anchored to the profile site
 - [ ] Portfolio/interview prompts use learner-facing wording, not author-facing claims
 - [ ] Technical accuracy verified
+
+## Release Checklist
+
+Required before merge:
+- Validate the book with `python3 scripts/validate_book.py --check-external-links`
+- Preview the docs with `mkdocs serve` if the change affects navigation or layout
+- Confirm the edited chapters still match the learning flow
+
+Optional before release:
+- Run extra example scripts that are meant to be executable
+- Check mobile rendering on a phone-sized viewport
+- Do a final read-through for tone and pacing
 
 ## Code of Conduct
 

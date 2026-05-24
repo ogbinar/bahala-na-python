@@ -1,4 +1,4 @@
-# Chapter 20: Boss Fight 3 -- The Complete Barangay Dashboard
+# Chapter 22: Boss Fight 3 -- The Complete Barangay Dashboard
 
 ??? example "📋 Chapter Info"
     | | |
@@ -21,11 +21,11 @@
 
 This Boss Fight integrates **everything from Chapters 15-19**:
 
-- **Async programming** (Ch 15) -- Handling multiple data sources simultaneously
-- **Data visualization** (Ch 16) -- Charts and graphs for decision-making
-- **NLP & text processing** (Ch 17) -- Understanding Tagalog messages
-- **AI-assisted coding** (Ch 18) -- Using AI to accelerate development
-- **Open source** (Ch 19) -- Building on existing projects and sharing yours
+- **Async programming** (Ch 17) -- Handling multiple data sources simultaneously
+- **Data visualization** (Ch 18) -- Charts and graphs for decision-making
+- **NLP & text processing** (Ch 19) -- Understanding Tagalog messages
+- **AI-assisted coding** (Ch 20) -- Using AI to accelerate development
+- **Open source** (Ch 21) -- Building on existing projects and sharing yours
 
 ## The Challenge
 
@@ -668,5 +668,5 @@ Sample output:
 
 ---
 
-*Previous: [Chapter 19: Open Source](chapter-19-open-source.md) -- Contributing to the community*
+*Previous: [Chapter 21: Open Source](chapter-21-open-source.md) -- Contributing to the community*
 *Next: [Part 4: Capstone](../part-4-capstone/index.md) -- Your capstone projects begin.*

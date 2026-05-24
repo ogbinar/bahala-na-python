@@ -1,4 +1,4 @@
-# Chapter 17: NLP and the AI Barkada Chatbot
+# Chapter 19: NLP and the AI Barkada Chatbot
 
 ??? example "📋 Chapter Info"
     | | |
@@ -58,7 +58,7 @@ print(cleaned)  # ['kumusta', 'ka', 'maganda', 'ang', 'araw']
 
 ```python
 # AI Barkada Chatbot
-# Chapter 17
+# Chapter 19
 
 import random
 import re
@@ -253,7 +253,7 @@ def analyze_sentiment(text):
     2. Learning mode (adds new patterns from user corrections)
     3. Multi-language support (Tagalog, English, Taglish)
     4. Personality system (different moods)
-    5. Integration with the Discord bot from Chapter 15
+    5. Integration with the Discord bot from Chapter 17
 
     **Hint:** Store conversation history in a list and use it to provide context.
 
@@ -334,9 +334,9 @@ def analyze_sentiment(text):
     - [ ] Build a pattern-matching chatbot that responds to Taglish input
     - [ ] Implement a simple sentiment analyzer for Filipino text
     - [ ] Handle unknown input gracefully with fallback responses
-    - [ ] Connect your chatbot to the Discord bot from Chapter 15
+    - [ ] Connect your chatbot to the Discord bot from Chapter 17
 
 ---
 
-*Previous: [Chapter 16: Data Visualization](chapter-16-dataviz.md) -- Making charts and graphs*
-*Next: [Chapter 18: Coding with AI as a Partner](chapter-18-ai-coding.md) -- Using AI without outsourcing your learning.*
+*Previous: [Chapter 18: Data Visualization](chapter-18-dataviz.md) -- Making charts and graphs*
+*Next: [Chapter 20: Coding with AI as a Partner](chapter-20-ai-coding.md) -- Using AI without outsourcing your learning.*

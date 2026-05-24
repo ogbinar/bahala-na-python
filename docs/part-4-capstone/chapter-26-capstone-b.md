@@ -1,4 +1,4 @@
-# Chapter 24: Capstone B -- Barangay Management System (Part 2)
+# Chapter 26: Capstone B -- Barangay Management System (Part 2)
 
 ??? example "📋 Chapter Info"
     | | |
@@ -553,5 +553,5 @@ python web_app.py
 
 ---
 
-*Previous: [Chapter 23: Capstone A](chapter-23-capstone-a.md) -- Building the Barangay System*
-*Next: [Chapter 25: Final Boss](chapter-25-final-boss.md) -- Your ultimate challenge.*
+*Previous: [Chapter 25: Capstone A](chapter-25-capstone-a.md) -- Building the Barangay System*
+*Next: [Chapter 27: Final Boss](chapter-27-final-boss.md) -- Your ultimate challenge.*
