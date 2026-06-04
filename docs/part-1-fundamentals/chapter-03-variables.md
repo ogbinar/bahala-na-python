@@ -7,7 +7,7 @@
     | **Time** | 30 min |
     | **XP** | +100 XP |
 
-> **Story Hook:** It's 6 AM. Your Lola opens her sari-sari store for the day. She walks through the rows of shelves, checking what needs restocking. "Tatlong laundry soap, sampung biskwit, lima na lang sigarilye," she mutters. She keeps track of everything in a small notebook -- items on the left, quantities on the right, prices in a column. It works, but sometimes she miscounts. You think: "Lola, let me help you with this."
+> **Story Hook:** It's 6 AM. Your Lola opens her sari-sari store for the day. She walks through the rows of shelves, checking what needs restocking. "Tatlong laundry soap, sampung biskwit, lima na lang sigarilyo," she mutters. She keeps track of everything in a small notebook -- items on the left, quantities on the right, prices in a column. It works, but sometimes she miscounts. You think: "Lola, let me help you with this."
 
 > **Output:** A simple inventory script that stores item names, counts, and prices.
 

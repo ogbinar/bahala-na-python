@@ -123,7 +123,7 @@ WORD_BANKS = {
     ],
     "medium": [
         "magandang", "gabi", "umaga", "hapon", "merienda",
-        "pamasahe", "photocopy", "biskwit", "sigarilye",
+        "pamasahe", "photocopy", "biskwit", "sigarilyo",
         "nag-aalok", "nag-aabang", "nag-aayos",
         "barangay", "pamilya", "kaibigan", "barkada",
     ],
